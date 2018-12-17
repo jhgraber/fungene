@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<exp_comments source="">
+  <node label="Comment" user_defined_tag="Submitted Name" geo_key="title">
+    <![CDATA[
+       A user-defined value which is associated with the investigation. For example Comment[AdditionalFile:TXT].
+    ]]></node>
+   <node label="Comment" user_defined_tag="BlastDbName" geo_key="">
+    <![CDATA[
+       A user-defined value which is associated with the investigation. For example Comment[AdditionalFile:TXT].
+    ]]></node>
+    <node label="Comment" user_defined_tag="RnaSegmentAccessionSource" geo_key="">
+    <![CDATA[
+       A user-defined value which is associated with the investigation. For example Comment[AdditionalFile:TXT].
+    ]]></node>
+   <node label="Comment" user_defined_tag="ArrayExpressAccession"  geo_key="">
+    <![CDATA[
+       A user-defined value which is associated with the investigation. For example Comment[AdditionalFile:TXT].
+    ]]></node>
+    <node label="Comment" user_defined_tag="GEOAccession" geo_key="geo_accession">
+    <![CDATA[
+       A user-defined value which is associated with the investigation. For example Comment[AdditionalFile:TXT].
+    ]]></node>
+   <node label="Comment" user_defined_tag="RegenAccession" geo_key="">
+    <![CDATA[
+       A user-defined value which is associated with the investigation. For example Comment[AdditionalFile:TXT].
+    ]]></node>
+</exp_comments>

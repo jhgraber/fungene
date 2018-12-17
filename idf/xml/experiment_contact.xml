@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<exp_contact source="geo">
+  <node id="last_name" label="Person Last Name" geo_key="contact_name">
+        <![CDATA[The last name of each person associated with the experiment.]]>
+  </node>
+  
+  <node id="first_name" label="Person First Name" geo_key="contact_name">
+        <![CDATA[The first name of each person associated with the experiment.]]>
+  </node>
+ 
+  <node id="mid_name" label="Person Mid Initials" geo_key="contact_name">
+        <![CDATA[The mid initials of each person associated with the experiment.]]>
+  </node>
+
+  <node id="email" label="Person Email" geo_key="contact_email">
+        <![CDATA[The email address of each person associated with the experiment.]]>
+  </node>
+
+   <node id="phone" label="Person Phone" geo_key="contact_phone">
+        <![CDATA[The telephone number of each person associated with the experiment.]]>
+  </node>
+  <node id="fax" label="Person Fax" geo_key="">
+        <![CDATA[The fax number of each person associated with the experiment.]]>
+  </node>
+  <node id="address" label="Person Address" geo_key="contact_address,contact_city,contact_zip,contact_state,contact_country">
+        <![CDATA[The street address of each person associated with the experiment.]]>
+  </node>
+  <node id="affiliation" label="Person Affiliation" geo_key="contact_institute">
+        <![CDATA[The organization affiliation of each person associated with the experiment.]]>
+  </node>
+</exp_contact>

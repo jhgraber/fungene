@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<exp_factor source="geo,efo">
+   <node id="factors" label="Exeperiment Factor Name" geo_key="title,type,overall_design">
+        <![CDATA[ user-defined name for each experimental factor studied by the experiment. These experimental factors represent the variables within the investigation (e.g. growth condition, genotype, organism part). The actual values of these variables will be listed in the SDRF file, in "Factor Value [<factor name>]" columns.]]>
+   </node>  
+
+   <node id="term" label="Exeperiment Factor Type" geo_key="title,type,overall_design">
+        <![CDATA[A term describing the type of each experimental factor.
+                These terms will usually come from the Experimental Factor Ontology.]]>
+   </node>  
+
+   <node id="term_source" label="Experimental Factor Term Source REF" geo_key="">
+        <![CDATA[The source of the Experimental Factor Type terms;
+                  this must reference one of the Term Source Names defined in the IDF file.]]>
+   </node>  
+
+   <node id="term_accession" label="Experimental Factor Term Accession Number" geo_key="">
+        <![CDATA[The accession number for this term, taken from the indicated Term Source]]>
+    </node>  
+
+   <!-- List of experiment geo_keys that contain term names  to
+          be used as query terms to the efo database -->
+   <!-- The Experiment Factor Ontology database (https://www.ebi.ac.uk/efo/) is used 
+        to resolve factor term, term type,term source, and term accession 
+   --> 
+</exp_factor>

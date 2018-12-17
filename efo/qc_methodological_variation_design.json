@@ -1,0 +1,539 @@
+{
+  "_embedded" : {
+    "terms" : [ {
+      "iri" : "http://www.ebi.ac.uk/efo/EFO_0004668",
+      "label" : "array specific design",
+      "description" : [ "Methodological variation study design specific for array technology" ],
+      "annotation" : {
+        "term editor" : [ "Natalja Kurbatova" ]
+      },
+      "synonyms" : null,
+      "ontology_name" : "efo",
+      "ontology_prefix" : "EFO",
+      "ontology_iri" : "http://www.ebi.ac.uk/efo/efo.owl",
+      "is_obsolete" : false,
+      "term_replaced_by" : null,
+      "is_defining_ontology" : true,
+      "has_children" : true,
+      "is_root" : false,
+      "short_form" : "EFO_0004668",
+      "obo_id" : "EFO:0004668",
+      "in_subset" : null,
+      "obo_definition_citation" : null,
+      "obo_xref" : null,
+      "obo_synonym" : null,
+      "_links" : {
+        "self" : {
+          "href" : "https://www.ebi.ac.uk/ols/api/ontologies/efo/terms/http%253A%252F%252Fwww.ebi.ac.uk%252Fefo%252FEFO_0004668"
+        },
+        "parents" : {
+          "href" : "https://www.ebi.ac.uk/ols/api/ontologies/efo/terms/http%253A%252F%252Fwww.ebi.ac.uk%252Fefo%252FEFO_0004668/parents"
+        },
+        "ancestors" : {
+          "href" : "https://www.ebi.ac.uk/ols/api/ontologies/efo/terms/http%253A%252F%252Fwww.ebi.ac.uk%252Fefo%252FEFO_0004668/ancestors"
+        },
+        "hierarchicalParents" : {
+          "href" : "https://www.ebi.ac.uk/ols/api/ontologies/efo/terms/http%253A%252F%252Fwww.ebi.ac.uk%252Fefo%252FEFO_0004668/hierarchicalParents"
+        },
+        "hierarchicalAncestors" : {
+          "href" : "https://www.ebi.ac.uk/ols/api/ontologies/efo/terms/http%253A%252F%252Fwww.ebi.ac.uk%252Fefo%252FEFO_0004668/hierarchicalAncestors"
+        },
+        "jstree" : {
+          "href" : "https://www.ebi.ac.uk/ols/api/ontologies/efo/terms/http%253A%252F%252Fwww.ebi.ac.uk%252Fefo%252FEFO_0004668/jstree"
+        },
+        "children" : {
+          "href" : "https://www.ebi.ac.uk/ols/api/ontologies/efo/terms/http%253A%252F%252Fwww.ebi.ac.uk%252Fefo%252FEFO_0004668/children"
+        },
+        "descendants" : {
+          "href" : "https://www.ebi.ac.uk/ols/api/ontologies/efo/terms/http%253A%252F%252Fwww.ebi.ac.uk%252Fefo%252FEFO_0004668/descendants"
+        },
+        "hierarchicalChildren" : {
+          "href" : "https://www.ebi.ac.uk/ols/api/ontologies/efo/terms/http%253A%252F%252Fwww.ebi.ac.uk%252Fefo%252FEFO_0004668/hierarchicalChildren"
+        },
+        "hierarchicalDescendants" : {
+          "href" : "https://www.ebi.ac.uk/ols/api/ontologies/efo/terms/http%253A%252F%252Fwww.ebi.ac.uk%252Fefo%252FEFO_0004668/hierarchicalDescendants"
+        },
+        "graph" : {
+          "href" : "https://www.ebi.ac.uk/ols/api/ontologies/efo/terms/http%253A%252F%252Fwww.ebi.ac.uk%252Fefo%252FEFO_0004668/graph"
+        }
+      }
+    }, {
+      "iri" : "http://www.ebi.ac.uk/efo/EFO_0001778",
+      "label" : "software variation design",
+      "description" : [ "A software variation study design type compares different types of software for performance, accuracy, precision and reproducibility." ],
+      "annotation" : {
+        "MO_definition_citation" : [ "MO:643" ],
+        "bioportal_provenance" : [ "software_variation_design[accessedResource: MO_643][accessDate: 05-04-2011]" ],
+        "term editor" : [ "Tomasz Adamusiak", "Natalja Kurbatova" ]
+      },
+      "synonyms" : [ "software_variation_design" ],
+      "ontology_name" : "efo",
+      "ontology_prefix" : "EFO",
+      "ontology_iri" : "http://www.ebi.ac.uk/efo/efo.owl",
+      "is_obsolete" : false,
+      "term_replaced_by" : null,
+      "is_defining_ontology" : true,
+      "has_children" : false,
+      "is_root" : false,
+      "short_form" : "EFO_0001778",
+      "obo_id" : "EFO:0001778",
+      "in_subset" : null,
+      "obo_definition_citation" : null,
+      "obo_xref" : null,
+      "obo_synonym" : null,
+      "_links" : {
+        "self" : {
+          "href" : "https://www.ebi.ac.uk/ols/api/ontologies/efo/terms/http%253A%252F%252Fwww.ebi.ac.uk%252Fefo%252FEFO_0001778"
+        },
+        "parents" : {
+          "href" : "https://www.ebi.ac.uk/ols/api/ontologies/efo/terms/http%253A%252F%252Fwww.ebi.ac.uk%252Fefo%252FEFO_0001778/parents"
+        },
+        "ancestors" : {
+          "href" : "https://www.ebi.ac.uk/ols/api/ontologies/efo/terms/http%253A%252F%252Fwww.ebi.ac.uk%252Fefo%252FEFO_0001778/ancestors"
+        },
+        "hierarchicalParents" : {
+          "href" : "https://www.ebi.ac.uk/ols/api/ontologies/efo/terms/http%253A%252F%252Fwww.ebi.ac.uk%252Fefo%252FEFO_0001778/hierarchicalParents"
+        },
+        "hierarchicalAncestors" : {
+          "href" : "https://www.ebi.ac.uk/ols/api/ontologies/efo/terms/http%253A%252F%252Fwww.ebi.ac.uk%252Fefo%252FEFO_0001778/hierarchicalAncestors"
+        },
+        "jstree" : {
+          "href" : "https://www.ebi.ac.uk/ols/api/ontologies/efo/terms/http%253A%252F%252Fwww.ebi.ac.uk%252Fefo%252FEFO_0001778/jstree"
+        },
+        "graph" : {
+          "href" : "https://www.ebi.ac.uk/ols/api/ontologies/efo/terms/http%253A%252F%252Fwww.ebi.ac.uk%252Fefo%252FEFO_0001778/graph"
+        }
+      }
+    }, {
+      "iri" : "http://www.ebi.ac.uk/efo/EFO_0001775",
+      "label" : "reference design",
+      "description" : [ "A reference study design type is where all samples are compared to a common reference." ],
+      "annotation" : {
+        "MO_definition_citation" : [ "MO:699" ],
+        "bioportal_provenance" : [ "reference_design[accessedResource: MO_699][accessDate: 05-04-2011]" ],
+        "term editor" : [ "Tomasz Adamusiak", "Natalja Kurbatova" ]
+      },
+      "synonyms" : [ "reference_design" ],
+      "ontology_name" : "efo",
+      "ontology_prefix" : "EFO",
+      "ontology_iri" : "http://www.ebi.ac.uk/efo/efo.owl",
+      "is_obsolete" : false,
+      "term_replaced_by" : null,
+      "is_defining_ontology" : true,
+      "has_children" : false,
+      "is_root" : false,
+      "short_form" : "EFO_0001775",
+      "obo_id" : "EFO:0001775",
+      "in_subset" : null,
+      "obo_definition_citation" : null,
+      "obo_xref" : null,
+      "obo_synonym" : null,
+      "_links" : {
+        "self" : {
+          "href" : "https://www.ebi.ac.uk/ols/api/ontologies/efo/terms/http%253A%252F%252Fwww.ebi.ac.uk%252Fefo%252FEFO_0001775"
+        },
+        "parents" : {
+          "href" : "https://www.ebi.ac.uk/ols/api/ontologies/efo/terms/http%253A%252F%252Fwww.ebi.ac.uk%252Fefo%252FEFO_0001775/parents"
+        },
+        "ancestors" : {
+          "href" : "https://www.ebi.ac.uk/ols/api/ontologies/efo/terms/http%253A%252F%252Fwww.ebi.ac.uk%252Fefo%252FEFO_0001775/ancestors"
+        },
+        "hierarchicalParents" : {
+          "href" : "https://www.ebi.ac.uk/ols/api/ontologies/efo/terms/http%253A%252F%252Fwww.ebi.ac.uk%252Fefo%252FEFO_0001775/hierarchicalParents"
+        },
+        "hierarchicalAncestors" : {
+          "href" : "https://www.ebi.ac.uk/ols/api/ontologies/efo/terms/http%253A%252F%252Fwww.ebi.ac.uk%252Fefo%252FEFO_0001775/hierarchicalAncestors"
+        },
+        "jstree" : {
+          "href" : "https://www.ebi.ac.uk/ols/api/ontologies/efo/terms/http%253A%252F%252Fwww.ebi.ac.uk%252Fefo%252FEFO_0001775/jstree"
+        },
+        "graph" : {
+          "href" : "https://www.ebi.ac.uk/ols/api/ontologies/efo/terms/http%253A%252F%252Fwww.ebi.ac.uk%252Fefo%252FEFO_0001775/graph"
+        }
+      }
+    }, {
+      "iri" : "http://www.ebi.ac.uk/efo/EFO_0001776",
+      "label" : "replicate design",
+      "description" : [ "A replicate study design type is where a series of replicates are performed to evaluate reproducibility or as a pilot study to determine the appropriate number of replicates for a subsequent experiments." ],
+      "annotation" : {
+        "MO_definition_citation" : [ "MO:885" ],
+        "bioportal_provenance" : [ "replicate_design[accessedResource: MO_885][accessDate: 05-04-2011]" ],
+        "term editor" : [ "Tomasz Adamusiak", "Natalja Kurbatova" ]
+      },
+      "synonyms" : [ "replicate_design" ],
+      "ontology_name" : "efo",
+      "ontology_prefix" : "EFO",
+      "ontology_iri" : "http://www.ebi.ac.uk/efo/efo.owl",
+      "is_obsolete" : false,
+      "term_replaced_by" : null,
+      "is_defining_ontology" : true,
+      "has_children" : false,
+      "is_root" : false,
+      "short_form" : "EFO_0001776",
+      "obo_id" : "EFO:0001776",
+      "in_subset" : null,
+      "obo_definition_citation" : null,
+      "obo_xref" : null,
+      "obo_synonym" : null,
+      "_links" : {
+        "self" : {
+          "href" : "https://www.ebi.ac.uk/ols/api/ontologies/efo/terms/http%253A%252F%252Fwww.ebi.ac.uk%252Fefo%252FEFO_0001776"
+        },
+        "parents" : {
+          "href" : "https://www.ebi.ac.uk/ols/api/ontologies/efo/terms/http%253A%252F%252Fwww.ebi.ac.uk%252Fefo%252FEFO_0001776/parents"
+        },
+        "ancestors" : {
+          "href" : "https://www.ebi.ac.uk/ols/api/ontologies/efo/terms/http%253A%252F%252Fwww.ebi.ac.uk%252Fefo%252FEFO_0001776/ancestors"
+        },
+        "hierarchicalParents" : {
+          "href" : "https://www.ebi.ac.uk/ols/api/ontologies/efo/terms/http%253A%252F%252Fwww.ebi.ac.uk%252Fefo%252FEFO_0001776/hierarchicalParents"
+        },
+        "hierarchicalAncestors" : {
+          "href" : "https://www.ebi.ac.uk/ols/api/ontologies/efo/terms/http%253A%252F%252Fwww.ebi.ac.uk%252Fefo%252FEFO_0001776/hierarchicalAncestors"
+        },
+        "jstree" : {
+          "href" : "https://www.ebi.ac.uk/ols/api/ontologies/efo/terms/http%253A%252F%252Fwww.ebi.ac.uk%252Fefo%252FEFO_0001776/jstree"
+        },
+        "graph" : {
+          "href" : "https://www.ebi.ac.uk/ols/api/ontologies/efo/terms/http%253A%252F%252Fwww.ebi.ac.uk%252Fefo%252FEFO_0001776/graph"
+        }
+      }
+    }, {
+      "iri" : "http://www.ebi.ac.uk/efo/EFO_0001773",
+      "label" : "optimization design",
+      "description" : [ "An optimization study design type is where different protocols or protocol parameters are compared." ],
+      "annotation" : {
+        "MO_definition_citation" : [ "MO:934" ],
+        "bioportal_provenance" : [ "optimization_design[accessedResource: MO_934][accessDate: 05-04-2011]" ],
+        "term editor" : [ "Tomasz Adamusiak", "Natalja Kurbatova" ]
+      },
+      "synonyms" : [ "optimization_design" ],
+      "ontology_name" : "efo",
+      "ontology_prefix" : "EFO",
+      "ontology_iri" : "http://www.ebi.ac.uk/efo/efo.owl",
+      "is_obsolete" : false,
+      "term_replaced_by" : null,
+      "is_defining_ontology" : true,
+      "has_children" : false,
+      "is_root" : false,
+      "short_form" : "EFO_0001773",
+      "obo_id" : "EFO:0001773",
+      "in_subset" : null,
+      "obo_definition_citation" : null,
+      "obo_xref" : null,
+      "obo_synonym" : null,
+      "_links" : {
+        "self" : {
+          "href" : "https://www.ebi.ac.uk/ols/api/ontologies/efo/terms/http%253A%252F%252Fwww.ebi.ac.uk%252Fefo%252FEFO_0001773"
+        },
+        "parents" : {
+          "href" : "https://www.ebi.ac.uk/ols/api/ontologies/efo/terms/http%253A%252F%252Fwww.ebi.ac.uk%252Fefo%252FEFO_0001773/parents"
+        },
+        "ancestors" : {
+          "href" : "https://www.ebi.ac.uk/ols/api/ontologies/efo/terms/http%253A%252F%252Fwww.ebi.ac.uk%252Fefo%252FEFO_0001773/ancestors"
+        },
+        "hierarchicalParents" : {
+          "href" : "https://www.ebi.ac.uk/ols/api/ontologies/efo/terms/http%253A%252F%252Fwww.ebi.ac.uk%252Fefo%252FEFO_0001773/hierarchicalParents"
+        },
+        "hierarchicalAncestors" : {
+          "href" : "https://www.ebi.ac.uk/ols/api/ontologies/efo/terms/http%253A%252F%252Fwww.ebi.ac.uk%252Fefo%252FEFO_0001773/hierarchicalAncestors"
+        },
+        "jstree" : {
+          "href" : "https://www.ebi.ac.uk/ols/api/ontologies/efo/terms/http%253A%252F%252Fwww.ebi.ac.uk%252Fefo%252FEFO_0001773/jstree"
+        },
+        "graph" : {
+          "href" : "https://www.ebi.ac.uk/ols/api/ontologies/efo/terms/http%253A%252F%252Fwww.ebi.ac.uk%252Fefo%252FEFO_0001773/graph"
+        }
+      }
+    }, {
+      "iri" : "http://www.ebi.ac.uk/efo/EFO_0001774",
+      "label" : "quality control testing design",
+      "description" : [ "A quality control testing study design type is where some aspect of the experiment is quality controlled for the purposes of quality assurance." ],
+      "annotation" : {
+        "MO_definition_citation" : [ "MO:981" ],
+        "bioportal_provenance" : [ "quality_control_testing_design[accessedResource: MO_981][accessDate: 05-04-2011]" ],
+        "term editor" : [ "Tomasz Adamusiak", "Natalja Kurbatova" ]
+      },
+      "synonyms" : [ "quality_control_testing_design" ],
+      "ontology_name" : "efo",
+      "ontology_prefix" : "EFO",
+      "ontology_iri" : "http://www.ebi.ac.uk/efo/efo.owl",
+      "is_obsolete" : false,
+      "term_replaced_by" : null,
+      "is_defining_ontology" : true,
+      "has_children" : false,
+      "is_root" : false,
+      "short_form" : "EFO_0001774",
+      "obo_id" : "EFO:0001774",
+      "in_subset" : null,
+      "obo_definition_citation" : null,
+      "obo_xref" : null,
+      "obo_synonym" : null,
+      "_links" : {
+        "self" : {
+          "href" : "https://www.ebi.ac.uk/ols/api/ontologies/efo/terms/http%253A%252F%252Fwww.ebi.ac.uk%252Fefo%252FEFO_0001774"
+        },
+        "parents" : {
+          "href" : "https://www.ebi.ac.uk/ols/api/ontologies/efo/terms/http%253A%252F%252Fwww.ebi.ac.uk%252Fefo%252FEFO_0001774/parents"
+        },
+        "ancestors" : {
+          "href" : "https://www.ebi.ac.uk/ols/api/ontologies/efo/terms/http%253A%252F%252Fwww.ebi.ac.uk%252Fefo%252FEFO_0001774/ancestors"
+        },
+        "hierarchicalParents" : {
+          "href" : "https://www.ebi.ac.uk/ols/api/ontologies/efo/terms/http%253A%252F%252Fwww.ebi.ac.uk%252Fefo%252FEFO_0001774/hierarchicalParents"
+        },
+        "hierarchicalAncestors" : {
+          "href" : "https://www.ebi.ac.uk/ols/api/ontologies/efo/terms/http%253A%252F%252Fwww.ebi.ac.uk%252Fefo%252FEFO_0001774/hierarchicalAncestors"
+        },
+        "jstree" : {
+          "href" : "https://www.ebi.ac.uk/ols/api/ontologies/efo/terms/http%253A%252F%252Fwww.ebi.ac.uk%252Fefo%252FEFO_0001774/jstree"
+        },
+        "graph" : {
+          "href" : "https://www.ebi.ac.uk/ols/api/ontologies/efo/terms/http%253A%252F%252Fwww.ebi.ac.uk%252Fefo%252FEFO_0001774/graph"
+        }
+      }
+    }, {
+      "iri" : "http://www.ebi.ac.uk/efo/EFO_0001771",
+      "label" : "normalization testing design",
+      "description" : [ "A normalization testing study design tests different normalization procedures." ],
+      "annotation" : {
+        "MO_definition_citation" : [ "MO:729" ],
+        "bioportal_provenance" : [ "normalization_testing_design[accessedResource: MO_729][accessDate: 05-04-2011]" ],
+        "term editor" : [ "Tomasz Adamusiak", "Natalja Kurbatova" ]
+      },
+      "synonyms" : [ "normalization_testing_design" ],
+      "ontology_name" : "efo",
+      "ontology_prefix" : "EFO",
+      "ontology_iri" : "http://www.ebi.ac.uk/efo/efo.owl",
+      "is_obsolete" : false,
+      "term_replaced_by" : null,
+      "is_defining_ontology" : true,
+      "has_children" : false,
+      "is_root" : false,
+      "short_form" : "EFO_0001771",
+      "obo_id" : "EFO:0001771",
+      "in_subset" : null,
+      "obo_definition_citation" : null,
+      "obo_xref" : null,
+      "obo_synonym" : null,
+      "_links" : {
+        "self" : {
+          "href" : "https://www.ebi.ac.uk/ols/api/ontologies/efo/terms/http%253A%252F%252Fwww.ebi.ac.uk%252Fefo%252FEFO_0001771"
+        },
+        "parents" : {
+          "href" : "https://www.ebi.ac.uk/ols/api/ontologies/efo/terms/http%253A%252F%252Fwww.ebi.ac.uk%252Fefo%252FEFO_0001771/parents"
+        },
+        "ancestors" : {
+          "href" : "https://www.ebi.ac.uk/ols/api/ontologies/efo/terms/http%253A%252F%252Fwww.ebi.ac.uk%252Fefo%252FEFO_0001771/ancestors"
+        },
+        "hierarchicalParents" : {
+          "href" : "https://www.ebi.ac.uk/ols/api/ontologies/efo/terms/http%253A%252F%252Fwww.ebi.ac.uk%252Fefo%252FEFO_0001771/hierarchicalParents"
+        },
+        "hierarchicalAncestors" : {
+          "href" : "https://www.ebi.ac.uk/ols/api/ontologies/efo/terms/http%253A%252F%252Fwww.ebi.ac.uk%252Fefo%252FEFO_0001771/hierarchicalAncestors"
+        },
+        "jstree" : {
+          "href" : "https://www.ebi.ac.uk/ols/api/ontologies/efo/terms/http%253A%252F%252Fwww.ebi.ac.uk%252Fefo%252FEFO_0001771/jstree"
+        },
+        "graph" : {
+          "href" : "https://www.ebi.ac.uk/ols/api/ontologies/efo/terms/http%253A%252F%252Fwww.ebi.ac.uk%252Fefo%252FEFO_0001771/graph"
+        }
+      }
+    }, {
+      "iri" : "http://www.ebi.ac.uk/efo/EFO_0001772",
+      "label" : "operator variation design",
+      "description" : [ "An operator variation study design type assesses the operator performance and relation to data consistency and quality." ],
+      "annotation" : {
+        "MO_definition_citation" : [ "MO:519" ],
+        "bioportal_provenance" : [ "operator_variation_design[accessedResource: MO_519][accessDate: 05-04-2011]" ],
+        "term editor" : [ "Tomasz Adamusiak", "Natalja Kurbatova" ]
+      },
+      "synonyms" : [ "operator_variation_design" ],
+      "ontology_name" : "efo",
+      "ontology_prefix" : "EFO",
+      "ontology_iri" : "http://www.ebi.ac.uk/efo/efo.owl",
+      "is_obsolete" : false,
+      "term_replaced_by" : null,
+      "is_defining_ontology" : true,
+      "has_children" : false,
+      "is_root" : false,
+      "short_form" : "EFO_0001772",
+      "obo_id" : "EFO:0001772",
+      "in_subset" : null,
+      "obo_definition_citation" : null,
+      "obo_xref" : null,
+      "obo_synonym" : null,
+      "_links" : {
+        "self" : {
+          "href" : "https://www.ebi.ac.uk/ols/api/ontologies/efo/terms/http%253A%252F%252Fwww.ebi.ac.uk%252Fefo%252FEFO_0001772"
+        },
+        "parents" : {
+          "href" : "https://www.ebi.ac.uk/ols/api/ontologies/efo/terms/http%253A%252F%252Fwww.ebi.ac.uk%252Fefo%252FEFO_0001772/parents"
+        },
+        "ancestors" : {
+          "href" : "https://www.ebi.ac.uk/ols/api/ontologies/efo/terms/http%253A%252F%252Fwww.ebi.ac.uk%252Fefo%252FEFO_0001772/ancestors"
+        },
+        "hierarchicalParents" : {
+          "href" : "https://www.ebi.ac.uk/ols/api/ontologies/efo/terms/http%253A%252F%252Fwww.ebi.ac.uk%252Fefo%252FEFO_0001772/hierarchicalParents"
+        },
+        "hierarchicalAncestors" : {
+          "href" : "https://www.ebi.ac.uk/ols/api/ontologies/efo/terms/http%253A%252F%252Fwww.ebi.ac.uk%252Fefo%252FEFO_0001772/hierarchicalAncestors"
+        },
+        "jstree" : {
+          "href" : "https://www.ebi.ac.uk/ols/api/ontologies/efo/terms/http%253A%252F%252Fwww.ebi.ac.uk%252Fefo%252FEFO_0001772/jstree"
+        },
+        "graph" : {
+          "href" : "https://www.ebi.ac.uk/ols/api/ontologies/efo/terms/http%253A%252F%252Fwww.ebi.ac.uk%252Fefo%252FEFO_0001772/graph"
+        }
+      }
+    }, {
+      "iri" : "http://www.ebi.ac.uk/efo/EFO_0001767",
+      "label" : "hardware variation design",
+      "description" : [ "A hardware variation study design type compares different types of hardware for performance, reproducibility, accuracy and precision." ],
+      "annotation" : {
+        "MO_definition_citation" : [ "MO:734" ],
+        "bioportal_provenance" : [ "hardware_variation_design[accessedResource: MO_734][accessDate: 05-04-2011]" ],
+        "term editor" : [ "Tomasz Adamusiak", "Natalja Kurbatova" ]
+      },
+      "synonyms" : [ "hardware_variation_design" ],
+      "ontology_name" : "efo",
+      "ontology_prefix" : "EFO",
+      "ontology_iri" : "http://www.ebi.ac.uk/efo/efo.owl",
+      "is_obsolete" : false,
+      "term_replaced_by" : null,
+      "is_defining_ontology" : true,
+      "has_children" : false,
+      "is_root" : false,
+      "short_form" : "EFO_0001767",
+      "obo_id" : "EFO:0001767",
+      "in_subset" : null,
+      "obo_definition_citation" : null,
+      "obo_xref" : null,
+      "obo_synonym" : null,
+      "_links" : {
+        "self" : {
+          "href" : "https://www.ebi.ac.uk/ols/api/ontologies/efo/terms/http%253A%252F%252Fwww.ebi.ac.uk%252Fefo%252FEFO_0001767"
+        },
+        "parents" : {
+          "href" : "https://www.ebi.ac.uk/ols/api/ontologies/efo/terms/http%253A%252F%252Fwww.ebi.ac.uk%252Fefo%252FEFO_0001767/parents"
+        },
+        "ancestors" : {
+          "href" : "https://www.ebi.ac.uk/ols/api/ontologies/efo/terms/http%253A%252F%252Fwww.ebi.ac.uk%252Fefo%252FEFO_0001767/ancestors"
+        },
+        "hierarchicalParents" : {
+          "href" : "https://www.ebi.ac.uk/ols/api/ontologies/efo/terms/http%253A%252F%252Fwww.ebi.ac.uk%252Fefo%252FEFO_0001767/hierarchicalParents"
+        },
+        "hierarchicalAncestors" : {
+          "href" : "https://www.ebi.ac.uk/ols/api/ontologies/efo/terms/http%253A%252F%252Fwww.ebi.ac.uk%252Fefo%252FEFO_0001767/hierarchicalAncestors"
+        },
+        "jstree" : {
+          "href" : "https://www.ebi.ac.uk/ols/api/ontologies/efo/terms/http%253A%252F%252Fwww.ebi.ac.uk%252Fefo%252FEFO_0001767/jstree"
+        },
+        "graph" : {
+          "href" : "https://www.ebi.ac.uk/ols/api/ontologies/efo/terms/http%253A%252F%252Fwww.ebi.ac.uk%252Fefo%252FEFO_0001767/graph"
+        }
+      }
+    }, {
+      "iri" : "http://purl.obolibrary.org/obo/OBI_0001166",
+      "label" : "validation by real time PCR design",
+      "description" : [ "A study design in which the accuracy or the quality of the result of an assay is checked by comparing with real time PCR results." ],
+      "annotation" : {
+        "term editor" : [ "Chris Stoeckert", "Jie Zheng" ]
+      },
+      "synonyms" : null,
+      "ontology_name" : "efo",
+      "ontology_prefix" : "EFO",
+      "ontology_iri" : "http://www.ebi.ac.uk/efo/efo.owl",
+      "is_obsolete" : false,
+      "term_replaced_by" : null,
+      "is_defining_ontology" : false,
+      "has_children" : false,
+      "is_root" : false,
+      "short_form" : "OBI_0001166",
+      "obo_id" : "OBI:0001166",
+      "in_subset" : null,
+      "obo_definition_citation" : null,
+      "obo_xref" : null,
+      "obo_synonym" : null,
+      "_links" : {
+        "self" : {
+          "href" : "https://www.ebi.ac.uk/ols/api/ontologies/efo/terms/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FOBI_0001166"
+        },
+        "parents" : {
+          "href" : "https://www.ebi.ac.uk/ols/api/ontologies/efo/terms/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FOBI_0001166/parents"
+        },
+        "ancestors" : {
+          "href" : "https://www.ebi.ac.uk/ols/api/ontologies/efo/terms/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FOBI_0001166/ancestors"
+        },
+        "hierarchicalParents" : {
+          "href" : "https://www.ebi.ac.uk/ols/api/ontologies/efo/terms/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FOBI_0001166/hierarchicalParents"
+        },
+        "hierarchicalAncestors" : {
+          "href" : "https://www.ebi.ac.uk/ols/api/ontologies/efo/terms/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FOBI_0001166/hierarchicalAncestors"
+        },
+        "jstree" : {
+          "href" : "https://www.ebi.ac.uk/ols/api/ontologies/efo/terms/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FOBI_0001166/jstree"
+        },
+        "graph" : {
+          "href" : "https://www.ebi.ac.uk/ols/api/ontologies/efo/terms/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FOBI_0001166/graph"
+        }
+      }
+    }, {
+      "iri" : "http://purl.obolibrary.org/obo/OBI_0001162",
+      "label" : "validation by reverse transcription PCR design",
+      "description" : [ "A study design in which checks the accuracy or the quality of the result of an assay by comparing with reverse transcription PCR results." ],
+      "annotation" : {
+        "term editor" : [ "Chris Stoeckert", "Jie Zheng" ]
+      },
+      "synonyms" : null,
+      "ontology_name" : "efo",
+      "ontology_prefix" : "EFO",
+      "ontology_iri" : "http://www.ebi.ac.uk/efo/efo.owl",
+      "is_obsolete" : false,
+      "term_replaced_by" : null,
+      "is_defining_ontology" : false,
+      "has_children" : false,
+      "is_root" : false,
+      "short_form" : "OBI_0001162",
+      "obo_id" : "OBI:0001162",
+      "in_subset" : null,
+      "obo_definition_citation" : null,
+      "obo_xref" : null,
+      "obo_synonym" : null,
+      "_links" : {
+        "self" : {
+          "href" : "https://www.ebi.ac.uk/ols/api/ontologies/efo/terms/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FOBI_0001162"
+        },
+        "parents" : {
+          "href" : "https://www.ebi.ac.uk/ols/api/ontologies/efo/terms/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FOBI_0001162/parents"
+        },
+        "ancestors" : {
+          "href" : "https://www.ebi.ac.uk/ols/api/ontologies/efo/terms/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FOBI_0001162/ancestors"
+        },
+        "hierarchicalParents" : {
+          "href" : "https://www.ebi.ac.uk/ols/api/ontologies/efo/terms/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FOBI_0001162/hierarchicalParents"
+        },
+        "hierarchicalAncestors" : {
+          "href" : "https://www.ebi.ac.uk/ols/api/ontologies/efo/terms/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FOBI_0001162/hierarchicalAncestors"
+        },
+        "jstree" : {
+          "href" : "https://www.ebi.ac.uk/ols/api/ontologies/efo/terms/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FOBI_0001162/jstree"
+        },
+        "graph" : {
+          "href" : "https://www.ebi.ac.uk/ols/api/ontologies/efo/terms/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FOBI_0001162/graph"
+        }
+      }
+    } ]
+  },
+  "_links" : {
+    "self" : {
+      "href" : "https://www.ebi.ac.uk/ols/api/ontologies/efo/terms/http%253A%252F%252Fwww.ebi.ac.uk%252Fefo%252FEFO_0004669/children"
+    }
+  },
+  "page" : {
+    "size" : 20,
+    "totalElements" : 11,
+    "totalPages" : 1,
+    "number" : 0
+  }
+}

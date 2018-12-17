@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<exp_design source="efo">
+   <node id="term" label="Exeperiment Design" geo_key="title,type">
+        <![CDATA[The experiment design types which are applicable to this study.
+          Typically these terms should come from the Experimental Factor Ontology.]]>
+   </node>  
+
+   <node id="term_source" label="Experimental Design Term Source REF">
+        <![CDATA[The source of the Experimental Design terms; his must reference one
+              of the Term Source Names defined in the IDF file.]]>
+   </node> 
+ 
+   <node id="term_accession" label="Experimental Design Term Accession Number">
+         <![CDATA[The accession number for this term, taken from the indicated Term Source.]]>
+   </node>  
+
+   <!-- Typically these terms should come from the Experimental Factor Ontology
+        (https://www.ebi.ac.uk/efo/)
+    -->
+   <!-- One experiment design can have more than one term -->
+</exp_design>

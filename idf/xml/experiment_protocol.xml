@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<exp_protocol source="efo">
+    <node id="name" label="Protocol Name" geo_key="">
+        <![CDATA[The names of the protocols used within the MAGE-TAB document. These will be referenced in the SDRF in the "Protocol REF" columns.]]>
+    </node>
+   <node id="term" label="Protocol Type" geo_key="">
+        <![CDATA[The type of the protocol, taken from a controlled vocabulary. Typically this term should come from the Experimental Factor Ontology .]]>
+    </node>
+   <node id="description" label="Protocol Description" geo_key="">
+        <![CDATA[A free-text description of the protocol. This text is included in a single tab-delimited field.]]>
+    </node>
+   <node id="parameters" label="Protocol Parameters" geo_key="">
+        <![CDATA[A semicolon-delimited list of parameter names. These names are used in the SDRF file (as Parameter Value [<parameter name>] headings) to list the values used for each protocol parameter. If more than one parameter was used for a given protocol, they should be separated with semicolons (;)]]>
+    </node>
+    <node id="hardware" label="Protocol Hardware" geo_key="">
+        <![CDATA[The hardware used by the protocol. This tag is mandatory for nucleic acid sequencing protocols.]]>
+    </node>
+   <node id="software" label="Protocol Software" geo_key="">
+        <![CDATA[The software used by the protocol.]]>
+    </node>
+   <node id="contact" label="Protocol Contact" geo_key="">
+        <![CDATA[The name and contact details to be used for enquiries concerning the protocol.]]>
+    </node>
+   <node id="term_source" label="Protocol Term Source REF" geo_key="">
+        <![CDATA[The source of the Protocol Type terms; this must reference one of the Term Source Names defined elsewhere in the IDF file.]]>
+   </node>
+   <node id="term_accession" label="Protocol Term Accession Number" geo_key="">
+        <![CDATA[The accession number for this term, taken from the indicated Term Source.]]>
+   </node>
+</exp_protocol>

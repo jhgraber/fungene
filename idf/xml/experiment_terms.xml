@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<exp_term_source source="">
+  <node id="source_name" label="Term Source Name" geo_key="">
+        <![CDATA[The names of the Term Sources (ontologies or databases) used within the MAGE-TAB document. In the IDF file is an (optional) list of sources from which controlled vocabulary terms may have been used elsewhere in the MAGE-TAB document. These term sources may be fully-fledged ontologies like the Experimental Factor Ontology, databases providing queryable accession numbers (e.g. ArrayExpress), or simply a file defining terms for local users. These so-called "Term Sources" are defined in the IDF and may be used throughout the MAGE-TAB. If they are not used, then all controlled vocabulary terms are assumed to be user-defined. This name will be used in all corresponding "Term Source REF" fields.]]>
+  </node>
+  <node id="source_file" label="Term Source File" geo_key="">
+      <![CDATA[A filename or valid URI at which the Term Source may be accessed.]]>
+  </node>
+  <node id="source_version" label="Term Source Version" geo_key="">
+       <![CDATA[The version of the Term Source used throughout the MAGE-TAB document.]]>
+  </node>
+</exp_term_source>

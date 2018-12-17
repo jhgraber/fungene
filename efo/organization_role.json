@@ -1,0 +1,813 @@
+{
+  "_embedded" : {
+    "terms" : [ {
+      "iri" : "http://www.ebi.ac.uk/efo/EFO_0004447",
+      "label" : "peer review quality control role",
+      "description" : [ "The role of a material which has been reviewed under peer review for quality control purposes." ],
+      "annotation" : {
+        "term editor" : [ "James Malone" ]
+      },
+      "synonyms" : null,
+      "ontology_name" : "efo",
+      "ontology_prefix" : "EFO",
+      "ontology_iri" : "http://www.ebi.ac.uk/efo/efo.owl",
+      "is_obsolete" : false,
+      "term_replaced_by" : null,
+      "is_defining_ontology" : true,
+      "has_children" : false,
+      "is_root" : false,
+      "short_form" : "EFO_0004447",
+      "obo_id" : "EFO:0004447",
+      "in_subset" : null,
+      "obo_definition_citation" : null,
+      "obo_xref" : null,
+      "obo_synonym" : null,
+      "_links" : {
+        "self" : {
+          "href" : "https://www.ebi.ac.uk/ols/api/ontologies/efo/terms/http%253A%252F%252Fwww.ebi.ac.uk%252Fefo%252FEFO_0004447"
+        },
+        "parents" : {
+          "href" : "https://www.ebi.ac.uk/ols/api/ontologies/efo/terms/http%253A%252F%252Fwww.ebi.ac.uk%252Fefo%252FEFO_0004447/parents"
+        },
+        "ancestors" : {
+          "href" : "https://www.ebi.ac.uk/ols/api/ontologies/efo/terms/http%253A%252F%252Fwww.ebi.ac.uk%252Fefo%252FEFO_0004447/ancestors"
+        },
+        "hierarchicalParents" : {
+          "href" : "https://www.ebi.ac.uk/ols/api/ontologies/efo/terms/http%253A%252F%252Fwww.ebi.ac.uk%252Fefo%252FEFO_0004447/hierarchicalParents"
+        },
+        "hierarchicalAncestors" : {
+          "href" : "https://www.ebi.ac.uk/ols/api/ontologies/efo/terms/http%253A%252F%252Fwww.ebi.ac.uk%252Fefo%252FEFO_0004447/hierarchicalAncestors"
+        },
+        "jstree" : {
+          "href" : "https://www.ebi.ac.uk/ols/api/ontologies/efo/terms/http%253A%252F%252Fwww.ebi.ac.uk%252Fefo%252FEFO_0004447/jstree"
+        },
+        "graph" : {
+          "href" : "https://www.ebi.ac.uk/ols/api/ontologies/efo/terms/http%253A%252F%252Fwww.ebi.ac.uk%252Fefo%252FEFO_0004447/graph"
+        }
+      }
+    }, {
+      "iri" : "http://www.ebi.ac.uk/efo/EFO_0000647",
+      "label" : "experiment performer",
+      "description" : [ "An individual who does some experimental process." ],
+      "annotation" : {
+        "term editor" : [ "James Malone" ]
+      },
+      "synonyms" : null,
+      "ontology_name" : "efo",
+      "ontology_prefix" : "EFO",
+      "ontology_iri" : "http://www.ebi.ac.uk/efo/efo.owl",
+      "is_obsolete" : false,
+      "term_replaced_by" : null,
+      "is_defining_ontology" : true,
+      "has_children" : false,
+      "is_root" : false,
+      "short_form" : "EFO_0000647",
+      "obo_id" : "EFO:0000647",
+      "in_subset" : null,
+      "obo_definition_citation" : null,
+      "obo_xref" : null,
+      "obo_synonym" : null,
+      "_links" : {
+        "self" : {
+          "href" : "https://www.ebi.ac.uk/ols/api/ontologies/efo/terms/http%253A%252F%252Fwww.ebi.ac.uk%252Fefo%252FEFO_0000647"
+        },
+        "parents" : {
+          "href" : "https://www.ebi.ac.uk/ols/api/ontologies/efo/terms/http%253A%252F%252Fwww.ebi.ac.uk%252Fefo%252FEFO_0000647/parents"
+        },
+        "ancestors" : {
+          "href" : "https://www.ebi.ac.uk/ols/api/ontologies/efo/terms/http%253A%252F%252Fwww.ebi.ac.uk%252Fefo%252FEFO_0000647/ancestors"
+        },
+        "hierarchicalParents" : {
+          "href" : "https://www.ebi.ac.uk/ols/api/ontologies/efo/terms/http%253A%252F%252Fwww.ebi.ac.uk%252Fefo%252FEFO_0000647/hierarchicalParents"
+        },
+        "hierarchicalAncestors" : {
+          "href" : "https://www.ebi.ac.uk/ols/api/ontologies/efo/terms/http%253A%252F%252Fwww.ebi.ac.uk%252Fefo%252FEFO_0000647/hierarchicalAncestors"
+        },
+        "jstree" : {
+          "href" : "https://www.ebi.ac.uk/ols/api/ontologies/efo/terms/http%253A%252F%252Fwww.ebi.ac.uk%252Fefo%252FEFO_0000647/jstree"
+        },
+        "graph" : {
+          "href" : "https://www.ebi.ac.uk/ols/api/ontologies/efo/terms/http%253A%252F%252Fwww.ebi.ac.uk%252Fefo%252FEFO_0000647/graph"
+        }
+      }
+    }, {
+      "iri" : "http://purl.obolibrary.org/obo/OBI_0000018",
+      "label" : "material supplier role",
+      "description" : [ "The role of a person or organisation in supplying materials such as animal subjects, reagents or other materials used in an investigation." ],
+      "annotation" : {
+        "term editor" : [ "Jennifer Fostel", "James Malone (modified from original)" ]
+      },
+      "synonyms" : [ "biosource provider" ],
+      "ontology_name" : "efo",
+      "ontology_prefix" : "EFO",
+      "ontology_iri" : "http://www.ebi.ac.uk/efo/efo.owl",
+      "is_obsolete" : false,
+      "term_replaced_by" : null,
+      "is_defining_ontology" : false,
+      "has_children" : false,
+      "is_root" : false,
+      "short_form" : "OBI_0000018",
+      "obo_id" : "OBI:0000018",
+      "in_subset" : null,
+      "obo_definition_citation" : null,
+      "obo_xref" : null,
+      "obo_synonym" : null,
+      "_links" : {
+        "self" : {
+          "href" : "https://www.ebi.ac.uk/ols/api/ontologies/efo/terms/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FOBI_0000018"
+        },
+        "parents" : {
+          "href" : "https://www.ebi.ac.uk/ols/api/ontologies/efo/terms/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FOBI_0000018/parents"
+        },
+        "ancestors" : {
+          "href" : "https://www.ebi.ac.uk/ols/api/ontologies/efo/terms/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FOBI_0000018/ancestors"
+        },
+        "hierarchicalParents" : {
+          "href" : "https://www.ebi.ac.uk/ols/api/ontologies/efo/terms/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FOBI_0000018/hierarchicalParents"
+        },
+        "hierarchicalAncestors" : {
+          "href" : "https://www.ebi.ac.uk/ols/api/ontologies/efo/terms/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FOBI_0000018/hierarchicalAncestors"
+        },
+        "jstree" : {
+          "href" : "https://www.ebi.ac.uk/ols/api/ontologies/efo/terms/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FOBI_0000018/jstree"
+        },
+        "graph" : {
+          "href" : "https://www.ebi.ac.uk/ols/api/ontologies/efo/terms/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FOBI_0000018/graph"
+        }
+      }
+    }, {
+      "iri" : "http://www.ebi.ac.uk/efo/EFO_0001733",
+      "label" : "curator",
+      "description" : null,
+      "annotation" : {
+        "MO_definition_citation" : [ "MO:893" ],
+        "NCI_Thesaurus_definition_citation" : [ "NCIt:C69141" ],
+        "term editor" : [ "Tomasz Adamusiak" ]
+      },
+      "synonyms" : null,
+      "ontology_name" : "efo",
+      "ontology_prefix" : "EFO",
+      "ontology_iri" : "http://www.ebi.ac.uk/efo/efo.owl",
+      "is_obsolete" : false,
+      "term_replaced_by" : null,
+      "is_defining_ontology" : true,
+      "has_children" : false,
+      "is_root" : false,
+      "short_form" : "EFO_0001733",
+      "obo_id" : "EFO:0001733",
+      "in_subset" : null,
+      "obo_definition_citation" : null,
+      "obo_xref" : null,
+      "obo_synonym" : null,
+      "_links" : {
+        "self" : {
+          "href" : "https://www.ebi.ac.uk/ols/api/ontologies/efo/terms/http%253A%252F%252Fwww.ebi.ac.uk%252Fefo%252FEFO_0001733"
+        },
+        "parents" : {
+          "href" : "https://www.ebi.ac.uk/ols/api/ontologies/efo/terms/http%253A%252F%252Fwww.ebi.ac.uk%252Fefo%252FEFO_0001733/parents"
+        },
+        "ancestors" : {
+          "href" : "https://www.ebi.ac.uk/ols/api/ontologies/efo/terms/http%253A%252F%252Fwww.ebi.ac.uk%252Fefo%252FEFO_0001733/ancestors"
+        },
+        "hierarchicalParents" : {
+          "href" : "https://www.ebi.ac.uk/ols/api/ontologies/efo/terms/http%253A%252F%252Fwww.ebi.ac.uk%252Fefo%252FEFO_0001733/hierarchicalParents"
+        },
+        "hierarchicalAncestors" : {
+          "href" : "https://www.ebi.ac.uk/ols/api/ontologies/efo/terms/http%253A%252F%252Fwww.ebi.ac.uk%252Fefo%252FEFO_0001733/hierarchicalAncestors"
+        },
+        "jstree" : {
+          "href" : "https://www.ebi.ac.uk/ols/api/ontologies/efo/terms/http%253A%252F%252Fwww.ebi.ac.uk%252Fefo%252FEFO_0001733/jstree"
+        },
+        "graph" : {
+          "href" : "https://www.ebi.ac.uk/ols/api/ontologies/efo/terms/http%253A%252F%252Fwww.ebi.ac.uk%252Fefo%252FEFO_0001733/graph"
+        },
+        "inheres_in" : {
+          "href" : "https://www.ebi.ac.uk/ols/api/ontologies/efo/terms/http%253A%252F%252Fwww.ebi.ac.uk%252Fefo%252FEFO_0001733/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FRO_0000052"
+        }
+      }
+    }, {
+      "iri" : "http://www.ebi.ac.uk/efo/EFO_0001734",
+      "label" : "data analyst",
+      "description" : null,
+      "annotation" : {
+        "MO_definition_citation" : [ "MO:753" ],
+        "term editor" : [ "Tomasz Adamusiak" ]
+      },
+      "synonyms" : [ "data_analyst" ],
+      "ontology_name" : "efo",
+      "ontology_prefix" : "EFO",
+      "ontology_iri" : "http://www.ebi.ac.uk/efo/efo.owl",
+      "is_obsolete" : false,
+      "term_replaced_by" : null,
+      "is_defining_ontology" : true,
+      "has_children" : false,
+      "is_root" : false,
+      "short_form" : "EFO_0001734",
+      "obo_id" : "EFO:0001734",
+      "in_subset" : null,
+      "obo_definition_citation" : null,
+      "obo_xref" : null,
+      "obo_synonym" : null,
+      "_links" : {
+        "self" : {
+          "href" : "https://www.ebi.ac.uk/ols/api/ontologies/efo/terms/http%253A%252F%252Fwww.ebi.ac.uk%252Fefo%252FEFO_0001734"
+        },
+        "parents" : {
+          "href" : "https://www.ebi.ac.uk/ols/api/ontologies/efo/terms/http%253A%252F%252Fwww.ebi.ac.uk%252Fefo%252FEFO_0001734/parents"
+        },
+        "ancestors" : {
+          "href" : "https://www.ebi.ac.uk/ols/api/ontologies/efo/terms/http%253A%252F%252Fwww.ebi.ac.uk%252Fefo%252FEFO_0001734/ancestors"
+        },
+        "hierarchicalParents" : {
+          "href" : "https://www.ebi.ac.uk/ols/api/ontologies/efo/terms/http%253A%252F%252Fwww.ebi.ac.uk%252Fefo%252FEFO_0001734/hierarchicalParents"
+        },
+        "hierarchicalAncestors" : {
+          "href" : "https://www.ebi.ac.uk/ols/api/ontologies/efo/terms/http%253A%252F%252Fwww.ebi.ac.uk%252Fefo%252FEFO_0001734/hierarchicalAncestors"
+        },
+        "jstree" : {
+          "href" : "https://www.ebi.ac.uk/ols/api/ontologies/efo/terms/http%253A%252F%252Fwww.ebi.ac.uk%252Fefo%252FEFO_0001734/jstree"
+        },
+        "graph" : {
+          "href" : "https://www.ebi.ac.uk/ols/api/ontologies/efo/terms/http%253A%252F%252Fwww.ebi.ac.uk%252Fefo%252FEFO_0001734/graph"
+        }
+      }
+    }, {
+      "iri" : "http://www.ebi.ac.uk/efo/EFO_0001731",
+      "label" : "consortium member",
+      "description" : null,
+      "annotation" : {
+        "MO_definition_citation" : [ "MO:778" ],
+        "term editor" : [ "Tomasz Adamusiak" ]
+      },
+      "synonyms" : [ "consortium_member" ],
+      "ontology_name" : "efo",
+      "ontology_prefix" : "EFO",
+      "ontology_iri" : "http://www.ebi.ac.uk/efo/efo.owl",
+      "is_obsolete" : false,
+      "term_replaced_by" : null,
+      "is_defining_ontology" : true,
+      "has_children" : false,
+      "is_root" : false,
+      "short_form" : "EFO_0001731",
+      "obo_id" : "EFO:0001731",
+      "in_subset" : null,
+      "obo_definition_citation" : null,
+      "obo_xref" : null,
+      "obo_synonym" : null,
+      "_links" : {
+        "self" : {
+          "href" : "https://www.ebi.ac.uk/ols/api/ontologies/efo/terms/http%253A%252F%252Fwww.ebi.ac.uk%252Fefo%252FEFO_0001731"
+        },
+        "parents" : {
+          "href" : "https://www.ebi.ac.uk/ols/api/ontologies/efo/terms/http%253A%252F%252Fwww.ebi.ac.uk%252Fefo%252FEFO_0001731/parents"
+        },
+        "ancestors" : {
+          "href" : "https://www.ebi.ac.uk/ols/api/ontologies/efo/terms/http%253A%252F%252Fwww.ebi.ac.uk%252Fefo%252FEFO_0001731/ancestors"
+        },
+        "hierarchicalParents" : {
+          "href" : "https://www.ebi.ac.uk/ols/api/ontologies/efo/terms/http%253A%252F%252Fwww.ebi.ac.uk%252Fefo%252FEFO_0001731/hierarchicalParents"
+        },
+        "hierarchicalAncestors" : {
+          "href" : "https://www.ebi.ac.uk/ols/api/ontologies/efo/terms/http%253A%252F%252Fwww.ebi.ac.uk%252Fefo%252FEFO_0001731/hierarchicalAncestors"
+        },
+        "jstree" : {
+          "href" : "https://www.ebi.ac.uk/ols/api/ontologies/efo/terms/http%253A%252F%252Fwww.ebi.ac.uk%252Fefo%252FEFO_0001731/jstree"
+        },
+        "graph" : {
+          "href" : "https://www.ebi.ac.uk/ols/api/ontologies/efo/terms/http%253A%252F%252Fwww.ebi.ac.uk%252Fefo%252FEFO_0001731/graph"
+        }
+      }
+    }, {
+      "iri" : "http://www.ebi.ac.uk/efo/EFO_0001732",
+      "label" : "consultant",
+      "description" : null,
+      "annotation" : {
+        "MO_definition_citation" : [ "MO:MO:984" ],
+        "term editor" : [ "Tomasz Adamusiak" ]
+      },
+      "synonyms" : null,
+      "ontology_name" : "efo",
+      "ontology_prefix" : "EFO",
+      "ontology_iri" : "http://www.ebi.ac.uk/efo/efo.owl",
+      "is_obsolete" : false,
+      "term_replaced_by" : null,
+      "is_defining_ontology" : true,
+      "has_children" : false,
+      "is_root" : false,
+      "short_form" : "EFO_0001732",
+      "obo_id" : "EFO:0001732",
+      "in_subset" : null,
+      "obo_definition_citation" : null,
+      "obo_xref" : null,
+      "obo_synonym" : null,
+      "_links" : {
+        "self" : {
+          "href" : "https://www.ebi.ac.uk/ols/api/ontologies/efo/terms/http%253A%252F%252Fwww.ebi.ac.uk%252Fefo%252FEFO_0001732"
+        },
+        "parents" : {
+          "href" : "https://www.ebi.ac.uk/ols/api/ontologies/efo/terms/http%253A%252F%252Fwww.ebi.ac.uk%252Fefo%252FEFO_0001732/parents"
+        },
+        "ancestors" : {
+          "href" : "https://www.ebi.ac.uk/ols/api/ontologies/efo/terms/http%253A%252F%252Fwww.ebi.ac.uk%252Fefo%252FEFO_0001732/ancestors"
+        },
+        "hierarchicalParents" : {
+          "href" : "https://www.ebi.ac.uk/ols/api/ontologies/efo/terms/http%253A%252F%252Fwww.ebi.ac.uk%252Fefo%252FEFO_0001732/hierarchicalParents"
+        },
+        "hierarchicalAncestors" : {
+          "href" : "https://www.ebi.ac.uk/ols/api/ontologies/efo/terms/http%253A%252F%252Fwww.ebi.ac.uk%252Fefo%252FEFO_0001732/hierarchicalAncestors"
+        },
+        "jstree" : {
+          "href" : "https://www.ebi.ac.uk/ols/api/ontologies/efo/terms/http%253A%252F%252Fwww.ebi.ac.uk%252Fefo%252FEFO_0001732/jstree"
+        },
+        "graph" : {
+          "href" : "https://www.ebi.ac.uk/ols/api/ontologies/efo/terms/http%253A%252F%252Fwww.ebi.ac.uk%252Fefo%252FEFO_0001732/graph"
+        },
+        "inheres_in" : {
+          "href" : "https://www.ebi.ac.uk/ols/api/ontologies/efo/terms/http%253A%252F%252Fwww.ebi.ac.uk%252Fefo%252FEFO_0001732/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FRO_0000052"
+        }
+      }
+    }, {
+      "iri" : "http://www.ebi.ac.uk/efo/EFO_0001730",
+      "label" : "biosequence provider",
+      "description" : null,
+      "annotation" : {
+        "MO_definition_citation" : [ "MO:881" ],
+        "bioportal_provenance" : [ "biosequence_provider[accessedResource: MO_881][accessDate: 05-04-2011]" ],
+        "term editor" : [ "Tomasz Adamusiak" ]
+      },
+      "synonyms" : [ "biosequence_provider" ],
+      "ontology_name" : "efo",
+      "ontology_prefix" : "EFO",
+      "ontology_iri" : "http://www.ebi.ac.uk/efo/efo.owl",
+      "is_obsolete" : false,
+      "term_replaced_by" : null,
+      "is_defining_ontology" : true,
+      "has_children" : false,
+      "is_root" : false,
+      "short_form" : "EFO_0001730",
+      "obo_id" : "EFO:0001730",
+      "in_subset" : null,
+      "obo_definition_citation" : null,
+      "obo_xref" : null,
+      "obo_synonym" : null,
+      "_links" : {
+        "self" : {
+          "href" : "https://www.ebi.ac.uk/ols/api/ontologies/efo/terms/http%253A%252F%252Fwww.ebi.ac.uk%252Fefo%252FEFO_0001730"
+        },
+        "parents" : {
+          "href" : "https://www.ebi.ac.uk/ols/api/ontologies/efo/terms/http%253A%252F%252Fwww.ebi.ac.uk%252Fefo%252FEFO_0001730/parents"
+        },
+        "ancestors" : {
+          "href" : "https://www.ebi.ac.uk/ols/api/ontologies/efo/terms/http%253A%252F%252Fwww.ebi.ac.uk%252Fefo%252FEFO_0001730/ancestors"
+        },
+        "hierarchicalParents" : {
+          "href" : "https://www.ebi.ac.uk/ols/api/ontologies/efo/terms/http%253A%252F%252Fwww.ebi.ac.uk%252Fefo%252FEFO_0001730/hierarchicalParents"
+        },
+        "hierarchicalAncestors" : {
+          "href" : "https://www.ebi.ac.uk/ols/api/ontologies/efo/terms/http%253A%252F%252Fwww.ebi.ac.uk%252Fefo%252FEFO_0001730/hierarchicalAncestors"
+        },
+        "jstree" : {
+          "href" : "https://www.ebi.ac.uk/ols/api/ontologies/efo/terms/http%253A%252F%252Fwww.ebi.ac.uk%252Fefo%252FEFO_0001730/jstree"
+        },
+        "graph" : {
+          "href" : "https://www.ebi.ac.uk/ols/api/ontologies/efo/terms/http%253A%252F%252Fwww.ebi.ac.uk%252Fefo%252FEFO_0001730/graph"
+        }
+      }
+    }, {
+      "iri" : "http://www.ebi.ac.uk/efo/EFO_0001728",
+      "label" : "array manufacturer",
+      "description" : null,
+      "annotation" : {
+        "MO_definition_citation" : [ "MO:890" ],
+        "bioportal_provenance" : [ "array_manufacturer[accessedResource: MO_890][accessDate: 05-04-2011]" ],
+        "term editor" : [ "Tomasz Adamusiak" ]
+      },
+      "synonyms" : [ "array_manufacturer" ],
+      "ontology_name" : "efo",
+      "ontology_prefix" : "EFO",
+      "ontology_iri" : "http://www.ebi.ac.uk/efo/efo.owl",
+      "is_obsolete" : false,
+      "term_replaced_by" : null,
+      "is_defining_ontology" : true,
+      "has_children" : false,
+      "is_root" : false,
+      "short_form" : "EFO_0001728",
+      "obo_id" : "EFO:0001728",
+      "in_subset" : null,
+      "obo_definition_citation" : null,
+      "obo_xref" : null,
+      "obo_synonym" : null,
+      "_links" : {
+        "self" : {
+          "href" : "https://www.ebi.ac.uk/ols/api/ontologies/efo/terms/http%253A%252F%252Fwww.ebi.ac.uk%252Fefo%252FEFO_0001728"
+        },
+        "parents" : {
+          "href" : "https://www.ebi.ac.uk/ols/api/ontologies/efo/terms/http%253A%252F%252Fwww.ebi.ac.uk%252Fefo%252FEFO_0001728/parents"
+        },
+        "ancestors" : {
+          "href" : "https://www.ebi.ac.uk/ols/api/ontologies/efo/terms/http%253A%252F%252Fwww.ebi.ac.uk%252Fefo%252FEFO_0001728/ancestors"
+        },
+        "hierarchicalParents" : {
+          "href" : "https://www.ebi.ac.uk/ols/api/ontologies/efo/terms/http%253A%252F%252Fwww.ebi.ac.uk%252Fefo%252FEFO_0001728/hierarchicalParents"
+        },
+        "hierarchicalAncestors" : {
+          "href" : "https://www.ebi.ac.uk/ols/api/ontologies/efo/terms/http%253A%252F%252Fwww.ebi.ac.uk%252Fefo%252FEFO_0001728/hierarchicalAncestors"
+        },
+        "jstree" : {
+          "href" : "https://www.ebi.ac.uk/ols/api/ontologies/efo/terms/http%253A%252F%252Fwww.ebi.ac.uk%252Fefo%252FEFO_0001728/jstree"
+        },
+        "graph" : {
+          "href" : "https://www.ebi.ac.uk/ols/api/ontologies/efo/terms/http%253A%252F%252Fwww.ebi.ac.uk%252Fefo%252FEFO_0001728/graph"
+        }
+      }
+    }, {
+      "iri" : "http://www.ebi.ac.uk/efo/EFO_0001729",
+      "label" : "biomaterial provider",
+      "description" : null,
+      "annotation" : {
+        "MO_definition_citation" : [ "MO:591" ],
+        "bioportal_provenance" : [ "biomaterial_provider[accessedResource: MO_591][accessDate: 05-04-2011]" ],
+        "term editor" : [ "Tomasz Adamusiak" ]
+      },
+      "synonyms" : [ "biomaterial_provider" ],
+      "ontology_name" : "efo",
+      "ontology_prefix" : "EFO",
+      "ontology_iri" : "http://www.ebi.ac.uk/efo/efo.owl",
+      "is_obsolete" : false,
+      "term_replaced_by" : null,
+      "is_defining_ontology" : true,
+      "has_children" : false,
+      "is_root" : false,
+      "short_form" : "EFO_0001729",
+      "obo_id" : "EFO:0001729",
+      "in_subset" : null,
+      "obo_definition_citation" : null,
+      "obo_xref" : null,
+      "obo_synonym" : null,
+      "_links" : {
+        "self" : {
+          "href" : "https://www.ebi.ac.uk/ols/api/ontologies/efo/terms/http%253A%252F%252Fwww.ebi.ac.uk%252Fefo%252FEFO_0001729"
+        },
+        "parents" : {
+          "href" : "https://www.ebi.ac.uk/ols/api/ontologies/efo/terms/http%253A%252F%252Fwww.ebi.ac.uk%252Fefo%252FEFO_0001729/parents"
+        },
+        "ancestors" : {
+          "href" : "https://www.ebi.ac.uk/ols/api/ontologies/efo/terms/http%253A%252F%252Fwww.ebi.ac.uk%252Fefo%252FEFO_0001729/ancestors"
+        },
+        "hierarchicalParents" : {
+          "href" : "https://www.ebi.ac.uk/ols/api/ontologies/efo/terms/http%253A%252F%252Fwww.ebi.ac.uk%252Fefo%252FEFO_0001729/hierarchicalParents"
+        },
+        "hierarchicalAncestors" : {
+          "href" : "https://www.ebi.ac.uk/ols/api/ontologies/efo/terms/http%253A%252F%252Fwww.ebi.ac.uk%252Fefo%252FEFO_0001729/hierarchicalAncestors"
+        },
+        "jstree" : {
+          "href" : "https://www.ebi.ac.uk/ols/api/ontologies/efo/terms/http%253A%252F%252Fwww.ebi.ac.uk%252Fefo%252FEFO_0001729/jstree"
+        },
+        "graph" : {
+          "href" : "https://www.ebi.ac.uk/ols/api/ontologies/efo/terms/http%253A%252F%252Fwww.ebi.ac.uk%252Fefo%252FEFO_0001729/graph"
+        }
+      }
+    }, {
+      "iri" : "http://www.ebi.ac.uk/efo/EFO_0001740",
+      "label" : "software manufacturer",
+      "description" : null,
+      "annotation" : {
+        "MO_definition_citation" : [ "MO:475" ],
+        "term editor" : [ "Tomasz Adamusiak" ]
+      },
+      "synonyms" : [ "software_manufacturer" ],
+      "ontology_name" : "efo",
+      "ontology_prefix" : "EFO",
+      "ontology_iri" : "http://www.ebi.ac.uk/efo/efo.owl",
+      "is_obsolete" : false,
+      "term_replaced_by" : null,
+      "is_defining_ontology" : true,
+      "has_children" : false,
+      "is_root" : false,
+      "short_form" : "EFO_0001740",
+      "obo_id" : "EFO:0001740",
+      "in_subset" : null,
+      "obo_definition_citation" : null,
+      "obo_xref" : null,
+      "obo_synonym" : null,
+      "_links" : {
+        "self" : {
+          "href" : "https://www.ebi.ac.uk/ols/api/ontologies/efo/terms/http%253A%252F%252Fwww.ebi.ac.uk%252Fefo%252FEFO_0001740"
+        },
+        "parents" : {
+          "href" : "https://www.ebi.ac.uk/ols/api/ontologies/efo/terms/http%253A%252F%252Fwww.ebi.ac.uk%252Fefo%252FEFO_0001740/parents"
+        },
+        "ancestors" : {
+          "href" : "https://www.ebi.ac.uk/ols/api/ontologies/efo/terms/http%253A%252F%252Fwww.ebi.ac.uk%252Fefo%252FEFO_0001740/ancestors"
+        },
+        "hierarchicalParents" : {
+          "href" : "https://www.ebi.ac.uk/ols/api/ontologies/efo/terms/http%253A%252F%252Fwww.ebi.ac.uk%252Fefo%252FEFO_0001740/hierarchicalParents"
+        },
+        "hierarchicalAncestors" : {
+          "href" : "https://www.ebi.ac.uk/ols/api/ontologies/efo/terms/http%253A%252F%252Fwww.ebi.ac.uk%252Fefo%252FEFO_0001740/hierarchicalAncestors"
+        },
+        "jstree" : {
+          "href" : "https://www.ebi.ac.uk/ols/api/ontologies/efo/terms/http%253A%252F%252Fwww.ebi.ac.uk%252Fefo%252FEFO_0001740/jstree"
+        },
+        "graph" : {
+          "href" : "https://www.ebi.ac.uk/ols/api/ontologies/efo/terms/http%253A%252F%252Fwww.ebi.ac.uk%252Fefo%252FEFO_0001740/graph"
+        }
+      }
+    }, {
+      "iri" : "http://www.ebi.ac.uk/efo/EFO_0001741",
+      "label" : "submitter",
+      "description" : null,
+      "annotation" : {
+        "MO_definition_citation" : [ "MO:882" ],
+        "NCI_Thesaurus_definition_citation" : [ "NCIt:C54269" ],
+        "term editor" : [ "Tomasz Adamusiak" ]
+      },
+      "synonyms" : null,
+      "ontology_name" : "efo",
+      "ontology_prefix" : "EFO",
+      "ontology_iri" : "http://www.ebi.ac.uk/efo/efo.owl",
+      "is_obsolete" : false,
+      "term_replaced_by" : null,
+      "is_defining_ontology" : true,
+      "has_children" : false,
+      "is_root" : false,
+      "short_form" : "EFO_0001741",
+      "obo_id" : "EFO:0001741",
+      "in_subset" : null,
+      "obo_definition_citation" : null,
+      "obo_xref" : null,
+      "obo_synonym" : null,
+      "_links" : {
+        "self" : {
+          "href" : "https://www.ebi.ac.uk/ols/api/ontologies/efo/terms/http%253A%252F%252Fwww.ebi.ac.uk%252Fefo%252FEFO_0001741"
+        },
+        "parents" : {
+          "href" : "https://www.ebi.ac.uk/ols/api/ontologies/efo/terms/http%253A%252F%252Fwww.ebi.ac.uk%252Fefo%252FEFO_0001741/parents"
+        },
+        "ancestors" : {
+          "href" : "https://www.ebi.ac.uk/ols/api/ontologies/efo/terms/http%253A%252F%252Fwww.ebi.ac.uk%252Fefo%252FEFO_0001741/ancestors"
+        },
+        "hierarchicalParents" : {
+          "href" : "https://www.ebi.ac.uk/ols/api/ontologies/efo/terms/http%253A%252F%252Fwww.ebi.ac.uk%252Fefo%252FEFO_0001741/hierarchicalParents"
+        },
+        "hierarchicalAncestors" : {
+          "href" : "https://www.ebi.ac.uk/ols/api/ontologies/efo/terms/http%253A%252F%252Fwww.ebi.ac.uk%252Fefo%252FEFO_0001741/hierarchicalAncestors"
+        },
+        "jstree" : {
+          "href" : "https://www.ebi.ac.uk/ols/api/ontologies/efo/terms/http%253A%252F%252Fwww.ebi.ac.uk%252Fefo%252FEFO_0001741/jstree"
+        },
+        "graph" : {
+          "href" : "https://www.ebi.ac.uk/ols/api/ontologies/efo/terms/http%253A%252F%252Fwww.ebi.ac.uk%252Fefo%252FEFO_0001741/graph"
+        }
+      }
+    }, {
+      "iri" : "http://www.ebi.ac.uk/efo/EFO_0001739",
+      "label" : "investigator",
+      "description" : null,
+      "annotation" : {
+        "MO_definition_citation" : [ "MO:769" ],
+        "NCI_Thesaurus_definition_citation" : [ "NCIt:C25936" ],
+        "term editor" : [ "Tomasz Adamusiak" ]
+      },
+      "synonyms" : null,
+      "ontology_name" : "efo",
+      "ontology_prefix" : "EFO",
+      "ontology_iri" : "http://www.ebi.ac.uk/efo/efo.owl",
+      "is_obsolete" : false,
+      "term_replaced_by" : null,
+      "is_defining_ontology" : true,
+      "has_children" : false,
+      "is_root" : false,
+      "short_form" : "EFO_0001739",
+      "obo_id" : "EFO:0001739",
+      "in_subset" : null,
+      "obo_definition_citation" : null,
+      "obo_xref" : null,
+      "obo_synonym" : null,
+      "_links" : {
+        "self" : {
+          "href" : "https://www.ebi.ac.uk/ols/api/ontologies/efo/terms/http%253A%252F%252Fwww.ebi.ac.uk%252Fefo%252FEFO_0001739"
+        },
+        "parents" : {
+          "href" : "https://www.ebi.ac.uk/ols/api/ontologies/efo/terms/http%253A%252F%252Fwww.ebi.ac.uk%252Fefo%252FEFO_0001739/parents"
+        },
+        "ancestors" : {
+          "href" : "https://www.ebi.ac.uk/ols/api/ontologies/efo/terms/http%253A%252F%252Fwww.ebi.ac.uk%252Fefo%252FEFO_0001739/ancestors"
+        },
+        "hierarchicalParents" : {
+          "href" : "https://www.ebi.ac.uk/ols/api/ontologies/efo/terms/http%253A%252F%252Fwww.ebi.ac.uk%252Fefo%252FEFO_0001739/hierarchicalParents"
+        },
+        "hierarchicalAncestors" : {
+          "href" : "https://www.ebi.ac.uk/ols/api/ontologies/efo/terms/http%253A%252F%252Fwww.ebi.ac.uk%252Fefo%252FEFO_0001739/hierarchicalAncestors"
+        },
+        "jstree" : {
+          "href" : "https://www.ebi.ac.uk/ols/api/ontologies/efo/terms/http%253A%252F%252Fwww.ebi.ac.uk%252Fefo%252FEFO_0001739/jstree"
+        },
+        "graph" : {
+          "href" : "https://www.ebi.ac.uk/ols/api/ontologies/efo/terms/http%253A%252F%252Fwww.ebi.ac.uk%252Fefo%252FEFO_0001739/graph"
+        }
+      }
+    }, {
+      "iri" : "http://www.ebi.ac.uk/efo/EFO_0001737",
+      "label" : "hardware manufacturer",
+      "description" : null,
+      "annotation" : {
+        "MO_definition_citation" : [ "MO:MO:763" ],
+        "term editor" : [ "Tomasz Adamusiak" ]
+      },
+      "synonyms" : [ "hardware_manufacturer" ],
+      "ontology_name" : "efo",
+      "ontology_prefix" : "EFO",
+      "ontology_iri" : "http://www.ebi.ac.uk/efo/efo.owl",
+      "is_obsolete" : false,
+      "term_replaced_by" : null,
+      "is_defining_ontology" : true,
+      "has_children" : false,
+      "is_root" : false,
+      "short_form" : "EFO_0001737",
+      "obo_id" : "EFO:0001737",
+      "in_subset" : null,
+      "obo_definition_citation" : null,
+      "obo_xref" : null,
+      "obo_synonym" : null,
+      "_links" : {
+        "self" : {
+          "href" : "https://www.ebi.ac.uk/ols/api/ontologies/efo/terms/http%253A%252F%252Fwww.ebi.ac.uk%252Fefo%252FEFO_0001737"
+        },
+        "parents" : {
+          "href" : "https://www.ebi.ac.uk/ols/api/ontologies/efo/terms/http%253A%252F%252Fwww.ebi.ac.uk%252Fefo%252FEFO_0001737/parents"
+        },
+        "ancestors" : {
+          "href" : "https://www.ebi.ac.uk/ols/api/ontologies/efo/terms/http%253A%252F%252Fwww.ebi.ac.uk%252Fefo%252FEFO_0001737/ancestors"
+        },
+        "hierarchicalParents" : {
+          "href" : "https://www.ebi.ac.uk/ols/api/ontologies/efo/terms/http%253A%252F%252Fwww.ebi.ac.uk%252Fefo%252FEFO_0001737/hierarchicalParents"
+        },
+        "hierarchicalAncestors" : {
+          "href" : "https://www.ebi.ac.uk/ols/api/ontologies/efo/terms/http%253A%252F%252Fwww.ebi.ac.uk%252Fefo%252FEFO_0001737/hierarchicalAncestors"
+        },
+        "jstree" : {
+          "href" : "https://www.ebi.ac.uk/ols/api/ontologies/efo/terms/http%253A%252F%252Fwww.ebi.ac.uk%252Fefo%252FEFO_0001737/jstree"
+        },
+        "graph" : {
+          "href" : "https://www.ebi.ac.uk/ols/api/ontologies/efo/terms/http%253A%252F%252Fwww.ebi.ac.uk%252Fefo%252FEFO_0001737/graph"
+        }
+      }
+    }, {
+      "iri" : "http://www.ebi.ac.uk/efo/EFO_0001738",
+      "label" : "institution",
+      "description" : null,
+      "annotation" : {
+        "MO_definition_citation" : [ "MO:MO:601" ],
+        "NCI_Thesaurus_definition_citation" : [ "NCIt:C41206" ],
+        "NIFSTD_definition_citation" : [ "NIFSTD:birnlex_2085" ],
+        "SNOMEDCT_definition_citation" : [ "SNOMEDCT:385437003" ],
+        "term editor" : [ "Tomasz Adamusiak" ]
+      },
+      "synonyms" : null,
+      "ontology_name" : "efo",
+      "ontology_prefix" : "EFO",
+      "ontology_iri" : "http://www.ebi.ac.uk/efo/efo.owl",
+      "is_obsolete" : false,
+      "term_replaced_by" : null,
+      "is_defining_ontology" : true,
+      "has_children" : false,
+      "is_root" : false,
+      "short_form" : "EFO_0001738",
+      "obo_id" : "EFO:0001738",
+      "in_subset" : null,
+      "obo_definition_citation" : null,
+      "obo_xref" : null,
+      "obo_synonym" : null,
+      "_links" : {
+        "self" : {
+          "href" : "https://www.ebi.ac.uk/ols/api/ontologies/efo/terms/http%253A%252F%252Fwww.ebi.ac.uk%252Fefo%252FEFO_0001738"
+        },
+        "parents" : {
+          "href" : "https://www.ebi.ac.uk/ols/api/ontologies/efo/terms/http%253A%252F%252Fwww.ebi.ac.uk%252Fefo%252FEFO_0001738/parents"
+        },
+        "ancestors" : {
+          "href" : "https://www.ebi.ac.uk/ols/api/ontologies/efo/terms/http%253A%252F%252Fwww.ebi.ac.uk%252Fefo%252FEFO_0001738/ancestors"
+        },
+        "hierarchicalParents" : {
+          "href" : "https://www.ebi.ac.uk/ols/api/ontologies/efo/terms/http%253A%252F%252Fwww.ebi.ac.uk%252Fefo%252FEFO_0001738/hierarchicalParents"
+        },
+        "hierarchicalAncestors" : {
+          "href" : "https://www.ebi.ac.uk/ols/api/ontologies/efo/terms/http%253A%252F%252Fwww.ebi.ac.uk%252Fefo%252FEFO_0001738/hierarchicalAncestors"
+        },
+        "jstree" : {
+          "href" : "https://www.ebi.ac.uk/ols/api/ontologies/efo/terms/http%253A%252F%252Fwww.ebi.ac.uk%252Fefo%252FEFO_0001738/jstree"
+        },
+        "graph" : {
+          "href" : "https://www.ebi.ac.uk/ols/api/ontologies/efo/terms/http%253A%252F%252Fwww.ebi.ac.uk%252Fefo%252FEFO_0001738/graph"
+        },
+        "inheres_in" : {
+          "href" : "https://www.ebi.ac.uk/ols/api/ontologies/efo/terms/http%253A%252F%252Fwww.ebi.ac.uk%252Fefo%252FEFO_0001738/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FRO_0000052"
+        }
+      }
+    }, {
+      "iri" : "http://www.ebi.ac.uk/efo/EFO_0001735",
+      "label" : "data coder",
+      "description" : null,
+      "annotation" : {
+        "MO_definition_citation" : [ "MO:695" ],
+        "term editor" : [ "Tomasz Adamusiak" ]
+      },
+      "synonyms" : [ "data_coder" ],
+      "ontology_name" : "efo",
+      "ontology_prefix" : "EFO",
+      "ontology_iri" : "http://www.ebi.ac.uk/efo/efo.owl",
+      "is_obsolete" : false,
+      "term_replaced_by" : null,
+      "is_defining_ontology" : true,
+      "has_children" : false,
+      "is_root" : false,
+      "short_form" : "EFO_0001735",
+      "obo_id" : "EFO:0001735",
+      "in_subset" : null,
+      "obo_definition_citation" : null,
+      "obo_xref" : null,
+      "obo_synonym" : null,
+      "_links" : {
+        "self" : {
+          "href" : "https://www.ebi.ac.uk/ols/api/ontologies/efo/terms/http%253A%252F%252Fwww.ebi.ac.uk%252Fefo%252FEFO_0001735"
+        },
+        "parents" : {
+          "href" : "https://www.ebi.ac.uk/ols/api/ontologies/efo/terms/http%253A%252F%252Fwww.ebi.ac.uk%252Fefo%252FEFO_0001735/parents"
+        },
+        "ancestors" : {
+          "href" : "https://www.ebi.ac.uk/ols/api/ontologies/efo/terms/http%253A%252F%252Fwww.ebi.ac.uk%252Fefo%252FEFO_0001735/ancestors"
+        },
+        "hierarchicalParents" : {
+          "href" : "https://www.ebi.ac.uk/ols/api/ontologies/efo/terms/http%253A%252F%252Fwww.ebi.ac.uk%252Fefo%252FEFO_0001735/hierarchicalParents"
+        },
+        "hierarchicalAncestors" : {
+          "href" : "https://www.ebi.ac.uk/ols/api/ontologies/efo/terms/http%253A%252F%252Fwww.ebi.ac.uk%252Fefo%252FEFO_0001735/hierarchicalAncestors"
+        },
+        "jstree" : {
+          "href" : "https://www.ebi.ac.uk/ols/api/ontologies/efo/terms/http%253A%252F%252Fwww.ebi.ac.uk%252Fefo%252FEFO_0001735/jstree"
+        },
+        "graph" : {
+          "href" : "https://www.ebi.ac.uk/ols/api/ontologies/efo/terms/http%253A%252F%252Fwww.ebi.ac.uk%252Fefo%252FEFO_0001735/graph"
+        }
+      }
+    }, {
+      "iri" : "http://www.ebi.ac.uk/efo/EFO_0001736",
+      "label" : "funder",
+      "description" : null,
+      "annotation" : {
+        "MO_definition_citation" : [ "MO:520" ],
+        "term editor" : [ "Tomasz Adamusiak" ]
+      },
+      "synonyms" : null,
+      "ontology_name" : "efo",
+      "ontology_prefix" : "EFO",
+      "ontology_iri" : "http://www.ebi.ac.uk/efo/efo.owl",
+      "is_obsolete" : false,
+      "term_replaced_by" : null,
+      "is_defining_ontology" : true,
+      "has_children" : false,
+      "is_root" : false,
+      "short_form" : "EFO_0001736",
+      "obo_id" : "EFO:0001736",
+      "in_subset" : null,
+      "obo_definition_citation" : null,
+      "obo_xref" : null,
+      "obo_synonym" : null,
+      "_links" : {
+        "self" : {
+          "href" : "https://www.ebi.ac.uk/ols/api/ontologies/efo/terms/http%253A%252F%252Fwww.ebi.ac.uk%252Fefo%252FEFO_0001736"
+        },
+        "parents" : {
+          "href" : "https://www.ebi.ac.uk/ols/api/ontologies/efo/terms/http%253A%252F%252Fwww.ebi.ac.uk%252Fefo%252FEFO_0001736/parents"
+        },
+        "ancestors" : {
+          "href" : "https://www.ebi.ac.uk/ols/api/ontologies/efo/terms/http%253A%252F%252Fwww.ebi.ac.uk%252Fefo%252FEFO_0001736/ancestors"
+        },
+        "hierarchicalParents" : {
+          "href" : "https://www.ebi.ac.uk/ols/api/ontologies/efo/terms/http%253A%252F%252Fwww.ebi.ac.uk%252Fefo%252FEFO_0001736/hierarchicalParents"
+        },
+        "hierarchicalAncestors" : {
+          "href" : "https://www.ebi.ac.uk/ols/api/ontologies/efo/terms/http%253A%252F%252Fwww.ebi.ac.uk%252Fefo%252FEFO_0001736/hierarchicalAncestors"
+        },
+        "jstree" : {
+          "href" : "https://www.ebi.ac.uk/ols/api/ontologies/efo/terms/http%253A%252F%252Fwww.ebi.ac.uk%252Fefo%252FEFO_0001736/jstree"
+        },
+        "graph" : {
+          "href" : "https://www.ebi.ac.uk/ols/api/ontologies/efo/terms/http%253A%252F%252Fwww.ebi.ac.uk%252Fefo%252FEFO_0001736/graph"
+        }
+      }
+    } ]
+  },
+  "_links" : {
+    "self" : {
+      "href" : "https://www.ebi.ac.uk/ols/api/ontologies/efo/terms/http%253A%252F%252Fwww.ebi.ac.uk%252Fefo%252FEFO_0002012/children"
+    }
+  },
+  "page" : {
+    "size" : 20,
+    "totalElements" : 17,
+    "totalPages" : 1,
+    "number" : 0
+  }
+}

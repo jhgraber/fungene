@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<publication_status source="efo">
+  <node id="term" label="Publication Status Term" geo_key="">
+        <![CDATA[A term describing the status of each publication (e.g. submitted, in preparation, published).]]>
+  </node>
+  <node id="term_source" label="Publication Status Term Source REF" geo_key="">
+        <![CDATA[The source of the Publication Status terms; his must reference one of the Term Source Names defined in the IDF file.]]>
+  </node>
+  <node id="term_accession" label="Publication Status Term Accession Number" geo_key="">
+        <![CDATA[The accession number for this term, taken from the indicated Term Source.]]>
+  </node>
+</publication_status>

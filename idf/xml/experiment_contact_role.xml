@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<exp_contact_role source="efo">
+  <node id="term" label="Person Roles" geo_key="">
+        <![CDATA[The role(s) performed by each person. 
+            Typically these terms should come from the Experimental Factor Ontology(https://www.ebi.ac.uk/efo/EFO_0002012).
+            If more than one role is needed per person, the roles should be given as a semicolon (;) delimited list.
+         ]]>
+  </node>
+  <node id="term_source" label="Person Roles Term Source REF" geo_key="">
+        <![CDATA[
+            The source of the Person Roles terms; this must reference one of the Term Source Names defined in the IDF file.
+         ]]>
+  </node>
+  <node id="term_accession" label="Person Roles Term Accession Number" geo_key="">
+        <![CDATA[
+            The accession number for this term, taken from the indicated Term Source.
+         ]]>
+  </node>
+</exp_contact_role>

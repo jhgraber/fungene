@@ -1,0 +1,35 @@
+1:Source Name
+2:Comment [RegenAccession]
+3:Comment [Sample Group Code]
+4:Comment [Sample Group Name]
+5:Comment [Summarized Expression Unit]
+6:Characteristics [Organism]
+7:Term Source REF
+8:Term Accession Number
+9:Characteristics [Sex]
+10:Term Source REF
+11:Term Accession Number
+12:Characteristics [Strain]
+13:Description
+14:Protocol REF
+15:Protocol REF
+16:Sample Name
+17:Protocol REF
+18:Extract Name
+19:Material Type
+20:Protocol REF
+21:Labeled Extract Name
+22:Label
+23:Material Type
+24:Protocol REF
+25:Hybridization Name
+26:Array Design REF
+27:Protocol REF
+28:Scan Name
+29:Array Data File
+30:Protocol REF
+31:Derived Array Data Matrix File
+32:Factor Value [Time]
+33:Unit [TimeUnit]
+34:Factor Value [Tissue Class]
+35:Factor Value [Organism Part]

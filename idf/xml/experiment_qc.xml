@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<exp_qc source="efo">
+  <node id="term" label="Quality Control Type" geo_key="">
+        <![CDATA[The quality control procedures used. Typically these terms should come from the Experimental Factor Ontology. See for example the list of qc_type terms(https://www.ebi.ac.uk/efo/EFO_0004107)]]>
+  </node>
+  <node id="term_source" label="Quality Control Term Source REF" geo_key="">
+      <![CDATA[
+       The source of the Quality Control Type terms; his must reference one of the Term Source Names defined in the IDF file.
+   ]]>
+  </node>
+  <node id="term_accession" label="Quality Control Term Accession Number" geo_key="">
+       <![CDATA[The accession number for this term, taken from the indicated Term Source.]]>
+  </node>
+  
+ <!-- qc_type category is obsolete - see https://www.ebi.ac.uk/efo/EFO_0004107 -->
+</exp_qc>

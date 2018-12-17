@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<exp_normalization source="mged">
+  <node id="term" label="Normalization Type" geo_key="">
+        <![CDATA[
+      The normalization strategies used. Typically these terms should come from the MGED Ontology(http://mged.sourceforge.net/ontologies/index.php). 
+      See for example the list of NormalizationDescriptionType terms.
+  See for example the list of normalization terms.(http://mged.sourceforge.net/ontologies/MGEDontology.php#NormalizationDescriptionType)
+ ]]>
+  </node>
+  <node id="term_source" label="Normalization Term Source REF" geo_key="">
+      <![CDATA[
+       The source of the Normalization Type terms; this must reference one of the Term Source Names defined in the IDF file.
+   ]]>
+  </node>
+  <node id="term_accession" label="Normalization Term Accession Number" geo_key="">
+       <![CDATA[The accession number for this term, taken from the indicated Term Source.]]>
+  </node>
+</exp_normalization>

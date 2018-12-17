@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<exp_replicat source="efo">
+  <node id="term" label="Replicate Type" geo_key="">
+        <![CDATA[
+  The replicate strategies used. Typically these terms should come from the Experimental Factor Ontology.
+  See for example the list of replicate terms.(https://www.ebi.ac.uk/ols/ontologies/efo/terms?short_form=EFO_0000683)
+ ]]>
+  </node>
+  <node id="term_source" label="Replicate Term Source REF" geo_key="">
+      <![CDATA[
+       The source of the Replicat Type terms; this must reference one of the Term Source Names defined in the IDF file.
+   ]]>
+  </node>
+  <node id="term_accession" label="Replicate Term Accession Number" geo_key="">
+       <![CDATA[The accession number for this term, taken from the indicated Term Source.]]>
+  </node>
+</exp_replicat>

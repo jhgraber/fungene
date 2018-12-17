@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<exp_publication source="geo">
+  <node id="pubmed_id" label="PubMed ID" geo_key="pubmed_id">
+        <![CDATA[The PubMed IDs of the publication(s) associated with this investigation (where available).]]>
+  </node>
+  
+  <node id="release_date" label="Public Release Date" geo_key="submission_date">
+        <![CDATA[The date on which the experimental data will be/was released. You can ask us to change this later.]]>
+  </node>
+ 
+  <node id="doi" label="Publication DOI" geo_key="">
+        <![CDATA[A Digital Object Identifier (DOI) for each publication (where available).]]>
+  </node>
+
+  <node id="author_list" label="Publication Author List" geo_key="contributor">
+        <![CDATA[The list of authors associated with the publication.]]>
+  </node>
+
+   <node id="title" label="Publication Title" geo_key="title">
+        <![CDATA[The title of each publication.]]>
+  </node>
+</exp_publication>

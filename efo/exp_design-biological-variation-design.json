@@ -1,0 +1,962 @@
+{
+  "_embedded" : {
+    "terms" : [ {
+      "iri" : "http://www.ebi.ac.uk/efo/EFO_0004666",
+      "label" : "cellular modification design",
+      "description" : [ "A cellular modification design type is where a modification of the transcriptome, proteome (not genome) is made, for example RNAi, antibody targeting." ],
+      "annotation" : {
+        "MO_definition_citation" : [ "MO:392" ],
+        "term editor" : [ "Jon Ison", "Natalja Kurbatova" ]
+      },
+      "synonyms" : [ "cellular_modification_design" ],
+      "ontology_name" : "efo",
+      "ontology_prefix" : "EFO",
+      "ontology_iri" : "http://www.ebi.ac.uk/efo/efo.owl",
+      "is_obsolete" : false,
+      "term_replaced_by" : null,
+      "is_defining_ontology" : true,
+      "has_children" : false,
+      "is_root" : false,
+      "short_form" : "EFO_0004666",
+      "obo_id" : "EFO:0004666",
+      "in_subset" : null,
+      "obo_definition_citation" : null,
+      "obo_xref" : null,
+      "obo_synonym" : null,
+      "_links" : {
+        "self" : {
+          "href" : "https://www.ebi.ac.uk/ols/api/ontologies/efo/terms/http%253A%252F%252Fwww.ebi.ac.uk%252Fefo%252FEFO_0004666"
+        },
+        "parents" : {
+          "href" : "https://www.ebi.ac.uk/ols/api/ontologies/efo/terms/http%253A%252F%252Fwww.ebi.ac.uk%252Fefo%252FEFO_0004666/parents"
+        },
+        "ancestors" : {
+          "href" : "https://www.ebi.ac.uk/ols/api/ontologies/efo/terms/http%253A%252F%252Fwww.ebi.ac.uk%252Fefo%252FEFO_0004666/ancestors"
+        },
+        "hierarchicalParents" : {
+          "href" : "https://www.ebi.ac.uk/ols/api/ontologies/efo/terms/http%253A%252F%252Fwww.ebi.ac.uk%252Fefo%252FEFO_0004666/hierarchicalParents"
+        },
+        "hierarchicalAncestors" : {
+          "href" : "https://www.ebi.ac.uk/ols/api/ontologies/efo/terms/http%253A%252F%252Fwww.ebi.ac.uk%252Fefo%252FEFO_0004666/hierarchicalAncestors"
+        },
+        "jstree" : {
+          "href" : "https://www.ebi.ac.uk/ols/api/ontologies/efo/terms/http%253A%252F%252Fwww.ebi.ac.uk%252Fefo%252FEFO_0004666/jstree"
+        },
+        "graph" : {
+          "href" : "https://www.ebi.ac.uk/ols/api/ontologies/efo/terms/http%253A%252F%252Fwww.ebi.ac.uk%252Fefo%252FEFO_0004666/graph"
+        }
+      }
+    }, {
+      "iri" : "http://www.ebi.ac.uk/efo/EFO_0000629",
+      "label" : "observational design",
+      "description" : [ "The act of regarding attentively and studying facts and occurrences, gathering data through analyzing, measuring, and drawing conclusions" ],
+      "annotation" : {
+        "term editor" : [ "James Malone", "Natalja Kurbatova" ]
+      },
+      "synonyms" : null,
+      "ontology_name" : "efo",
+      "ontology_prefix" : "EFO",
+      "ontology_iri" : "http://www.ebi.ac.uk/efo/efo.owl",
+      "is_obsolete" : false,
+      "term_replaced_by" : null,
+      "is_defining_ontology" : true,
+      "has_children" : false,
+      "is_root" : false,
+      "short_form" : "EFO_0000629",
+      "obo_id" : "EFO:0000629",
+      "in_subset" : null,
+      "obo_definition_citation" : null,
+      "obo_xref" : null,
+      "obo_synonym" : null,
+      "_links" : {
+        "self" : {
+          "href" : "https://www.ebi.ac.uk/ols/api/ontologies/efo/terms/http%253A%252F%252Fwww.ebi.ac.uk%252Fefo%252FEFO_0000629"
+        },
+        "parents" : {
+          "href" : "https://www.ebi.ac.uk/ols/api/ontologies/efo/terms/http%253A%252F%252Fwww.ebi.ac.uk%252Fefo%252FEFO_0000629/parents"
+        },
+        "ancestors" : {
+          "href" : "https://www.ebi.ac.uk/ols/api/ontologies/efo/terms/http%253A%252F%252Fwww.ebi.ac.uk%252Fefo%252FEFO_0000629/ancestors"
+        },
+        "hierarchicalParents" : {
+          "href" : "https://www.ebi.ac.uk/ols/api/ontologies/efo/terms/http%253A%252F%252Fwww.ebi.ac.uk%252Fefo%252FEFO_0000629/hierarchicalParents"
+        },
+        "hierarchicalAncestors" : {
+          "href" : "https://www.ebi.ac.uk/ols/api/ontologies/efo/terms/http%253A%252F%252Fwww.ebi.ac.uk%252Fefo%252FEFO_0000629/hierarchicalAncestors"
+        },
+        "jstree" : {
+          "href" : "https://www.ebi.ac.uk/ols/api/ontologies/efo/terms/http%253A%252F%252Fwww.ebi.ac.uk%252Fefo%252FEFO_0000629/jstree"
+        },
+        "graph" : {
+          "href" : "https://www.ebi.ac.uk/ols/api/ontologies/efo/terms/http%253A%252F%252Fwww.ebi.ac.uk%252Fefo%252FEFO_0000629/graph"
+        }
+      }
+    }, {
+      "iri" : "http://www.ebi.ac.uk/efo/EFO_0001783",
+      "label" : "RNA stability design",
+      "description" : [ "A RNA stability study design type examines the stability and/or decay of RNA transcripts." ],
+      "annotation" : {
+        "MO_definition_citation" : [ "MO:553" ],
+        "bioportal_provenance" : [ "RNA_stability_design[accessedResource: MO_553][accessDate: 05-04-2011]" ],
+        "term editor" : [ "Tomasz Adamusiak", "Natalja Kurbatova" ]
+      },
+      "synonyms" : [ "RNA_stability_design" ],
+      "ontology_name" : "efo",
+      "ontology_prefix" : "EFO",
+      "ontology_iri" : "http://www.ebi.ac.uk/efo/efo.owl",
+      "is_obsolete" : false,
+      "term_replaced_by" : null,
+      "is_defining_ontology" : true,
+      "has_children" : false,
+      "is_root" : false,
+      "short_form" : "EFO_0001783",
+      "obo_id" : "EFO:0001783",
+      "in_subset" : null,
+      "obo_definition_citation" : null,
+      "obo_xref" : null,
+      "obo_synonym" : null,
+      "_links" : {
+        "self" : {
+          "href" : "https://www.ebi.ac.uk/ols/api/ontologies/efo/terms/http%253A%252F%252Fwww.ebi.ac.uk%252Fefo%252FEFO_0001783"
+        },
+        "parents" : {
+          "href" : "https://www.ebi.ac.uk/ols/api/ontologies/efo/terms/http%253A%252F%252Fwww.ebi.ac.uk%252Fefo%252FEFO_0001783/parents"
+        },
+        "ancestors" : {
+          "href" : "https://www.ebi.ac.uk/ols/api/ontologies/efo/terms/http%253A%252F%252Fwww.ebi.ac.uk%252Fefo%252FEFO_0001783/ancestors"
+        },
+        "hierarchicalParents" : {
+          "href" : "https://www.ebi.ac.uk/ols/api/ontologies/efo/terms/http%253A%252F%252Fwww.ebi.ac.uk%252Fefo%252FEFO_0001783/hierarchicalParents"
+        },
+        "hierarchicalAncestors" : {
+          "href" : "https://www.ebi.ac.uk/ols/api/ontologies/efo/terms/http%253A%252F%252Fwww.ebi.ac.uk%252Fefo%252FEFO_0001783/hierarchicalAncestors"
+        },
+        "jstree" : {
+          "href" : "https://www.ebi.ac.uk/ols/api/ontologies/efo/terms/http%253A%252F%252Fwww.ebi.ac.uk%252Fefo%252FEFO_0001783/jstree"
+        },
+        "graph" : {
+          "href" : "https://www.ebi.ac.uk/ols/api/ontologies/efo/terms/http%253A%252F%252Fwww.ebi.ac.uk%252Fefo%252FEFO_0001783/graph"
+        }
+      }
+    }, {
+      "iri" : "http://www.ebi.ac.uk/efo/EFO_0001780",
+      "label" : "clinical history design",
+      "description" : [ "A clinical history study design type is where the organisms clinical history of diagnosis, treatments, e.g. vaccinations, surgery etc. is studied." ],
+      "annotation" : {
+        "MO_definition_citation" : [ "MO:832" ],
+        "bioportal_provenance" : [ "clinical_history_design[accessedResource: MO_832][accessDate: 05-04-2011]" ],
+        "term editor" : [ "Tomasz Adamusiak", "Natalja Kurbatova" ]
+      },
+      "synonyms" : [ "clinical_history_design" ],
+      "ontology_name" : "efo",
+      "ontology_prefix" : "EFO",
+      "ontology_iri" : "http://www.ebi.ac.uk/efo/efo.owl",
+      "is_obsolete" : false,
+      "term_replaced_by" : null,
+      "is_defining_ontology" : true,
+      "has_children" : false,
+      "is_root" : false,
+      "short_form" : "EFO_0001780",
+      "obo_id" : "EFO:0001780",
+      "in_subset" : null,
+      "obo_definition_citation" : null,
+      "obo_xref" : null,
+      "obo_synonym" : null,
+      "_links" : {
+        "self" : {
+          "href" : "https://www.ebi.ac.uk/ols/api/ontologies/efo/terms/http%253A%252F%252Fwww.ebi.ac.uk%252Fefo%252FEFO_0001780"
+        },
+        "parents" : {
+          "href" : "https://www.ebi.ac.uk/ols/api/ontologies/efo/terms/http%253A%252F%252Fwww.ebi.ac.uk%252Fefo%252FEFO_0001780/parents"
+        },
+        "ancestors" : {
+          "href" : "https://www.ebi.ac.uk/ols/api/ontologies/efo/terms/http%253A%252F%252Fwww.ebi.ac.uk%252Fefo%252FEFO_0001780/ancestors"
+        },
+        "hierarchicalParents" : {
+          "href" : "https://www.ebi.ac.uk/ols/api/ontologies/efo/terms/http%253A%252F%252Fwww.ebi.ac.uk%252Fefo%252FEFO_0001780/hierarchicalParents"
+        },
+        "hierarchicalAncestors" : {
+          "href" : "https://www.ebi.ac.uk/ols/api/ontologies/efo/terms/http%253A%252F%252Fwww.ebi.ac.uk%252Fefo%252FEFO_0001780/hierarchicalAncestors"
+        },
+        "jstree" : {
+          "href" : "https://www.ebi.ac.uk/ols/api/ontologies/efo/terms/http%253A%252F%252Fwww.ebi.ac.uk%252Fefo%252FEFO_0001780/jstree"
+        },
+        "graph" : {
+          "href" : "https://www.ebi.ac.uk/ols/api/ontologies/efo/terms/http%253A%252F%252Fwww.ebi.ac.uk%252Fefo%252FEFO_0001780/graph"
+        }
+      }
+    }, {
+      "iri" : "http://www.ebi.ac.uk/efo/EFO_0001779",
+      "label" : "time series design",
+      "description" : [ "A time series study design type examines groups of assays that are related as part of a time series." ],
+      "annotation" : {
+        "MO_definition_citation" : [ "MO:887" ],
+        "bioportal_provenance" : [ "time_series_design[accessedResource: MO_887][accessDate: 05-04-2011]" ],
+        "term editor" : [ "Tomasz Adamusiak", "Natalja Kurbatova" ]
+      },
+      "synonyms" : [ "time_series_design" ],
+      "ontology_name" : "efo",
+      "ontology_prefix" : "EFO",
+      "ontology_iri" : "http://www.ebi.ac.uk/efo/efo.owl",
+      "is_obsolete" : false,
+      "term_replaced_by" : null,
+      "is_defining_ontology" : true,
+      "has_children" : false,
+      "is_root" : false,
+      "short_form" : "EFO_0001779",
+      "obo_id" : "EFO:0001779",
+      "in_subset" : null,
+      "obo_definition_citation" : null,
+      "obo_xref" : null,
+      "obo_synonym" : null,
+      "_links" : {
+        "self" : {
+          "href" : "https://www.ebi.ac.uk/ols/api/ontologies/efo/terms/http%253A%252F%252Fwww.ebi.ac.uk%252Fefo%252FEFO_0001779"
+        },
+        "parents" : {
+          "href" : "https://www.ebi.ac.uk/ols/api/ontologies/efo/terms/http%253A%252F%252Fwww.ebi.ac.uk%252Fefo%252FEFO_0001779/parents"
+        },
+        "ancestors" : {
+          "href" : "https://www.ebi.ac.uk/ols/api/ontologies/efo/terms/http%253A%252F%252Fwww.ebi.ac.uk%252Fefo%252FEFO_0001779/ancestors"
+        },
+        "hierarchicalParents" : {
+          "href" : "https://www.ebi.ac.uk/ols/api/ontologies/efo/terms/http%253A%252F%252Fwww.ebi.ac.uk%252Fefo%252FEFO_0001779/hierarchicalParents"
+        },
+        "hierarchicalAncestors" : {
+          "href" : "https://www.ebi.ac.uk/ols/api/ontologies/efo/terms/http%253A%252F%252Fwww.ebi.ac.uk%252Fefo%252FEFO_0001779/hierarchicalAncestors"
+        },
+        "jstree" : {
+          "href" : "https://www.ebi.ac.uk/ols/api/ontologies/efo/terms/http%253A%252F%252Fwww.ebi.ac.uk%252Fefo%252FEFO_0001779/jstree"
+        },
+        "graph" : {
+          "href" : "https://www.ebi.ac.uk/ols/api/ontologies/efo/terms/http%253A%252F%252Fwww.ebi.ac.uk%252Fefo%252FEFO_0001779/graph"
+        }
+      }
+    }, {
+      "iri" : "http://www.ebi.ac.uk/efo/EFO_0001755",
+      "label" : "compound treatment design",
+      "description" : [ "A compound treatment study design type is where the response to administration of a compound or chemical (including biological compounds such as hormones) is assayed." ],
+      "annotation" : {
+        "MO_definition_citation" : [ "MO:555" ],
+        "bioportal_provenance" : [ "compound_treatment_design[accessedResource: MO_555][accessDate: 05-04-2011]" ],
+        "term editor" : [ "Tomasz Adamusiak", "Natalja Kurbatova" ]
+      },
+      "synonyms" : [ "compound_treatment_design" ],
+      "ontology_name" : "efo",
+      "ontology_prefix" : "EFO",
+      "ontology_iri" : "http://www.ebi.ac.uk/efo/efo.owl",
+      "is_obsolete" : false,
+      "term_replaced_by" : null,
+      "is_defining_ontology" : true,
+      "has_children" : false,
+      "is_root" : false,
+      "short_form" : "EFO_0001755",
+      "obo_id" : "EFO:0001755",
+      "in_subset" : null,
+      "obo_definition_citation" : null,
+      "obo_xref" : null,
+      "obo_synonym" : null,
+      "_links" : {
+        "self" : {
+          "href" : "https://www.ebi.ac.uk/ols/api/ontologies/efo/terms/http%253A%252F%252Fwww.ebi.ac.uk%252Fefo%252FEFO_0001755"
+        },
+        "parents" : {
+          "href" : "https://www.ebi.ac.uk/ols/api/ontologies/efo/terms/http%253A%252F%252Fwww.ebi.ac.uk%252Fefo%252FEFO_0001755/parents"
+        },
+        "ancestors" : {
+          "href" : "https://www.ebi.ac.uk/ols/api/ontologies/efo/terms/http%253A%252F%252Fwww.ebi.ac.uk%252Fefo%252FEFO_0001755/ancestors"
+        },
+        "hierarchicalParents" : {
+          "href" : "https://www.ebi.ac.uk/ols/api/ontologies/efo/terms/http%253A%252F%252Fwww.ebi.ac.uk%252Fefo%252FEFO_0001755/hierarchicalParents"
+        },
+        "hierarchicalAncestors" : {
+          "href" : "https://www.ebi.ac.uk/ols/api/ontologies/efo/terms/http%253A%252F%252Fwww.ebi.ac.uk%252Fefo%252FEFO_0001755/hierarchicalAncestors"
+        },
+        "jstree" : {
+          "href" : "https://www.ebi.ac.uk/ols/api/ontologies/efo/terms/http%253A%252F%252Fwww.ebi.ac.uk%252Fefo%252FEFO_0001755/jstree"
+        },
+        "graph" : {
+          "href" : "https://www.ebi.ac.uk/ols/api/ontologies/efo/terms/http%253A%252F%252Fwww.ebi.ac.uk%252Fefo%252FEFO_0001755/graph"
+        }
+      }
+    }, {
+      "iri" : "http://www.ebi.ac.uk/efo/EFO_0001756",
+      "label" : "disease state design",
+      "description" : [ "A disease state study design type in which the pathological condition of a part, organ, or system of an organism is studied. The etiology may be from infection, genetic defect, or environmental stress." ],
+      "annotation" : {
+        "MO_definition_citation" : [ "MO:MO:902" ],
+        "bioportal_provenance" : [ "disease_state_design[accessedResource: MO_902][accessDate: 05-04-2011]" ],
+        "term editor" : [ "Tomasz Adamusiak", "Natalja Kurbatova" ]
+      },
+      "synonyms" : [ "disease_state_design" ],
+      "ontology_name" : "efo",
+      "ontology_prefix" : "EFO",
+      "ontology_iri" : "http://www.ebi.ac.uk/efo/efo.owl",
+      "is_obsolete" : false,
+      "term_replaced_by" : null,
+      "is_defining_ontology" : true,
+      "has_children" : false,
+      "is_root" : false,
+      "short_form" : "EFO_0001756",
+      "obo_id" : "EFO:0001756",
+      "in_subset" : null,
+      "obo_definition_citation" : null,
+      "obo_xref" : null,
+      "obo_synonym" : null,
+      "_links" : {
+        "self" : {
+          "href" : "https://www.ebi.ac.uk/ols/api/ontologies/efo/terms/http%253A%252F%252Fwww.ebi.ac.uk%252Fefo%252FEFO_0001756"
+        },
+        "parents" : {
+          "href" : "https://www.ebi.ac.uk/ols/api/ontologies/efo/terms/http%253A%252F%252Fwww.ebi.ac.uk%252Fefo%252FEFO_0001756/parents"
+        },
+        "ancestors" : {
+          "href" : "https://www.ebi.ac.uk/ols/api/ontologies/efo/terms/http%253A%252F%252Fwww.ebi.ac.uk%252Fefo%252FEFO_0001756/ancestors"
+        },
+        "hierarchicalParents" : {
+          "href" : "https://www.ebi.ac.uk/ols/api/ontologies/efo/terms/http%253A%252F%252Fwww.ebi.ac.uk%252Fefo%252FEFO_0001756/hierarchicalParents"
+        },
+        "hierarchicalAncestors" : {
+          "href" : "https://www.ebi.ac.uk/ols/api/ontologies/efo/terms/http%253A%252F%252Fwww.ebi.ac.uk%252Fefo%252FEFO_0001756/hierarchicalAncestors"
+        },
+        "jstree" : {
+          "href" : "https://www.ebi.ac.uk/ols/api/ontologies/efo/terms/http%253A%252F%252Fwww.ebi.ac.uk%252Fefo%252FEFO_0001756/jstree"
+        },
+        "graph" : {
+          "href" : "https://www.ebi.ac.uk/ols/api/ontologies/efo/terms/http%253A%252F%252Fwww.ebi.ac.uk%252Fefo%252FEFO_0001756/graph"
+        }
+      }
+    }, {
+      "iri" : "http://www.ebi.ac.uk/efo/EFO_0001753",
+      "label" : "species design",
+      "description" : [ "A species study design type assays differences between distinct species." ],
+      "annotation" : {
+        "MO_definition_citation" : [ "MO:675" ],
+        "bioportal_provenance" : [ "species_design[accessedResource: MO_675][accessDate: 05-04-2011]" ],
+        "term editor" : [ "Tomasz Adamusiak", "Natalja Kurbatova" ]
+      },
+      "synonyms" : [ "species_design" ],
+      "ontology_name" : "efo",
+      "ontology_prefix" : "EFO",
+      "ontology_iri" : "http://www.ebi.ac.uk/efo/efo.owl",
+      "is_obsolete" : false,
+      "term_replaced_by" : null,
+      "is_defining_ontology" : true,
+      "has_children" : false,
+      "is_root" : false,
+      "short_form" : "EFO_0001753",
+      "obo_id" : "EFO:0001753",
+      "in_subset" : null,
+      "obo_definition_citation" : null,
+      "obo_xref" : null,
+      "obo_synonym" : null,
+      "_links" : {
+        "self" : {
+          "href" : "https://www.ebi.ac.uk/ols/api/ontologies/efo/terms/http%253A%252F%252Fwww.ebi.ac.uk%252Fefo%252FEFO_0001753"
+        },
+        "parents" : {
+          "href" : "https://www.ebi.ac.uk/ols/api/ontologies/efo/terms/http%253A%252F%252Fwww.ebi.ac.uk%252Fefo%252FEFO_0001753/parents"
+        },
+        "ancestors" : {
+          "href" : "https://www.ebi.ac.uk/ols/api/ontologies/efo/terms/http%253A%252F%252Fwww.ebi.ac.uk%252Fefo%252FEFO_0001753/ancestors"
+        },
+        "hierarchicalParents" : {
+          "href" : "https://www.ebi.ac.uk/ols/api/ontologies/efo/terms/http%253A%252F%252Fwww.ebi.ac.uk%252Fefo%252FEFO_0001753/hierarchicalParents"
+        },
+        "hierarchicalAncestors" : {
+          "href" : "https://www.ebi.ac.uk/ols/api/ontologies/efo/terms/http%253A%252F%252Fwww.ebi.ac.uk%252Fefo%252FEFO_0001753/hierarchicalAncestors"
+        },
+        "jstree" : {
+          "href" : "https://www.ebi.ac.uk/ols/api/ontologies/efo/terms/http%253A%252F%252Fwww.ebi.ac.uk%252Fefo%252FEFO_0001753/jstree"
+        },
+        "graph" : {
+          "href" : "https://www.ebi.ac.uk/ols/api/ontologies/efo/terms/http%253A%252F%252Fwww.ebi.ac.uk%252Fefo%252FEFO_0001753/graph"
+        }
+      }
+    }, {
+      "iri" : "http://www.ebi.ac.uk/efo/EFO_0001754",
+      "label" : "strain or line design",
+      "description" : [ "A strain or line study design type assays differences between multiple strains, cultivars, serovars, isolates, lines from organisms of a single species." ],
+      "annotation" : {
+        "MO_definition_citation" : [ "MO:462" ],
+        "bioportal_provenance" : [ "strain_or_line_design[accessedResource: MO_462][accessDate: 05-04-2011]" ],
+        "term editor" : [ "Tomasz Adamusiak", "Natalja Kurbatova" ]
+      },
+      "synonyms" : [ "strain_or_line_design" ],
+      "ontology_name" : "efo",
+      "ontology_prefix" : "EFO",
+      "ontology_iri" : "http://www.ebi.ac.uk/efo/efo.owl",
+      "is_obsolete" : false,
+      "term_replaced_by" : null,
+      "is_defining_ontology" : true,
+      "has_children" : false,
+      "is_root" : false,
+      "short_form" : "EFO_0001754",
+      "obo_id" : "EFO:0001754",
+      "in_subset" : null,
+      "obo_definition_citation" : null,
+      "obo_xref" : null,
+      "obo_synonym" : null,
+      "_links" : {
+        "self" : {
+          "href" : "https://www.ebi.ac.uk/ols/api/ontologies/efo/terms/http%253A%252F%252Fwww.ebi.ac.uk%252Fefo%252FEFO_0001754"
+        },
+        "parents" : {
+          "href" : "https://www.ebi.ac.uk/ols/api/ontologies/efo/terms/http%253A%252F%252Fwww.ebi.ac.uk%252Fefo%252FEFO_0001754/parents"
+        },
+        "ancestors" : {
+          "href" : "https://www.ebi.ac.uk/ols/api/ontologies/efo/terms/http%253A%252F%252Fwww.ebi.ac.uk%252Fefo%252FEFO_0001754/ancestors"
+        },
+        "hierarchicalParents" : {
+          "href" : "https://www.ebi.ac.uk/ols/api/ontologies/efo/terms/http%253A%252F%252Fwww.ebi.ac.uk%252Fefo%252FEFO_0001754/hierarchicalParents"
+        },
+        "hierarchicalAncestors" : {
+          "href" : "https://www.ebi.ac.uk/ols/api/ontologies/efo/terms/http%253A%252F%252Fwww.ebi.ac.uk%252Fefo%252FEFO_0001754/hierarchicalAncestors"
+        },
+        "jstree" : {
+          "href" : "https://www.ebi.ac.uk/ols/api/ontologies/efo/terms/http%253A%252F%252Fwww.ebi.ac.uk%252Fefo%252FEFO_0001754/jstree"
+        },
+        "graph" : {
+          "href" : "https://www.ebi.ac.uk/ols/api/ontologies/efo/terms/http%253A%252F%252Fwww.ebi.ac.uk%252Fefo%252FEFO_0001754/graph"
+        }
+      }
+    }, {
+      "iri" : "http://www.ebi.ac.uk/efo/EFO_0001751",
+      "label" : "organism status design",
+      "description" : [ "A design that compares samples from live and dead organisms." ],
+      "annotation" : {
+        "MO_definition_citation" : [ "MO:841" ],
+        "bioportal_provenance" : [ "organism_status_design[accessedResource: MO_841][accessDate: 05-04-2011]" ],
+        "term editor" : [ "Tomasz Adamusiak", "Natalja Kurbatova" ]
+      },
+      "synonyms" : [ "organism_status_design" ],
+      "ontology_name" : "efo",
+      "ontology_prefix" : "EFO",
+      "ontology_iri" : "http://www.ebi.ac.uk/efo/efo.owl",
+      "is_obsolete" : false,
+      "term_replaced_by" : null,
+      "is_defining_ontology" : true,
+      "has_children" : false,
+      "is_root" : false,
+      "short_form" : "EFO_0001751",
+      "obo_id" : "EFO:0001751",
+      "in_subset" : null,
+      "obo_definition_citation" : null,
+      "obo_xref" : null,
+      "obo_synonym" : null,
+      "_links" : {
+        "self" : {
+          "href" : "https://www.ebi.ac.uk/ols/api/ontologies/efo/terms/http%253A%252F%252Fwww.ebi.ac.uk%252Fefo%252FEFO_0001751"
+        },
+        "parents" : {
+          "href" : "https://www.ebi.ac.uk/ols/api/ontologies/efo/terms/http%253A%252F%252Fwww.ebi.ac.uk%252Fefo%252FEFO_0001751/parents"
+        },
+        "ancestors" : {
+          "href" : "https://www.ebi.ac.uk/ols/api/ontologies/efo/terms/http%253A%252F%252Fwww.ebi.ac.uk%252Fefo%252FEFO_0001751/ancestors"
+        },
+        "hierarchicalParents" : {
+          "href" : "https://www.ebi.ac.uk/ols/api/ontologies/efo/terms/http%253A%252F%252Fwww.ebi.ac.uk%252Fefo%252FEFO_0001751/hierarchicalParents"
+        },
+        "hierarchicalAncestors" : {
+          "href" : "https://www.ebi.ac.uk/ols/api/ontologies/efo/terms/http%253A%252F%252Fwww.ebi.ac.uk%252Fefo%252FEFO_0001751/hierarchicalAncestors"
+        },
+        "jstree" : {
+          "href" : "https://www.ebi.ac.uk/ols/api/ontologies/efo/terms/http%253A%252F%252Fwww.ebi.ac.uk%252Fefo%252FEFO_0001751/jstree"
+        },
+        "graph" : {
+          "href" : "https://www.ebi.ac.uk/ols/api/ontologies/efo/terms/http%253A%252F%252Fwww.ebi.ac.uk%252Fefo%252FEFO_0001751/graph"
+        }
+      }
+    }, {
+      "iri" : "http://www.ebi.ac.uk/efo/EFO_0001752",
+      "label" : "sex design",
+      "description" : [ "A sex study design type assays differences associated with an organism's sex, gender or mating type." ],
+      "annotation" : {
+        "MO_definition_citation" : [ "MO:575" ],
+        "bioportal_provenance" : [ "sex_design[accessedResource: MO_575][accessDate: 05-04-2011]" ],
+        "term editor" : [ "Tomasz Adamusiak", "Natalja Kurbatova" ]
+      },
+      "synonyms" : [ "sex_design" ],
+      "ontology_name" : "efo",
+      "ontology_prefix" : "EFO",
+      "ontology_iri" : "http://www.ebi.ac.uk/efo/efo.owl",
+      "is_obsolete" : false,
+      "term_replaced_by" : null,
+      "is_defining_ontology" : true,
+      "has_children" : false,
+      "is_root" : false,
+      "short_form" : "EFO_0001752",
+      "obo_id" : "EFO:0001752",
+      "in_subset" : null,
+      "obo_definition_citation" : null,
+      "obo_xref" : null,
+      "obo_synonym" : null,
+      "_links" : {
+        "self" : {
+          "href" : "https://www.ebi.ac.uk/ols/api/ontologies/efo/terms/http%253A%252F%252Fwww.ebi.ac.uk%252Fefo%252FEFO_0001752"
+        },
+        "parents" : {
+          "href" : "https://www.ebi.ac.uk/ols/api/ontologies/efo/terms/http%253A%252F%252Fwww.ebi.ac.uk%252Fefo%252FEFO_0001752/parents"
+        },
+        "ancestors" : {
+          "href" : "https://www.ebi.ac.uk/ols/api/ontologies/efo/terms/http%253A%252F%252Fwww.ebi.ac.uk%252Fefo%252FEFO_0001752/ancestors"
+        },
+        "hierarchicalParents" : {
+          "href" : "https://www.ebi.ac.uk/ols/api/ontologies/efo/terms/http%253A%252F%252Fwww.ebi.ac.uk%252Fefo%252FEFO_0001752/hierarchicalParents"
+        },
+        "hierarchicalAncestors" : {
+          "href" : "https://www.ebi.ac.uk/ols/api/ontologies/efo/terms/http%253A%252F%252Fwww.ebi.ac.uk%252Fefo%252FEFO_0001752/hierarchicalAncestors"
+        },
+        "jstree" : {
+          "href" : "https://www.ebi.ac.uk/ols/api/ontologies/efo/terms/http%253A%252F%252Fwww.ebi.ac.uk%252Fefo%252FEFO_0001752/jstree"
+        },
+        "graph" : {
+          "href" : "https://www.ebi.ac.uk/ols/api/ontologies/efo/terms/http%253A%252F%252Fwww.ebi.ac.uk%252Fefo%252FEFO_0001752/graph"
+        }
+      }
+    }, {
+      "iri" : "http://www.ebi.ac.uk/efo/EFO_0001750",
+      "label" : "organism part comparison design",
+      "description" : [ "An organism part comparison study design type compares tissues, regions, organs within or between organisms." ],
+      "annotation" : {
+        "MO_definition_citation" : [ "MO:953" ],
+        "bioportal_provenance" : [ "organism_part_comparison_design[accessedResource: MO_953][accessDate: 05-04-2011]" ],
+        "term editor" : [ "Tomasz Adamusiak", "Natalja Kurbatova" ]
+      },
+      "synonyms" : [ "organism_part_comparison_design" ],
+      "ontology_name" : "efo",
+      "ontology_prefix" : "EFO",
+      "ontology_iri" : "http://www.ebi.ac.uk/efo/efo.owl",
+      "is_obsolete" : false,
+      "term_replaced_by" : null,
+      "is_defining_ontology" : true,
+      "has_children" : false,
+      "is_root" : false,
+      "short_form" : "EFO_0001750",
+      "obo_id" : "EFO:0001750",
+      "in_subset" : null,
+      "obo_definition_citation" : null,
+      "obo_xref" : null,
+      "obo_synonym" : null,
+      "_links" : {
+        "self" : {
+          "href" : "https://www.ebi.ac.uk/ols/api/ontologies/efo/terms/http%253A%252F%252Fwww.ebi.ac.uk%252Fefo%252FEFO_0001750"
+        },
+        "parents" : {
+          "href" : "https://www.ebi.ac.uk/ols/api/ontologies/efo/terms/http%253A%252F%252Fwww.ebi.ac.uk%252Fefo%252FEFO_0001750/parents"
+        },
+        "ancestors" : {
+          "href" : "https://www.ebi.ac.uk/ols/api/ontologies/efo/terms/http%253A%252F%252Fwww.ebi.ac.uk%252Fefo%252FEFO_0001750/ancestors"
+        },
+        "hierarchicalParents" : {
+          "href" : "https://www.ebi.ac.uk/ols/api/ontologies/efo/terms/http%253A%252F%252Fwww.ebi.ac.uk%252Fefo%252FEFO_0001750/hierarchicalParents"
+        },
+        "hierarchicalAncestors" : {
+          "href" : "https://www.ebi.ac.uk/ols/api/ontologies/efo/terms/http%253A%252F%252Fwww.ebi.ac.uk%252Fefo%252FEFO_0001750/hierarchicalAncestors"
+        },
+        "jstree" : {
+          "href" : "https://www.ebi.ac.uk/ols/api/ontologies/efo/terms/http%253A%252F%252Fwww.ebi.ac.uk%252Fefo%252FEFO_0001750/jstree"
+        },
+        "graph" : {
+          "href" : "https://www.ebi.ac.uk/ols/api/ontologies/efo/terms/http%253A%252F%252Fwww.ebi.ac.uk%252Fefo%252FEFO_0001750/graph"
+        }
+      }
+    }, {
+      "iri" : "http://www.ebi.ac.uk/efo/EFO_0001748",
+      "label" : "genotype design",
+      "description" : [ "A genotype study design type compares genotype, haplotype, or other individual genetic characteristics." ],
+      "annotation" : {
+        "MO_definition_citation" : [ "MO:527" ],
+        "bioportal_provenance" : [ "individual_genetic_characteristics_design[accessedResource: MO_527][accessDate: 05-04-2011]" ],
+        "term editor" : [ "Tomasz Adamusiak", "Natalja Kurbatova" ]
+      },
+      "synonyms" : [ "individual_genetic_characteristics_design" ],
+      "ontology_name" : "efo",
+      "ontology_prefix" : "EFO",
+      "ontology_iri" : "http://www.ebi.ac.uk/efo/efo.owl",
+      "is_obsolete" : false,
+      "term_replaced_by" : null,
+      "is_defining_ontology" : true,
+      "has_children" : false,
+      "is_root" : false,
+      "short_form" : "EFO_0001748",
+      "obo_id" : "EFO:0001748",
+      "in_subset" : null,
+      "obo_definition_citation" : null,
+      "obo_xref" : null,
+      "obo_synonym" : null,
+      "_links" : {
+        "self" : {
+          "href" : "https://www.ebi.ac.uk/ols/api/ontologies/efo/terms/http%253A%252F%252Fwww.ebi.ac.uk%252Fefo%252FEFO_0001748"
+        },
+        "parents" : {
+          "href" : "https://www.ebi.ac.uk/ols/api/ontologies/efo/terms/http%253A%252F%252Fwww.ebi.ac.uk%252Fefo%252FEFO_0001748/parents"
+        },
+        "ancestors" : {
+          "href" : "https://www.ebi.ac.uk/ols/api/ontologies/efo/terms/http%253A%252F%252Fwww.ebi.ac.uk%252Fefo%252FEFO_0001748/ancestors"
+        },
+        "hierarchicalParents" : {
+          "href" : "https://www.ebi.ac.uk/ols/api/ontologies/efo/terms/http%253A%252F%252Fwww.ebi.ac.uk%252Fefo%252FEFO_0001748/hierarchicalParents"
+        },
+        "hierarchicalAncestors" : {
+          "href" : "https://www.ebi.ac.uk/ols/api/ontologies/efo/terms/http%253A%252F%252Fwww.ebi.ac.uk%252Fefo%252FEFO_0001748/hierarchicalAncestors"
+        },
+        "jstree" : {
+          "href" : "https://www.ebi.ac.uk/ols/api/ontologies/efo/terms/http%253A%252F%252Fwww.ebi.ac.uk%252Fefo%252FEFO_0001748/jstree"
+        },
+        "graph" : {
+          "href" : "https://www.ebi.ac.uk/ols/api/ontologies/efo/terms/http%253A%252F%252Fwww.ebi.ac.uk%252Fefo%252FEFO_0001748/graph"
+        }
+      }
+    }, {
+      "iri" : "http://www.ebi.ac.uk/efo/EFO_0001749",
+      "label" : "innate behavior design",
+      "description" : [ "An innate behaviour study design type in which the innate behavior of the organism is examined, e.g. path finding in bees." ],
+      "annotation" : {
+        "MO_definition_citation" : [ "MO:355" ],
+        "bioportal_provenance" : [ "innate_behavior_design[accessedResource: MO_355][accessDate: 05-04-2011]" ],
+        "term editor" : [ "Tomasz Adamusiak", "Natalja Kurbatova" ]
+      },
+      "synonyms" : [ "innate_behavior_design" ],
+      "ontology_name" : "efo",
+      "ontology_prefix" : "EFO",
+      "ontology_iri" : "http://www.ebi.ac.uk/efo/efo.owl",
+      "is_obsolete" : false,
+      "term_replaced_by" : null,
+      "is_defining_ontology" : true,
+      "has_children" : false,
+      "is_root" : false,
+      "short_form" : "EFO_0001749",
+      "obo_id" : "EFO:0001749",
+      "in_subset" : null,
+      "obo_definition_citation" : null,
+      "obo_xref" : null,
+      "obo_synonym" : null,
+      "_links" : {
+        "self" : {
+          "href" : "https://www.ebi.ac.uk/ols/api/ontologies/efo/terms/http%253A%252F%252Fwww.ebi.ac.uk%252Fefo%252FEFO_0001749"
+        },
+        "parents" : {
+          "href" : "https://www.ebi.ac.uk/ols/api/ontologies/efo/terms/http%253A%252F%252Fwww.ebi.ac.uk%252Fefo%252FEFO_0001749/parents"
+        },
+        "ancestors" : {
+          "href" : "https://www.ebi.ac.uk/ols/api/ontologies/efo/terms/http%253A%252F%252Fwww.ebi.ac.uk%252Fefo%252FEFO_0001749/ancestors"
+        },
+        "hierarchicalParents" : {
+          "href" : "https://www.ebi.ac.uk/ols/api/ontologies/efo/terms/http%253A%252F%252Fwww.ebi.ac.uk%252Fefo%252FEFO_0001749/hierarchicalParents"
+        },
+        "hierarchicalAncestors" : {
+          "href" : "https://www.ebi.ac.uk/ols/api/ontologies/efo/terms/http%253A%252F%252Fwww.ebi.ac.uk%252Fefo%252FEFO_0001749/hierarchicalAncestors"
+        },
+        "jstree" : {
+          "href" : "https://www.ebi.ac.uk/ols/api/ontologies/efo/terms/http%253A%252F%252Fwww.ebi.ac.uk%252Fefo%252FEFO_0001749/jstree"
+        },
+        "graph" : {
+          "href" : "https://www.ebi.ac.uk/ols/api/ontologies/efo/terms/http%253A%252F%252Fwww.ebi.ac.uk%252Fefo%252FEFO_0001749/graph"
+        }
+      }
+    }, {
+      "iri" : "http://www.ebi.ac.uk/efo/EFO_0001746",
+      "label" : "development or differentiation design",
+      "description" : [ "A development or differentiation study design type assays events associated with development or differentiation or moving through a life cycle. Development applies to organism(s) acquiring a mature state, and differentiation applies to cells acquiring specialized functions." ],
+      "annotation" : {
+        "MO_definition_citation" : [ "MO:892" ],
+        "bioportal_provenance" : [ "development_or_differentiation_design[accessedResource: MO_892][accessDate: 05-04-2011]" ],
+        "term editor" : [ "Tomasz Adamusiak", "Natalja Kurbatova" ]
+      },
+      "synonyms" : [ "development_or_differentiation_design" ],
+      "ontology_name" : "efo",
+      "ontology_prefix" : "EFO",
+      "ontology_iri" : "http://www.ebi.ac.uk/efo/efo.owl",
+      "is_obsolete" : false,
+      "term_replaced_by" : null,
+      "is_defining_ontology" : true,
+      "has_children" : false,
+      "is_root" : false,
+      "short_form" : "EFO_0001746",
+      "obo_id" : "EFO:0001746",
+      "in_subset" : null,
+      "obo_definition_citation" : null,
+      "obo_xref" : null,
+      "obo_synonym" : null,
+      "_links" : {
+        "self" : {
+          "href" : "https://www.ebi.ac.uk/ols/api/ontologies/efo/terms/http%253A%252F%252Fwww.ebi.ac.uk%252Fefo%252FEFO_0001746"
+        },
+        "parents" : {
+          "href" : "https://www.ebi.ac.uk/ols/api/ontologies/efo/terms/http%253A%252F%252Fwww.ebi.ac.uk%252Fefo%252FEFO_0001746/parents"
+        },
+        "ancestors" : {
+          "href" : "https://www.ebi.ac.uk/ols/api/ontologies/efo/terms/http%253A%252F%252Fwww.ebi.ac.uk%252Fefo%252FEFO_0001746/ancestors"
+        },
+        "hierarchicalParents" : {
+          "href" : "https://www.ebi.ac.uk/ols/api/ontologies/efo/terms/http%253A%252F%252Fwww.ebi.ac.uk%252Fefo%252FEFO_0001746/hierarchicalParents"
+        },
+        "hierarchicalAncestors" : {
+          "href" : "https://www.ebi.ac.uk/ols/api/ontologies/efo/terms/http%253A%252F%252Fwww.ebi.ac.uk%252Fefo%252FEFO_0001746/hierarchicalAncestors"
+        },
+        "jstree" : {
+          "href" : "https://www.ebi.ac.uk/ols/api/ontologies/efo/terms/http%253A%252F%252Fwww.ebi.ac.uk%252Fefo%252FEFO_0001746/jstree"
+        },
+        "graph" : {
+          "href" : "https://www.ebi.ac.uk/ols/api/ontologies/efo/terms/http%253A%252F%252Fwww.ebi.ac.uk%252Fefo%252FEFO_0001746/graph"
+        }
+      }
+    }, {
+      "iri" : "http://www.ebi.ac.uk/efo/EFO_0001747",
+      "label" : "imprinting design",
+      "description" : [ "An imprinting study design type compares differences in genetic imprinting of maternally- and paternally-inherited chromosomes (e.g., due to in vivo differences in chemical modification and/or chromatin structure)." ],
+      "annotation" : {
+        "MO_definition_citation" : [ "MO:914" ],
+        "bioportal_provenance" : [ "imprinting_design[accessedResource: MO_914][accessDate: 05-04-2011]" ],
+        "term editor" : [ "Tomasz Adamusiak", "Natalja Kurbatova" ]
+      },
+      "synonyms" : [ "imprinting_design" ],
+      "ontology_name" : "efo",
+      "ontology_prefix" : "EFO",
+      "ontology_iri" : "http://www.ebi.ac.uk/efo/efo.owl",
+      "is_obsolete" : false,
+      "term_replaced_by" : null,
+      "is_defining_ontology" : true,
+      "has_children" : false,
+      "is_root" : false,
+      "short_form" : "EFO_0001747",
+      "obo_id" : "EFO:0001747",
+      "in_subset" : null,
+      "obo_definition_citation" : null,
+      "obo_xref" : null,
+      "obo_synonym" : null,
+      "_links" : {
+        "self" : {
+          "href" : "https://www.ebi.ac.uk/ols/api/ontologies/efo/terms/http%253A%252F%252Fwww.ebi.ac.uk%252Fefo%252FEFO_0001747"
+        },
+        "parents" : {
+          "href" : "https://www.ebi.ac.uk/ols/api/ontologies/efo/terms/http%253A%252F%252Fwww.ebi.ac.uk%252Fefo%252FEFO_0001747/parents"
+        },
+        "ancestors" : {
+          "href" : "https://www.ebi.ac.uk/ols/api/ontologies/efo/terms/http%253A%252F%252Fwww.ebi.ac.uk%252Fefo%252FEFO_0001747/ancestors"
+        },
+        "hierarchicalParents" : {
+          "href" : "https://www.ebi.ac.uk/ols/api/ontologies/efo/terms/http%253A%252F%252Fwww.ebi.ac.uk%252Fefo%252FEFO_0001747/hierarchicalParents"
+        },
+        "hierarchicalAncestors" : {
+          "href" : "https://www.ebi.ac.uk/ols/api/ontologies/efo/terms/http%253A%252F%252Fwww.ebi.ac.uk%252Fefo%252FEFO_0001747/hierarchicalAncestors"
+        },
+        "jstree" : {
+          "href" : "https://www.ebi.ac.uk/ols/api/ontologies/efo/terms/http%253A%252F%252Fwww.ebi.ac.uk%252Fefo%252FEFO_0001747/jstree"
+        },
+        "graph" : {
+          "href" : "https://www.ebi.ac.uk/ols/api/ontologies/efo/terms/http%253A%252F%252Fwww.ebi.ac.uk%252Fefo%252FEFO_0001747/graph"
+        }
+      }
+    }, {
+      "iri" : "http://www.ebi.ac.uk/efo/EFO_0001762",
+      "label" : "stimulus or stress design",
+      "description" : [ "A stimulus or stress study design type is where the response of an organism(s) to the stress or stimulus is studied, e.g. osmotic stress, heat shock, radiation exposure, behavioral treatment etc." ],
+      "annotation" : {
+        "MO_definition_citation" : [ "MO:568" ],
+        "bioportal_provenance" : [ "stimulus_or_stress_design[accessedResource: MO_568][accessDate: 05-04-2011]" ],
+        "term editor" : [ "Tomasz Adamusiak", "Natalja Kurbatova" ]
+      },
+      "synonyms" : [ "stimulus_or_stress_design" ],
+      "ontology_name" : "efo",
+      "ontology_prefix" : "EFO",
+      "ontology_iri" : "http://www.ebi.ac.uk/efo/efo.owl",
+      "is_obsolete" : false,
+      "term_replaced_by" : null,
+      "is_defining_ontology" : true,
+      "has_children" : false,
+      "is_root" : false,
+      "short_form" : "EFO_0001762",
+      "obo_id" : "EFO:0001762",
+      "in_subset" : null,
+      "obo_definition_citation" : null,
+      "obo_xref" : null,
+      "obo_synonym" : null,
+      "_links" : {
+        "self" : {
+          "href" : "https://www.ebi.ac.uk/ols/api/ontologies/efo/terms/http%253A%252F%252Fwww.ebi.ac.uk%252Fefo%252FEFO_0001762"
+        },
+        "parents" : {
+          "href" : "https://www.ebi.ac.uk/ols/api/ontologies/efo/terms/http%253A%252F%252Fwww.ebi.ac.uk%252Fefo%252FEFO_0001762/parents"
+        },
+        "ancestors" : {
+          "href" : "https://www.ebi.ac.uk/ols/api/ontologies/efo/terms/http%253A%252F%252Fwww.ebi.ac.uk%252Fefo%252FEFO_0001762/ancestors"
+        },
+        "hierarchicalParents" : {
+          "href" : "https://www.ebi.ac.uk/ols/api/ontologies/efo/terms/http%253A%252F%252Fwww.ebi.ac.uk%252Fefo%252FEFO_0001762/hierarchicalParents"
+        },
+        "hierarchicalAncestors" : {
+          "href" : "https://www.ebi.ac.uk/ols/api/ontologies/efo/terms/http%253A%252F%252Fwww.ebi.ac.uk%252Fefo%252FEFO_0001762/hierarchicalAncestors"
+        },
+        "jstree" : {
+          "href" : "https://www.ebi.ac.uk/ols/api/ontologies/efo/terms/http%253A%252F%252Fwww.ebi.ac.uk%252Fefo%252FEFO_0001762/jstree"
+        },
+        "graph" : {
+          "href" : "https://www.ebi.ac.uk/ols/api/ontologies/efo/terms/http%253A%252F%252Fwww.ebi.ac.uk%252Fefo%252FEFO_0001762/graph"
+        }
+      }
+    }, {
+      "iri" : "http://www.ebi.ac.uk/efo/EFO_0001760",
+      "label" : "injury design",
+      "description" : [ "An injury study design type is where the response of an organism(s) to injury or damage is studied." ],
+      "annotation" : {
+        "MO_definition_citation" : [ "MO:726" ],
+        "bioportal_provenance" : [ "injury_design[accessedResource: MO_726][accessDate: 05-04-2011]" ],
+        "term editor" : [ "Tomasz Adamusiak", "Natalja Kurbatova" ]
+      },
+      "synonyms" : [ "injury_design" ],
+      "ontology_name" : "efo",
+      "ontology_prefix" : "EFO",
+      "ontology_iri" : "http://www.ebi.ac.uk/efo/efo.owl",
+      "is_obsolete" : false,
+      "term_replaced_by" : null,
+      "is_defining_ontology" : true,
+      "has_children" : false,
+      "is_root" : false,
+      "short_form" : "EFO_0001760",
+      "obo_id" : "EFO:0001760",
+      "in_subset" : null,
+      "obo_definition_citation" : null,
+      "obo_xref" : null,
+      "obo_synonym" : null,
+      "_links" : {
+        "self" : {
+          "href" : "https://www.ebi.ac.uk/ols/api/ontologies/efo/terms/http%253A%252F%252Fwww.ebi.ac.uk%252Fefo%252FEFO_0001760"
+        },
+        "parents" : {
+          "href" : "https://www.ebi.ac.uk/ols/api/ontologies/efo/terms/http%253A%252F%252Fwww.ebi.ac.uk%252Fefo%252FEFO_0001760/parents"
+        },
+        "ancestors" : {
+          "href" : "https://www.ebi.ac.uk/ols/api/ontologies/efo/terms/http%253A%252F%252Fwww.ebi.ac.uk%252Fefo%252FEFO_0001760/ancestors"
+        },
+        "hierarchicalParents" : {
+          "href" : "https://www.ebi.ac.uk/ols/api/ontologies/efo/terms/http%253A%252F%252Fwww.ebi.ac.uk%252Fefo%252FEFO_0001760/hierarchicalParents"
+        },
+        "hierarchicalAncestors" : {
+          "href" : "https://www.ebi.ac.uk/ols/api/ontologies/efo/terms/http%253A%252F%252Fwww.ebi.ac.uk%252Fefo%252FEFO_0001760/hierarchicalAncestors"
+        },
+        "jstree" : {
+          "href" : "https://www.ebi.ac.uk/ols/api/ontologies/efo/terms/http%253A%252F%252Fwww.ebi.ac.uk%252Fefo%252FEFO_0001760/jstree"
+        },
+        "graph" : {
+          "href" : "https://www.ebi.ac.uk/ols/api/ontologies/efo/terms/http%253A%252F%252Fwww.ebi.ac.uk%252Fefo%252FEFO_0001760/graph"
+        }
+      }
+    }, {
+      "iri" : "http://www.ebi.ac.uk/efo/EFO_0001761",
+      "label" : "pathogenicity design",
+      "description" : [ "A pathogenicity study design type is where an infective agent such as a bacterium, virus, protozoan, fungus etc. infects a host organism(s) and the infective agent is assayed." ],
+      "annotation" : {
+        "MO_definition_citation" : [ "MO:807" ],
+        "bioportal_provenance" : [ "pathogenicity_design[accessedResource: MO_807][accessDate: 05-04-2011]" ],
+        "term editor" : [ "Tomasz Adamusiak", "Natalja Kurbatova" ]
+      },
+      "synonyms" : [ "pathogenicity_design" ],
+      "ontology_name" : "efo",
+      "ontology_prefix" : "EFO",
+      "ontology_iri" : "http://www.ebi.ac.uk/efo/efo.owl",
+      "is_obsolete" : false,
+      "term_replaced_by" : null,
+      "is_defining_ontology" : true,
+      "has_children" : false,
+      "is_root" : false,
+      "short_form" : "EFO_0001761",
+      "obo_id" : "EFO:0001761",
+      "in_subset" : null,
+      "obo_definition_citation" : null,
+      "obo_xref" : null,
+      "obo_synonym" : null,
+      "_links" : {
+        "self" : {
+          "href" : "https://www.ebi.ac.uk/ols/api/ontologies/efo/terms/http%253A%252F%252Fwww.ebi.ac.uk%252Fefo%252FEFO_0001761"
+        },
+        "parents" : {
+          "href" : "https://www.ebi.ac.uk/ols/api/ontologies/efo/terms/http%253A%252F%252Fwww.ebi.ac.uk%252Fefo%252FEFO_0001761/parents"
+        },
+        "ancestors" : {
+          "href" : "https://www.ebi.ac.uk/ols/api/ontologies/efo/terms/http%253A%252F%252Fwww.ebi.ac.uk%252Fefo%252FEFO_0001761/ancestors"
+        },
+        "hierarchicalParents" : {
+          "href" : "https://www.ebi.ac.uk/ols/api/ontologies/efo/terms/http%253A%252F%252Fwww.ebi.ac.uk%252Fefo%252FEFO_0001761/hierarchicalParents"
+        },
+        "hierarchicalAncestors" : {
+          "href" : "https://www.ebi.ac.uk/ols/api/ontologies/efo/terms/http%253A%252F%252Fwww.ebi.ac.uk%252Fefo%252FEFO_0001761/hierarchicalAncestors"
+        },
+        "jstree" : {
+          "href" : "https://www.ebi.ac.uk/ols/api/ontologies/efo/terms/http%253A%252F%252Fwww.ebi.ac.uk%252Fefo%252FEFO_0001761/jstree"
+        },
+        "graph" : {
+          "href" : "https://www.ebi.ac.uk/ols/api/ontologies/efo/terms/http%253A%252F%252Fwww.ebi.ac.uk%252Fefo%252FEFO_0001761/graph"
+        }
+      }
+    }, {
+      "iri" : "http://www.ebi.ac.uk/efo/EFO_0001759",
+      "label" : "growth condition design",
+      "description" : [ "A growth condition study design type is where some part of the growth condition is changed for the purposes of the experiment, examples of growth conditions changed are media, temperature, humidity, light, nutrients." ],
+      "annotation" : {
+        "MO_definition_citation" : [ "MO:MO:588" ],
+        "bioportal_provenance" : [ "growth_condition_design[accessedResource: MO_588][accessDate: 05-04-2011]" ],
+        "term editor" : [ "Tomasz Adamusiak", "Natalja Kurbatova" ]
+      },
+      "synonyms" : [ "growth_condition_design" ],
+      "ontology_name" : "efo",
+      "ontology_prefix" : "EFO",
+      "ontology_iri" : "http://www.ebi.ac.uk/efo/efo.owl",
+      "is_obsolete" : false,
+      "term_replaced_by" : null,
+      "is_defining_ontology" : true,
+      "has_children" : false,
+      "is_root" : false,
+      "short_form" : "EFO_0001759",
+      "obo_id" : "EFO:0001759",
+      "in_subset" : null,
+      "obo_definition_citation" : null,
+      "obo_xref" : null,
+      "obo_synonym" : null,
+      "_links" : {
+        "self" : {
+          "href" : "https://www.ebi.ac.uk/ols/api/ontologies/efo/terms/http%253A%252F%252Fwww.ebi.ac.uk%252Fefo%252FEFO_0001759"
+        },
+        "parents" : {
+          "href" : "https://www.ebi.ac.uk/ols/api/ontologies/efo/terms/http%253A%252F%252Fwww.ebi.ac.uk%252Fefo%252FEFO_0001759/parents"
+        },
+        "ancestors" : {
+          "href" : "https://www.ebi.ac.uk/ols/api/ontologies/efo/terms/http%253A%252F%252Fwww.ebi.ac.uk%252Fefo%252FEFO_0001759/ancestors"
+        },
+        "hierarchicalParents" : {
+          "href" : "https://www.ebi.ac.uk/ols/api/ontologies/efo/terms/http%253A%252F%252Fwww.ebi.ac.uk%252Fefo%252FEFO_0001759/hierarchicalParents"
+        },
+        "hierarchicalAncestors" : {
+          "href" : "https://www.ebi.ac.uk/ols/api/ontologies/efo/terms/http%253A%252F%252Fwww.ebi.ac.uk%252Fefo%252FEFO_0001759/hierarchicalAncestors"
+        },
+        "jstree" : {
+          "href" : "https://www.ebi.ac.uk/ols/api/ontologies/efo/terms/http%253A%252F%252Fwww.ebi.ac.uk%252Fefo%252FEFO_0001759/jstree"
+        },
+        "graph" : {
+          "href" : "https://www.ebi.ac.uk/ols/api/ontologies/efo/terms/http%253A%252F%252Fwww.ebi.ac.uk%252Fefo%252FEFO_0001759/graph"
+        }
+      }
+    } ]
+  },
+  "_links" : {
+    "first" : {
+      "href" : "https://www.ebi.ac.uk/ols/api/ontologies/efo/terms/http%253A%252F%252Fwww.ebi.ac.uk%252Fefo%252FEFO_0004667/children?page=0&size=20"
+    },
+    "self" : {
+      "href" : "https://www.ebi.ac.uk/ols/api/ontologies/efo/terms/http%253A%252F%252Fwww.ebi.ac.uk%252Fefo%252FEFO_0004667/children"
+    },
+    "next" : {
+      "href" : "https://www.ebi.ac.uk/ols/api/ontologies/efo/terms/http%253A%252F%252Fwww.ebi.ac.uk%252Fefo%252FEFO_0004667/children?page=1&size=20"
+    },
+    "last" : {
+      "href" : "https://www.ebi.ac.uk/ols/api/ontologies/efo/terms/http%253A%252F%252Fwww.ebi.ac.uk%252Fefo%252FEFO_0004667/children?page=1&size=20"
+    }
+  },
+  "page" : {
+    "size" : 20,
+    "totalElements" : 29,
+    "totalPages" : 2,
+    "number" : 0
+  }
+}

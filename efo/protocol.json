@@ -1,0 +1,853 @@
+{
+  "_embedded" : {
+    "terms" : [ {
+      "iri" : "http://www.ebi.ac.uk/efo/EFO_0005518",
+      "label" : "sample collection protocol",
+      "description" : [ "Describes the procedure whereby biological samples for an experiment are sourced." ],
+      "annotation" : {
+        "example of usage" : [ "collection of clinical samples from patients, collection of plant materials in a forest, collection of larvae from lab-grown Drosophila flies." ],
+        "term editor" : [ "Drashtti Vasant" ]
+      },
+      "synonyms" : null,
+      "ontology_name" : "efo",
+      "ontology_prefix" : "EFO",
+      "ontology_iri" : "http://www.ebi.ac.uk/efo/efo.owl",
+      "is_obsolete" : false,
+      "term_replaced_by" : null,
+      "is_defining_ontology" : true,
+      "has_children" : false,
+      "is_root" : false,
+      "short_form" : "EFO_0005518",
+      "obo_id" : "EFO:0005518",
+      "in_subset" : null,
+      "obo_definition_citation" : null,
+      "obo_xref" : null,
+      "obo_synonym" : null,
+      "_links" : {
+        "self" : {
+          "href" : "https://www.ebi.ac.uk/ols/api/ontologies/efo/terms/http%253A%252F%252Fwww.ebi.ac.uk%252Fefo%252FEFO_0005518"
+        },
+        "parents" : {
+          "href" : "https://www.ebi.ac.uk/ols/api/ontologies/efo/terms/http%253A%252F%252Fwww.ebi.ac.uk%252Fefo%252FEFO_0005518/parents"
+        },
+        "ancestors" : {
+          "href" : "https://www.ebi.ac.uk/ols/api/ontologies/efo/terms/http%253A%252F%252Fwww.ebi.ac.uk%252Fefo%252FEFO_0005518/ancestors"
+        },
+        "hierarchicalParents" : {
+          "href" : "https://www.ebi.ac.uk/ols/api/ontologies/efo/terms/http%253A%252F%252Fwww.ebi.ac.uk%252Fefo%252FEFO_0005518/hierarchicalParents"
+        },
+        "hierarchicalAncestors" : {
+          "href" : "https://www.ebi.ac.uk/ols/api/ontologies/efo/terms/http%253A%252F%252Fwww.ebi.ac.uk%252Fefo%252FEFO_0005518/hierarchicalAncestors"
+        },
+        "jstree" : {
+          "href" : "https://www.ebi.ac.uk/ols/api/ontologies/efo/terms/http%253A%252F%252Fwww.ebi.ac.uk%252Fefo%252FEFO_0005518/jstree"
+        },
+        "graph" : {
+          "href" : "https://www.ebi.ac.uk/ols/api/ontologies/efo/terms/http%253A%252F%252Fwww.ebi.ac.uk%252Fefo%252FEFO_0005518/graph"
+        }
+      }
+    }, {
+      "iri" : "http://www.ebi.ac.uk/efo/EFO_0005520",
+      "label" : "conversion protocol",
+      "description" : [ "Describes the conversion of samples (e.g. RNA samples) to another form (e.g. complementary DNA) with no prior dedicated extraction step of the former form, and no labeling of the converted product with chemical tags or dyes during the process. Other examples of such conversions are bisulphite conversion for DNA methylation analysis, various RNA modifications prior to immunoprecipitation." ],
+      "annotation" : { },
+      "synonyms" : null,
+      "ontology_name" : "efo",
+      "ontology_prefix" : "EFO",
+      "ontology_iri" : "http://www.ebi.ac.uk/efo/efo.owl",
+      "is_obsolete" : false,
+      "term_replaced_by" : null,
+      "is_defining_ontology" : true,
+      "has_children" : false,
+      "is_root" : false,
+      "short_form" : "EFO_0005520",
+      "obo_id" : "EFO:0005520",
+      "in_subset" : null,
+      "obo_definition_citation" : null,
+      "obo_xref" : null,
+      "obo_synonym" : null,
+      "_links" : {
+        "self" : {
+          "href" : "https://www.ebi.ac.uk/ols/api/ontologies/efo/terms/http%253A%252F%252Fwww.ebi.ac.uk%252Fefo%252FEFO_0005520"
+        },
+        "parents" : {
+          "href" : "https://www.ebi.ac.uk/ols/api/ontologies/efo/terms/http%253A%252F%252Fwww.ebi.ac.uk%252Fefo%252FEFO_0005520/parents"
+        },
+        "ancestors" : {
+          "href" : "https://www.ebi.ac.uk/ols/api/ontologies/efo/terms/http%253A%252F%252Fwww.ebi.ac.uk%252Fefo%252FEFO_0005520/ancestors"
+        },
+        "hierarchicalParents" : {
+          "href" : "https://www.ebi.ac.uk/ols/api/ontologies/efo/terms/http%253A%252F%252Fwww.ebi.ac.uk%252Fefo%252FEFO_0005520/hierarchicalParents"
+        },
+        "hierarchicalAncestors" : {
+          "href" : "https://www.ebi.ac.uk/ols/api/ontologies/efo/terms/http%253A%252F%252Fwww.ebi.ac.uk%252Fefo%252FEFO_0005520/hierarchicalAncestors"
+        },
+        "jstree" : {
+          "href" : "https://www.ebi.ac.uk/ols/api/ontologies/efo/terms/http%253A%252F%252Fwww.ebi.ac.uk%252Fefo%252FEFO_0005520/jstree"
+        },
+        "graph" : {
+          "href" : "https://www.ebi.ac.uk/ols/api/ontologies/efo/terms/http%253A%252F%252Fwww.ebi.ac.uk%252Fefo%252FEFO_0005520/graph"
+        }
+      }
+    }, {
+      "iri" : "http://www.ebi.ac.uk/efo/EFO_0005519",
+      "label" : "dissection protocol",
+      "description" : [ "Describes the procedure which dissects biological materials into anatomical sub-components, e.g. specific organs or tissues.", "describes the procedure for dissection." ],
+      "annotation" : {
+        "term editor" : [ "Drashtti Vasant" ]
+      },
+      "synonyms" : null,
+      "ontology_name" : "efo",
+      "ontology_prefix" : "EFO",
+      "ontology_iri" : "http://www.ebi.ac.uk/efo/efo.owl",
+      "is_obsolete" : false,
+      "term_replaced_by" : null,
+      "is_defining_ontology" : true,
+      "has_children" : false,
+      "is_root" : false,
+      "short_form" : "EFO_0005519",
+      "obo_id" : "EFO:0005519",
+      "in_subset" : null,
+      "obo_definition_citation" : null,
+      "obo_xref" : null,
+      "obo_synonym" : null,
+      "_links" : {
+        "self" : {
+          "href" : "https://www.ebi.ac.uk/ols/api/ontologies/efo/terms/http%253A%252F%252Fwww.ebi.ac.uk%252Fefo%252FEFO_0005519"
+        },
+        "parents" : {
+          "href" : "https://www.ebi.ac.uk/ols/api/ontologies/efo/terms/http%253A%252F%252Fwww.ebi.ac.uk%252Fefo%252FEFO_0005519/parents"
+        },
+        "ancestors" : {
+          "href" : "https://www.ebi.ac.uk/ols/api/ontologies/efo/terms/http%253A%252F%252Fwww.ebi.ac.uk%252Fefo%252FEFO_0005519/ancestors"
+        },
+        "hierarchicalParents" : {
+          "href" : "https://www.ebi.ac.uk/ols/api/ontologies/efo/terms/http%253A%252F%252Fwww.ebi.ac.uk%252Fefo%252FEFO_0005519/hierarchicalParents"
+        },
+        "hierarchicalAncestors" : {
+          "href" : "https://www.ebi.ac.uk/ols/api/ontologies/efo/terms/http%253A%252F%252Fwww.ebi.ac.uk%252Fefo%252FEFO_0005519/hierarchicalAncestors"
+        },
+        "jstree" : {
+          "href" : "https://www.ebi.ac.uk/ols/api/ontologies/efo/terms/http%253A%252F%252Fwww.ebi.ac.uk%252Fefo%252FEFO_0005519/jstree"
+        },
+        "graph" : {
+          "href" : "https://www.ebi.ac.uk/ols/api/ontologies/efo/terms/http%253A%252F%252Fwww.ebi.ac.uk%252Fefo%252FEFO_0005519/graph"
+        },
+        "is_executed_in" : {
+          "href" : "https://www.ebi.ac.uk/ols/api/ontologies/efo/terms/http%253A%252F%252Fwww.ebi.ac.uk%252Fefo%252FEFO_0005519/http%253A%252F%252Fwww.ebi.ac.uk%252Fefo%252Fis_executed_in"
+        }
+      }
+    }, {
+      "iri" : "http://www.ebi.ac.uk/efo/EFO_0004184",
+      "label" : "nucleic acid library construction protocol",
+      "description" : [ "A protocol describing the processes performed and equipment used to prepare nucleic acid sequencing library." ],
+      "annotation" : {
+        "term editor" : [ "Natalja Kurbatova" ]
+      },
+      "synonyms" : [ "nucleic acid library preparation protocol" ],
+      "ontology_name" : "efo",
+      "ontology_prefix" : "EFO",
+      "ontology_iri" : "http://www.ebi.ac.uk/efo/efo.owl",
+      "is_obsolete" : false,
+      "term_replaced_by" : null,
+      "is_defining_ontology" : true,
+      "has_children" : true,
+      "is_root" : false,
+      "short_form" : "EFO_0004184",
+      "obo_id" : "EFO:0004184",
+      "in_subset" : null,
+      "obo_definition_citation" : null,
+      "obo_xref" : null,
+      "obo_synonym" : null,
+      "_links" : {
+        "self" : {
+          "href" : "https://www.ebi.ac.uk/ols/api/ontologies/efo/terms/http%253A%252F%252Fwww.ebi.ac.uk%252Fefo%252FEFO_0004184"
+        },
+        "parents" : {
+          "href" : "https://www.ebi.ac.uk/ols/api/ontologies/efo/terms/http%253A%252F%252Fwww.ebi.ac.uk%252Fefo%252FEFO_0004184/parents"
+        },
+        "ancestors" : {
+          "href" : "https://www.ebi.ac.uk/ols/api/ontologies/efo/terms/http%253A%252F%252Fwww.ebi.ac.uk%252Fefo%252FEFO_0004184/ancestors"
+        },
+        "hierarchicalParents" : {
+          "href" : "https://www.ebi.ac.uk/ols/api/ontologies/efo/terms/http%253A%252F%252Fwww.ebi.ac.uk%252Fefo%252FEFO_0004184/hierarchicalParents"
+        },
+        "hierarchicalAncestors" : {
+          "href" : "https://www.ebi.ac.uk/ols/api/ontologies/efo/terms/http%253A%252F%252Fwww.ebi.ac.uk%252Fefo%252FEFO_0004184/hierarchicalAncestors"
+        },
+        "jstree" : {
+          "href" : "https://www.ebi.ac.uk/ols/api/ontologies/efo/terms/http%253A%252F%252Fwww.ebi.ac.uk%252Fefo%252FEFO_0004184/jstree"
+        },
+        "children" : {
+          "href" : "https://www.ebi.ac.uk/ols/api/ontologies/efo/terms/http%253A%252F%252Fwww.ebi.ac.uk%252Fefo%252FEFO_0004184/children"
+        },
+        "descendants" : {
+          "href" : "https://www.ebi.ac.uk/ols/api/ontologies/efo/terms/http%253A%252F%252Fwww.ebi.ac.uk%252Fefo%252FEFO_0004184/descendants"
+        },
+        "hierarchicalChildren" : {
+          "href" : "https://www.ebi.ac.uk/ols/api/ontologies/efo/terms/http%253A%252F%252Fwww.ebi.ac.uk%252Fefo%252FEFO_0004184/hierarchicalChildren"
+        },
+        "hierarchicalDescendants" : {
+          "href" : "https://www.ebi.ac.uk/ols/api/ontologies/efo/terms/http%253A%252F%252Fwww.ebi.ac.uk%252Fefo%252FEFO_0004184/hierarchicalDescendants"
+        },
+        "graph" : {
+          "href" : "https://www.ebi.ac.uk/ols/api/ontologies/efo/terms/http%253A%252F%252Fwww.ebi.ac.uk%252Fefo%252FEFO_0004184/graph"
+        }
+      }
+    }, {
+      "iri" : "http://www.ebi.ac.uk/efo/EFO_0004170",
+      "label" : "nucleic acid sequencing protocol",
+      "description" : [ "A protocol describing the processes performed and equipment used to determine the order of nucleotide bases in a nucleic acid sample" ],
+      "annotation" : {
+        "term editor" : [ "Anna Farne" ]
+      },
+      "synonyms" : null,
+      "ontology_name" : "efo",
+      "ontology_prefix" : "EFO",
+      "ontology_iri" : "http://www.ebi.ac.uk/efo/efo.owl",
+      "is_obsolete" : false,
+      "term_replaced_by" : null,
+      "is_defining_ontology" : true,
+      "has_children" : true,
+      "is_root" : false,
+      "short_form" : "EFO_0004170",
+      "obo_id" : "EFO:0004170",
+      "in_subset" : null,
+      "obo_definition_citation" : null,
+      "obo_xref" : null,
+      "obo_synonym" : null,
+      "_links" : {
+        "self" : {
+          "href" : "https://www.ebi.ac.uk/ols/api/ontologies/efo/terms/http%253A%252F%252Fwww.ebi.ac.uk%252Fefo%252FEFO_0004170"
+        },
+        "parents" : {
+          "href" : "https://www.ebi.ac.uk/ols/api/ontologies/efo/terms/http%253A%252F%252Fwww.ebi.ac.uk%252Fefo%252FEFO_0004170/parents"
+        },
+        "ancestors" : {
+          "href" : "https://www.ebi.ac.uk/ols/api/ontologies/efo/terms/http%253A%252F%252Fwww.ebi.ac.uk%252Fefo%252FEFO_0004170/ancestors"
+        },
+        "hierarchicalParents" : {
+          "href" : "https://www.ebi.ac.uk/ols/api/ontologies/efo/terms/http%253A%252F%252Fwww.ebi.ac.uk%252Fefo%252FEFO_0004170/hierarchicalParents"
+        },
+        "hierarchicalAncestors" : {
+          "href" : "https://www.ebi.ac.uk/ols/api/ontologies/efo/terms/http%253A%252F%252Fwww.ebi.ac.uk%252Fefo%252FEFO_0004170/hierarchicalAncestors"
+        },
+        "jstree" : {
+          "href" : "https://www.ebi.ac.uk/ols/api/ontologies/efo/terms/http%253A%252F%252Fwww.ebi.ac.uk%252Fefo%252FEFO_0004170/jstree"
+        },
+        "children" : {
+          "href" : "https://www.ebi.ac.uk/ols/api/ontologies/efo/terms/http%253A%252F%252Fwww.ebi.ac.uk%252Fefo%252FEFO_0004170/children"
+        },
+        "descendants" : {
+          "href" : "https://www.ebi.ac.uk/ols/api/ontologies/efo/terms/http%253A%252F%252Fwww.ebi.ac.uk%252Fefo%252FEFO_0004170/descendants"
+        },
+        "hierarchicalChildren" : {
+          "href" : "https://www.ebi.ac.uk/ols/api/ontologies/efo/terms/http%253A%252F%252Fwww.ebi.ac.uk%252Fefo%252FEFO_0004170/hierarchicalChildren"
+        },
+        "hierarchicalDescendants" : {
+          "href" : "https://www.ebi.ac.uk/ols/api/ontologies/efo/terms/http%253A%252F%252Fwww.ebi.ac.uk%252Fefo%252FEFO_0004170/hierarchicalDescendants"
+        },
+        "graph" : {
+          "href" : "https://www.ebi.ac.uk/ols/api/ontologies/efo/terms/http%253A%252F%252Fwww.ebi.ac.uk%252Fefo%252FEFO_0004170/graph"
+        }
+      }
+    }, {
+      "iri" : "http://www.ebi.ac.uk/efo/EFO_0007570",
+      "label" : "HCS protocol",
+      "description" : [ "A protocol which describes a part of the process in performing a High Content Screen experiment" ],
+      "annotation" : { },
+      "synonyms" : [ "high content screening protocol", "high content screen protocol" ],
+      "ontology_name" : "efo",
+      "ontology_prefix" : "EFO",
+      "ontology_iri" : "http://www.ebi.ac.uk/efo/efo.owl",
+      "is_obsolete" : false,
+      "term_replaced_by" : null,
+      "is_defining_ontology" : true,
+      "has_children" : true,
+      "is_root" : false,
+      "short_form" : "EFO_0007570",
+      "obo_id" : "EFO:0007570",
+      "in_subset" : null,
+      "obo_definition_citation" : null,
+      "obo_xref" : null,
+      "obo_synonym" : null,
+      "_links" : {
+        "self" : {
+          "href" : "https://www.ebi.ac.uk/ols/api/ontologies/efo/terms/http%253A%252F%252Fwww.ebi.ac.uk%252Fefo%252FEFO_0007570"
+        },
+        "parents" : {
+          "href" : "https://www.ebi.ac.uk/ols/api/ontologies/efo/terms/http%253A%252F%252Fwww.ebi.ac.uk%252Fefo%252FEFO_0007570/parents"
+        },
+        "ancestors" : {
+          "href" : "https://www.ebi.ac.uk/ols/api/ontologies/efo/terms/http%253A%252F%252Fwww.ebi.ac.uk%252Fefo%252FEFO_0007570/ancestors"
+        },
+        "hierarchicalParents" : {
+          "href" : "https://www.ebi.ac.uk/ols/api/ontologies/efo/terms/http%253A%252F%252Fwww.ebi.ac.uk%252Fefo%252FEFO_0007570/hierarchicalParents"
+        },
+        "hierarchicalAncestors" : {
+          "href" : "https://www.ebi.ac.uk/ols/api/ontologies/efo/terms/http%253A%252F%252Fwww.ebi.ac.uk%252Fefo%252FEFO_0007570/hierarchicalAncestors"
+        },
+        "jstree" : {
+          "href" : "https://www.ebi.ac.uk/ols/api/ontologies/efo/terms/http%253A%252F%252Fwww.ebi.ac.uk%252Fefo%252FEFO_0007570/jstree"
+        },
+        "children" : {
+          "href" : "https://www.ebi.ac.uk/ols/api/ontologies/efo/terms/http%253A%252F%252Fwww.ebi.ac.uk%252Fefo%252FEFO_0007570/children"
+        },
+        "descendants" : {
+          "href" : "https://www.ebi.ac.uk/ols/api/ontologies/efo/terms/http%253A%252F%252Fwww.ebi.ac.uk%252Fefo%252FEFO_0007570/descendants"
+        },
+        "hierarchicalChildren" : {
+          "href" : "https://www.ebi.ac.uk/ols/api/ontologies/efo/terms/http%253A%252F%252Fwww.ebi.ac.uk%252Fefo%252FEFO_0007570/hierarchicalChildren"
+        },
+        "hierarchicalDescendants" : {
+          "href" : "https://www.ebi.ac.uk/ols/api/ontologies/efo/terms/http%253A%252F%252Fwww.ebi.ac.uk%252Fefo%252FEFO_0007570/hierarchicalDescendants"
+        },
+        "graph" : {
+          "href" : "https://www.ebi.ac.uk/ols/api/ontologies/efo/terms/http%253A%252F%252Fwww.ebi.ac.uk%252Fefo%252FEFO_0007570/graph"
+        }
+      }
+    }, {
+      "iri" : "http://www.ebi.ac.uk/efo/EFO_0003790",
+      "label" : "hybridization protocol",
+      "description" : [ "A hybridization protocol is the set of instructions or plan for performing a nucleic acid hybridization on an microarray such as those provided by Affymetrix" ],
+      "annotation" : {
+        "term editor" : [ "Helen Parkinson" ]
+      },
+      "synonyms" : [ "microarray hybridization protocol" ],
+      "ontology_name" : "efo",
+      "ontology_prefix" : "EFO",
+      "ontology_iri" : "http://www.ebi.ac.uk/efo/efo.owl",
+      "is_obsolete" : false,
+      "term_replaced_by" : null,
+      "is_defining_ontology" : true,
+      "has_children" : true,
+      "is_root" : false,
+      "short_form" : "EFO_0003790",
+      "obo_id" : "EFO:0003790",
+      "in_subset" : null,
+      "obo_definition_citation" : null,
+      "obo_xref" : null,
+      "obo_synonym" : null,
+      "_links" : {
+        "self" : {
+          "href" : "https://www.ebi.ac.uk/ols/api/ontologies/efo/terms/http%253A%252F%252Fwww.ebi.ac.uk%252Fefo%252FEFO_0003790"
+        },
+        "parents" : {
+          "href" : "https://www.ebi.ac.uk/ols/api/ontologies/efo/terms/http%253A%252F%252Fwww.ebi.ac.uk%252Fefo%252FEFO_0003790/parents"
+        },
+        "ancestors" : {
+          "href" : "https://www.ebi.ac.uk/ols/api/ontologies/efo/terms/http%253A%252F%252Fwww.ebi.ac.uk%252Fefo%252FEFO_0003790/ancestors"
+        },
+        "hierarchicalParents" : {
+          "href" : "https://www.ebi.ac.uk/ols/api/ontologies/efo/terms/http%253A%252F%252Fwww.ebi.ac.uk%252Fefo%252FEFO_0003790/hierarchicalParents"
+        },
+        "hierarchicalAncestors" : {
+          "href" : "https://www.ebi.ac.uk/ols/api/ontologies/efo/terms/http%253A%252F%252Fwww.ebi.ac.uk%252Fefo%252FEFO_0003790/hierarchicalAncestors"
+        },
+        "jstree" : {
+          "href" : "https://www.ebi.ac.uk/ols/api/ontologies/efo/terms/http%253A%252F%252Fwww.ebi.ac.uk%252Fefo%252FEFO_0003790/jstree"
+        },
+        "children" : {
+          "href" : "https://www.ebi.ac.uk/ols/api/ontologies/efo/terms/http%253A%252F%252Fwww.ebi.ac.uk%252Fefo%252FEFO_0003790/children"
+        },
+        "descendants" : {
+          "href" : "https://www.ebi.ac.uk/ols/api/ontologies/efo/terms/http%253A%252F%252Fwww.ebi.ac.uk%252Fefo%252FEFO_0003790/descendants"
+        },
+        "hierarchicalChildren" : {
+          "href" : "https://www.ebi.ac.uk/ols/api/ontologies/efo/terms/http%253A%252F%252Fwww.ebi.ac.uk%252Fefo%252FEFO_0003790/hierarchicalChildren"
+        },
+        "hierarchicalDescendants" : {
+          "href" : "https://www.ebi.ac.uk/ols/api/ontologies/efo/terms/http%253A%252F%252Fwww.ebi.ac.uk%252Fefo%252FEFO_0003790/hierarchicalDescendants"
+        },
+        "graph" : {
+          "href" : "https://www.ebi.ac.uk/ols/api/ontologies/efo/terms/http%253A%252F%252Fwww.ebi.ac.uk%252Fefo%252FEFO_0003790/graph"
+        }
+      }
+    }, {
+      "iri" : "http://www.ebi.ac.uk/efo/EFO_0003788",
+      "label" : "gene expression protocol",
+      "description" : [ "A gene expression protocol is a  protocol which is designed to be used in a gene expression experiment performed on arrays or by high throughput sequencing." ],
+      "annotation" : {
+        "ArrayExpress_label" : [ "ArrayExpress protocol" ],
+        "term editor" : [ "Helen Parkinson" ]
+      },
+      "synonyms" : null,
+      "ontology_name" : "efo",
+      "ontology_prefix" : "EFO",
+      "ontology_iri" : "http://www.ebi.ac.uk/efo/efo.owl",
+      "is_obsolete" : false,
+      "term_replaced_by" : null,
+      "is_defining_ontology" : true,
+      "has_children" : true,
+      "is_root" : false,
+      "short_form" : "EFO_0003788",
+      "obo_id" : "EFO:0003788",
+      "in_subset" : null,
+      "obo_definition_citation" : null,
+      "obo_xref" : null,
+      "obo_synonym" : null,
+      "_links" : {
+        "self" : {
+          "href" : "https://www.ebi.ac.uk/ols/api/ontologies/efo/terms/http%253A%252F%252Fwww.ebi.ac.uk%252Fefo%252FEFO_0003788"
+        },
+        "parents" : {
+          "href" : "https://www.ebi.ac.uk/ols/api/ontologies/efo/terms/http%253A%252F%252Fwww.ebi.ac.uk%252Fefo%252FEFO_0003788/parents"
+        },
+        "ancestors" : {
+          "href" : "https://www.ebi.ac.uk/ols/api/ontologies/efo/terms/http%253A%252F%252Fwww.ebi.ac.uk%252Fefo%252FEFO_0003788/ancestors"
+        },
+        "hierarchicalParents" : {
+          "href" : "https://www.ebi.ac.uk/ols/api/ontologies/efo/terms/http%253A%252F%252Fwww.ebi.ac.uk%252Fefo%252FEFO_0003788/hierarchicalParents"
+        },
+        "hierarchicalAncestors" : {
+          "href" : "https://www.ebi.ac.uk/ols/api/ontologies/efo/terms/http%253A%252F%252Fwww.ebi.ac.uk%252Fefo%252FEFO_0003788/hierarchicalAncestors"
+        },
+        "jstree" : {
+          "href" : "https://www.ebi.ac.uk/ols/api/ontologies/efo/terms/http%253A%252F%252Fwww.ebi.ac.uk%252Fefo%252FEFO_0003788/jstree"
+        },
+        "children" : {
+          "href" : "https://www.ebi.ac.uk/ols/api/ontologies/efo/terms/http%253A%252F%252Fwww.ebi.ac.uk%252Fefo%252FEFO_0003788/children"
+        },
+        "descendants" : {
+          "href" : "https://www.ebi.ac.uk/ols/api/ontologies/efo/terms/http%253A%252F%252Fwww.ebi.ac.uk%252Fefo%252FEFO_0003788/descendants"
+        },
+        "hierarchicalChildren" : {
+          "href" : "https://www.ebi.ac.uk/ols/api/ontologies/efo/terms/http%253A%252F%252Fwww.ebi.ac.uk%252Fefo%252FEFO_0003788/hierarchicalChildren"
+        },
+        "hierarchicalDescendants" : {
+          "href" : "https://www.ebi.ac.uk/ols/api/ontologies/efo/terms/http%253A%252F%252Fwww.ebi.ac.uk%252Fefo%252FEFO_0003788/hierarchicalDescendants"
+        },
+        "graph" : {
+          "href" : "https://www.ebi.ac.uk/ols/api/ontologies/efo/terms/http%253A%252F%252Fwww.ebi.ac.uk%252Fefo%252FEFO_0003788/graph"
+        }
+      }
+    }, {
+      "iri" : "http://www.ebi.ac.uk/efo/EFO_0003789",
+      "label" : "growth protocol",
+      "description" : [ "A growth protocol is a protocol which provides instructions on the growth of a biological sample. E.g. the growth of a specific cell line or Drosophila culture" ],
+      "annotation" : {
+        "term editor" : [ "Helen Parkinson" ]
+      },
+      "synonyms" : null,
+      "ontology_name" : "efo",
+      "ontology_prefix" : "EFO",
+      "ontology_iri" : "http://www.ebi.ac.uk/efo/efo.owl",
+      "is_obsolete" : false,
+      "term_replaced_by" : null,
+      "is_defining_ontology" : true,
+      "has_children" : false,
+      "is_root" : false,
+      "short_form" : "EFO_0003789",
+      "obo_id" : "EFO:0003789",
+      "in_subset" : null,
+      "obo_definition_citation" : null,
+      "obo_xref" : null,
+      "obo_synonym" : null,
+      "_links" : {
+        "self" : {
+          "href" : "https://www.ebi.ac.uk/ols/api/ontologies/efo/terms/http%253A%252F%252Fwww.ebi.ac.uk%252Fefo%252FEFO_0003789"
+        },
+        "parents" : {
+          "href" : "https://www.ebi.ac.uk/ols/api/ontologies/efo/terms/http%253A%252F%252Fwww.ebi.ac.uk%252Fefo%252FEFO_0003789/parents"
+        },
+        "ancestors" : {
+          "href" : "https://www.ebi.ac.uk/ols/api/ontologies/efo/terms/http%253A%252F%252Fwww.ebi.ac.uk%252Fefo%252FEFO_0003789/ancestors"
+        },
+        "hierarchicalParents" : {
+          "href" : "https://www.ebi.ac.uk/ols/api/ontologies/efo/terms/http%253A%252F%252Fwww.ebi.ac.uk%252Fefo%252FEFO_0003789/hierarchicalParents"
+        },
+        "hierarchicalAncestors" : {
+          "href" : "https://www.ebi.ac.uk/ols/api/ontologies/efo/terms/http%253A%252F%252Fwww.ebi.ac.uk%252Fefo%252FEFO_0003789/hierarchicalAncestors"
+        },
+        "jstree" : {
+          "href" : "https://www.ebi.ac.uk/ols/api/ontologies/efo/terms/http%253A%252F%252Fwww.ebi.ac.uk%252Fefo%252FEFO_0003789/jstree"
+        },
+        "graph" : {
+          "href" : "https://www.ebi.ac.uk/ols/api/ontologies/efo/terms/http%253A%252F%252Fwww.ebi.ac.uk%252Fefo%252FEFO_0003789/graph"
+        }
+      }
+    }, {
+      "iri" : "http://www.ebi.ac.uk/efo/EFO_0003808",
+      "label" : "labelling protocol",
+      "description" : [ "A labelling protocol is a set of instructions or plan which is realised" ],
+      "annotation" : {
+        "term editor" : [ "Helen Parkinson" ]
+      },
+      "synonyms" : [ "labeling protocol" ],
+      "ontology_name" : "efo",
+      "ontology_prefix" : "EFO",
+      "ontology_iri" : "http://www.ebi.ac.uk/efo/efo.owl",
+      "is_obsolete" : false,
+      "term_replaced_by" : null,
+      "is_defining_ontology" : true,
+      "has_children" : true,
+      "is_root" : false,
+      "short_form" : "EFO_0003808",
+      "obo_id" : "EFO:0003808",
+      "in_subset" : null,
+      "obo_definition_citation" : null,
+      "obo_xref" : null,
+      "obo_synonym" : null,
+      "_links" : {
+        "self" : {
+          "href" : "https://www.ebi.ac.uk/ols/api/ontologies/efo/terms/http%253A%252F%252Fwww.ebi.ac.uk%252Fefo%252FEFO_0003808"
+        },
+        "parents" : {
+          "href" : "https://www.ebi.ac.uk/ols/api/ontologies/efo/terms/http%253A%252F%252Fwww.ebi.ac.uk%252Fefo%252FEFO_0003808/parents"
+        },
+        "ancestors" : {
+          "href" : "https://www.ebi.ac.uk/ols/api/ontologies/efo/terms/http%253A%252F%252Fwww.ebi.ac.uk%252Fefo%252FEFO_0003808/ancestors"
+        },
+        "hierarchicalParents" : {
+          "href" : "https://www.ebi.ac.uk/ols/api/ontologies/efo/terms/http%253A%252F%252Fwww.ebi.ac.uk%252Fefo%252FEFO_0003808/hierarchicalParents"
+        },
+        "hierarchicalAncestors" : {
+          "href" : "https://www.ebi.ac.uk/ols/api/ontologies/efo/terms/http%253A%252F%252Fwww.ebi.ac.uk%252Fefo%252FEFO_0003808/hierarchicalAncestors"
+        },
+        "jstree" : {
+          "href" : "https://www.ebi.ac.uk/ols/api/ontologies/efo/terms/http%253A%252F%252Fwww.ebi.ac.uk%252Fefo%252FEFO_0003808/jstree"
+        },
+        "children" : {
+          "href" : "https://www.ebi.ac.uk/ols/api/ontologies/efo/terms/http%253A%252F%252Fwww.ebi.ac.uk%252Fefo%252FEFO_0003808/children"
+        },
+        "descendants" : {
+          "href" : "https://www.ebi.ac.uk/ols/api/ontologies/efo/terms/http%253A%252F%252Fwww.ebi.ac.uk%252Fefo%252FEFO_0003808/descendants"
+        },
+        "hierarchicalChildren" : {
+          "href" : "https://www.ebi.ac.uk/ols/api/ontologies/efo/terms/http%253A%252F%252Fwww.ebi.ac.uk%252Fefo%252FEFO_0003808/hierarchicalChildren"
+        },
+        "hierarchicalDescendants" : {
+          "href" : "https://www.ebi.ac.uk/ols/api/ontologies/efo/terms/http%253A%252F%252Fwww.ebi.ac.uk%252Fefo%252FEFO_0003808/hierarchicalDescendants"
+        },
+        "graph" : {
+          "href" : "https://www.ebi.ac.uk/ols/api/ontologies/efo/terms/http%253A%252F%252Fwww.ebi.ac.uk%252Fefo%252FEFO_0003808/graph"
+        }
+      }
+    }, {
+      "iri" : "http://www.ebi.ac.uk/efo/EFO_0009089",
+      "label" : "enrichment protocol",
+      "description" : [ "Describes the procedure by which the concentration of an entity of interest in a sample is increased." ],
+      "annotation" : {
+        "term editor" : [ "Dani Welter" ]
+      },
+      "synonyms" : null,
+      "ontology_name" : "efo",
+      "ontology_prefix" : "EFO",
+      "ontology_iri" : "http://www.ebi.ac.uk/efo/efo.owl",
+      "is_obsolete" : false,
+      "term_replaced_by" : null,
+      "is_defining_ontology" : true,
+      "has_children" : false,
+      "is_root" : false,
+      "short_form" : "EFO_0009089",
+      "obo_id" : "EFO:0009089",
+      "in_subset" : null,
+      "obo_definition_citation" : null,
+      "obo_xref" : null,
+      "obo_synonym" : null,
+      "_links" : {
+        "self" : {
+          "href" : "https://www.ebi.ac.uk/ols/api/ontologies/efo/terms/http%253A%252F%252Fwww.ebi.ac.uk%252Fefo%252FEFO_0009089"
+        },
+        "parents" : {
+          "href" : "https://www.ebi.ac.uk/ols/api/ontologies/efo/terms/http%253A%252F%252Fwww.ebi.ac.uk%252Fefo%252FEFO_0009089/parents"
+        },
+        "ancestors" : {
+          "href" : "https://www.ebi.ac.uk/ols/api/ontologies/efo/terms/http%253A%252F%252Fwww.ebi.ac.uk%252Fefo%252FEFO_0009089/ancestors"
+        },
+        "hierarchicalParents" : {
+          "href" : "https://www.ebi.ac.uk/ols/api/ontologies/efo/terms/http%253A%252F%252Fwww.ebi.ac.uk%252Fefo%252FEFO_0009089/hierarchicalParents"
+        },
+        "hierarchicalAncestors" : {
+          "href" : "https://www.ebi.ac.uk/ols/api/ontologies/efo/terms/http%253A%252F%252Fwww.ebi.ac.uk%252Fefo%252FEFO_0009089/hierarchicalAncestors"
+        },
+        "jstree" : {
+          "href" : "https://www.ebi.ac.uk/ols/api/ontologies/efo/terms/http%253A%252F%252Fwww.ebi.ac.uk%252Fefo%252FEFO_0009089/jstree"
+        },
+        "graph" : {
+          "href" : "https://www.ebi.ac.uk/ols/api/ontologies/efo/terms/http%253A%252F%252Fwww.ebi.ac.uk%252Fefo%252FEFO_0009089/graph"
+        }
+      }
+    }, {
+      "iri" : "http://www.ebi.ac.uk/efo/EFO_0009088",
+      "label" : "dissociation protocol",
+      "description" : [ "Describes the procedure by which a biological specimen is dissociated into individual cells or a cell suspension" ],
+      "annotation" : {
+        "term editor" : [ "Dani Welter" ]
+      },
+      "synonyms" : null,
+      "ontology_name" : "efo",
+      "ontology_prefix" : "EFO",
+      "ontology_iri" : "http://www.ebi.ac.uk/efo/efo.owl",
+      "is_obsolete" : false,
+      "term_replaced_by" : null,
+      "is_defining_ontology" : true,
+      "has_children" : false,
+      "is_root" : false,
+      "short_form" : "EFO_0009088",
+      "obo_id" : "EFO:0009088",
+      "in_subset" : null,
+      "obo_definition_citation" : null,
+      "obo_xref" : null,
+      "obo_synonym" : null,
+      "_links" : {
+        "self" : {
+          "href" : "https://www.ebi.ac.uk/ols/api/ontologies/efo/terms/http%253A%252F%252Fwww.ebi.ac.uk%252Fefo%252FEFO_0009088"
+        },
+        "parents" : {
+          "href" : "https://www.ebi.ac.uk/ols/api/ontologies/efo/terms/http%253A%252F%252Fwww.ebi.ac.uk%252Fefo%252FEFO_0009088/parents"
+        },
+        "ancestors" : {
+          "href" : "https://www.ebi.ac.uk/ols/api/ontologies/efo/terms/http%253A%252F%252Fwww.ebi.ac.uk%252Fefo%252FEFO_0009088/ancestors"
+        },
+        "hierarchicalParents" : {
+          "href" : "https://www.ebi.ac.uk/ols/api/ontologies/efo/terms/http%253A%252F%252Fwww.ebi.ac.uk%252Fefo%252FEFO_0009088/hierarchicalParents"
+        },
+        "hierarchicalAncestors" : {
+          "href" : "https://www.ebi.ac.uk/ols/api/ontologies/efo/terms/http%253A%252F%252Fwww.ebi.ac.uk%252Fefo%252FEFO_0009088/hierarchicalAncestors"
+        },
+        "jstree" : {
+          "href" : "https://www.ebi.ac.uk/ols/api/ontologies/efo/terms/http%253A%252F%252Fwww.ebi.ac.uk%252Fefo%252FEFO_0009088/jstree"
+        },
+        "graph" : {
+          "href" : "https://www.ebi.ac.uk/ols/api/ontologies/efo/terms/http%253A%252F%252Fwww.ebi.ac.uk%252Fefo%252FEFO_0009088/graph"
+        }
+      }
+    }, {
+      "iri" : "http://www.ebi.ac.uk/efo/EFO_0000490",
+      "label" : "extraction protocol",
+      "description" : [ "The procedure used to obtain something from a mixture or compound by chemical or physical or mechanical means, e.g. DNA/RNA extraction" ],
+      "annotation" : {
+        "example of usage" : [ "DNA/RNA extraction" ],
+        "term editor" : [ "James Malone" ]
+      },
+      "synonyms" : null,
+      "ontology_name" : "efo",
+      "ontology_prefix" : "EFO",
+      "ontology_iri" : "http://www.ebi.ac.uk/efo/efo.owl",
+      "is_obsolete" : false,
+      "term_replaced_by" : null,
+      "is_defining_ontology" : true,
+      "has_children" : true,
+      "is_root" : false,
+      "short_form" : "EFO_0000490",
+      "obo_id" : "EFO:0000490",
+      "in_subset" : null,
+      "obo_definition_citation" : null,
+      "obo_xref" : null,
+      "obo_synonym" : null,
+      "_links" : {
+        "self" : {
+          "href" : "https://www.ebi.ac.uk/ols/api/ontologies/efo/terms/http%253A%252F%252Fwww.ebi.ac.uk%252Fefo%252FEFO_0000490"
+        },
+        "parents" : {
+          "href" : "https://www.ebi.ac.uk/ols/api/ontologies/efo/terms/http%253A%252F%252Fwww.ebi.ac.uk%252Fefo%252FEFO_0000490/parents"
+        },
+        "ancestors" : {
+          "href" : "https://www.ebi.ac.uk/ols/api/ontologies/efo/terms/http%253A%252F%252Fwww.ebi.ac.uk%252Fefo%252FEFO_0000490/ancestors"
+        },
+        "hierarchicalParents" : {
+          "href" : "https://www.ebi.ac.uk/ols/api/ontologies/efo/terms/http%253A%252F%252Fwww.ebi.ac.uk%252Fefo%252FEFO_0000490/hierarchicalParents"
+        },
+        "hierarchicalAncestors" : {
+          "href" : "https://www.ebi.ac.uk/ols/api/ontologies/efo/terms/http%253A%252F%252Fwww.ebi.ac.uk%252Fefo%252FEFO_0000490/hierarchicalAncestors"
+        },
+        "jstree" : {
+          "href" : "https://www.ebi.ac.uk/ols/api/ontologies/efo/terms/http%253A%252F%252Fwww.ebi.ac.uk%252Fefo%252FEFO_0000490/jstree"
+        },
+        "children" : {
+          "href" : "https://www.ebi.ac.uk/ols/api/ontologies/efo/terms/http%253A%252F%252Fwww.ebi.ac.uk%252Fefo%252FEFO_0000490/children"
+        },
+        "descendants" : {
+          "href" : "https://www.ebi.ac.uk/ols/api/ontologies/efo/terms/http%253A%252F%252Fwww.ebi.ac.uk%252Fefo%252FEFO_0000490/descendants"
+        },
+        "hierarchicalChildren" : {
+          "href" : "https://www.ebi.ac.uk/ols/api/ontologies/efo/terms/http%253A%252F%252Fwww.ebi.ac.uk%252Fefo%252FEFO_0000490/hierarchicalChildren"
+        },
+        "hierarchicalDescendants" : {
+          "href" : "https://www.ebi.ac.uk/ols/api/ontologies/efo/terms/http%253A%252F%252Fwww.ebi.ac.uk%252Fefo%252FEFO_0000490/hierarchicalDescendants"
+        },
+        "graph" : {
+          "href" : "https://www.ebi.ac.uk/ols/api/ontologies/efo/terms/http%253A%252F%252Fwww.ebi.ac.uk%252Fefo%252FEFO_0000490/graph"
+        }
+      }
+    }, {
+      "iri" : "http://www.ebi.ac.uk/efo/EFO_0000395",
+      "label" : "delivery method",
+      "description" : [ "A description of the method used to deliver e.g. a compound or solution for treatment." ],
+      "annotation" : {
+        "MO_definition_citation" : [ "MO:223" ],
+        "bioportal_provenance" : [ "DeliveryMethod[accessedResource: MO_223][accessDate: 05-04-2011]" ],
+        "example of usage" : [ "a compound or solution for treatment." ],
+        "term editor" : [ "Tomasz Adamusiak", "Jie Zheng" ]
+      },
+      "synonyms" : [ "DeliveryMethod" ],
+      "ontology_name" : "efo",
+      "ontology_prefix" : "EFO",
+      "ontology_iri" : "http://www.ebi.ac.uk/efo/efo.owl",
+      "is_obsolete" : false,
+      "term_replaced_by" : null,
+      "is_defining_ontology" : true,
+      "has_children" : false,
+      "is_root" : false,
+      "short_form" : "EFO_0000395",
+      "obo_id" : "EFO:0000395",
+      "in_subset" : null,
+      "obo_definition_citation" : null,
+      "obo_xref" : null,
+      "obo_synonym" : null,
+      "_links" : {
+        "self" : {
+          "href" : "https://www.ebi.ac.uk/ols/api/ontologies/efo/terms/http%253A%252F%252Fwww.ebi.ac.uk%252Fefo%252FEFO_0000395"
+        },
+        "parents" : {
+          "href" : "https://www.ebi.ac.uk/ols/api/ontologies/efo/terms/http%253A%252F%252Fwww.ebi.ac.uk%252Fefo%252FEFO_0000395/parents"
+        },
+        "ancestors" : {
+          "href" : "https://www.ebi.ac.uk/ols/api/ontologies/efo/terms/http%253A%252F%252Fwww.ebi.ac.uk%252Fefo%252FEFO_0000395/ancestors"
+        },
+        "hierarchicalParents" : {
+          "href" : "https://www.ebi.ac.uk/ols/api/ontologies/efo/terms/http%253A%252F%252Fwww.ebi.ac.uk%252Fefo%252FEFO_0000395/hierarchicalParents"
+        },
+        "hierarchicalAncestors" : {
+          "href" : "https://www.ebi.ac.uk/ols/api/ontologies/efo/terms/http%253A%252F%252Fwww.ebi.ac.uk%252Fefo%252FEFO_0000395/hierarchicalAncestors"
+        },
+        "jstree" : {
+          "href" : "https://www.ebi.ac.uk/ols/api/ontologies/efo/terms/http%253A%252F%252Fwww.ebi.ac.uk%252Fefo%252FEFO_0000395/jstree"
+        },
+        "graph" : {
+          "href" : "https://www.ebi.ac.uk/ols/api/ontologies/efo/terms/http%253A%252F%252Fwww.ebi.ac.uk%252Fefo%252FEFO_0000395/graph"
+        }
+      }
+    }, {
+      "iri" : "http://www.ebi.ac.uk/efo/EFO_0003969",
+      "label" : "treatment protocol",
+      "description" : [ "A protocol in which the aim is to treat a sample, collection of samples, organism or group of organisms for some experimental analysis of outcome." ],
+      "annotation" : {
+        "term editor" : [ "James Malone" ]
+      },
+      "synonyms" : null,
+      "ontology_name" : "efo",
+      "ontology_prefix" : "EFO",
+      "ontology_iri" : "http://www.ebi.ac.uk/efo/efo.owl",
+      "is_obsolete" : false,
+      "term_replaced_by" : null,
+      "is_defining_ontology" : true,
+      "has_children" : true,
+      "is_root" : false,
+      "short_form" : "EFO_0003969",
+      "obo_id" : "EFO:0003969",
+      "in_subset" : null,
+      "obo_definition_citation" : null,
+      "obo_xref" : null,
+      "obo_synonym" : null,
+      "_links" : {
+        "self" : {
+          "href" : "https://www.ebi.ac.uk/ols/api/ontologies/efo/terms/http%253A%252F%252Fwww.ebi.ac.uk%252Fefo%252FEFO_0003969"
+        },
+        "parents" : {
+          "href" : "https://www.ebi.ac.uk/ols/api/ontologies/efo/terms/http%253A%252F%252Fwww.ebi.ac.uk%252Fefo%252FEFO_0003969/parents"
+        },
+        "ancestors" : {
+          "href" : "https://www.ebi.ac.uk/ols/api/ontologies/efo/terms/http%253A%252F%252Fwww.ebi.ac.uk%252Fefo%252FEFO_0003969/ancestors"
+        },
+        "hierarchicalParents" : {
+          "href" : "https://www.ebi.ac.uk/ols/api/ontologies/efo/terms/http%253A%252F%252Fwww.ebi.ac.uk%252Fefo%252FEFO_0003969/hierarchicalParents"
+        },
+        "hierarchicalAncestors" : {
+          "href" : "https://www.ebi.ac.uk/ols/api/ontologies/efo/terms/http%253A%252F%252Fwww.ebi.ac.uk%252Fefo%252FEFO_0003969/hierarchicalAncestors"
+        },
+        "jstree" : {
+          "href" : "https://www.ebi.ac.uk/ols/api/ontologies/efo/terms/http%253A%252F%252Fwww.ebi.ac.uk%252Fefo%252FEFO_0003969/jstree"
+        },
+        "children" : {
+          "href" : "https://www.ebi.ac.uk/ols/api/ontologies/efo/terms/http%253A%252F%252Fwww.ebi.ac.uk%252Fefo%252FEFO_0003969/children"
+        },
+        "descendants" : {
+          "href" : "https://www.ebi.ac.uk/ols/api/ontologies/efo/terms/http%253A%252F%252Fwww.ebi.ac.uk%252Fefo%252FEFO_0003969/descendants"
+        },
+        "hierarchicalChildren" : {
+          "href" : "https://www.ebi.ac.uk/ols/api/ontologies/efo/terms/http%253A%252F%252Fwww.ebi.ac.uk%252Fefo%252FEFO_0003969/hierarchicalChildren"
+        },
+        "hierarchicalDescendants" : {
+          "href" : "https://www.ebi.ac.uk/ols/api/ontologies/efo/terms/http%253A%252F%252Fwww.ebi.ac.uk%252Fefo%252FEFO_0003969/hierarchicalDescendants"
+        },
+        "graph" : {
+          "href" : "https://www.ebi.ac.uk/ols/api/ontologies/efo/terms/http%253A%252F%252Fwww.ebi.ac.uk%252Fefo%252FEFO_0003969/graph"
+        }
+      }
+    }, {
+      "iri" : "http://www.ebi.ac.uk/efo/EFO_0001426",
+      "label" : "study design",
+      "description" : [ "A study type is an experimental factor describing the method of investigating particular types of research questions or solving particular types of problems, for example, a  set of protocols (which may specify how and what kinds of data will be gathered)." ],
+      "annotation" : {
+        "NCI_Thesaurus_definition_citation" : [ "NCIt:C15320" ],
+        "PERSON_definition_citation" : [ "PERSON: James Malone" ],
+        "definition_citation" : [ "OBI_0500000" ],
+        "example of usage" : [ "twin design" ],
+        "term editor" : [ "Jon Ison", "James Malone", "Natalja Kurbatova" ]
+      },
+      "synonyms" : [ "experimental design" ],
+      "ontology_name" : "efo",
+      "ontology_prefix" : "EFO",
+      "ontology_iri" : "http://www.ebi.ac.uk/efo/efo.owl",
+      "is_obsolete" : false,
+      "term_replaced_by" : null,
+      "is_defining_ontology" : true,
+      "has_children" : true,
+      "is_root" : false,
+      "short_form" : "EFO_0001426",
+      "obo_id" : "EFO:0001426",
+      "in_subset" : null,
+      "obo_definition_citation" : null,
+      "obo_xref" : null,
+      "obo_synonym" : null,
+      "_links" : {
+        "self" : {
+          "href" : "https://www.ebi.ac.uk/ols/api/ontologies/efo/terms/http%253A%252F%252Fwww.ebi.ac.uk%252Fefo%252FEFO_0001426"
+        },
+        "parents" : {
+          "href" : "https://www.ebi.ac.uk/ols/api/ontologies/efo/terms/http%253A%252F%252Fwww.ebi.ac.uk%252Fefo%252FEFO_0001426/parents"
+        },
+        "ancestors" : {
+          "href" : "https://www.ebi.ac.uk/ols/api/ontologies/efo/terms/http%253A%252F%252Fwww.ebi.ac.uk%252Fefo%252FEFO_0001426/ancestors"
+        },
+        "hierarchicalParents" : {
+          "href" : "https://www.ebi.ac.uk/ols/api/ontologies/efo/terms/http%253A%252F%252Fwww.ebi.ac.uk%252Fefo%252FEFO_0001426/hierarchicalParents"
+        },
+        "hierarchicalAncestors" : {
+          "href" : "https://www.ebi.ac.uk/ols/api/ontologies/efo/terms/http%253A%252F%252Fwww.ebi.ac.uk%252Fefo%252FEFO_0001426/hierarchicalAncestors"
+        },
+        "jstree" : {
+          "href" : "https://www.ebi.ac.uk/ols/api/ontologies/efo/terms/http%253A%252F%252Fwww.ebi.ac.uk%252Fefo%252FEFO_0001426/jstree"
+        },
+        "children" : {
+          "href" : "https://www.ebi.ac.uk/ols/api/ontologies/efo/terms/http%253A%252F%252Fwww.ebi.ac.uk%252Fefo%252FEFO_0001426/children"
+        },
+        "descendants" : {
+          "href" : "https://www.ebi.ac.uk/ols/api/ontologies/efo/terms/http%253A%252F%252Fwww.ebi.ac.uk%252Fefo%252FEFO_0001426/descendants"
+        },
+        "hierarchicalChildren" : {
+          "href" : "https://www.ebi.ac.uk/ols/api/ontologies/efo/terms/http%253A%252F%252Fwww.ebi.ac.uk%252Fefo%252FEFO_0001426/hierarchicalChildren"
+        },
+        "hierarchicalDescendants" : {
+          "href" : "https://www.ebi.ac.uk/ols/api/ontologies/efo/terms/http%253A%252F%252Fwww.ebi.ac.uk%252Fefo%252FEFO_0001426/hierarchicalDescendants"
+        },
+        "graph" : {
+          "href" : "https://www.ebi.ac.uk/ols/api/ontologies/efo/terms/http%253A%252F%252Fwww.ebi.ac.uk%252Fefo%252FEFO_0001426/graph"
+        }
+      }
+    } ]
+  },
+  "_links" : {
+    "self" : {
+      "href" : "https://www.ebi.ac.uk/ols/api/ontologies/efo/terms/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FOBI_0000272/children"
+    }
+  },
+  "page" : {
+    "size" : 20,
+    "totalElements" : 16,
+    "totalPages" : 1,
+    "number" : 0
+  }
+}
