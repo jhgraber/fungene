@@ -109,17 +109,17 @@ class ContactDOM:
         container=[]
         contact=self.get_contact()
         roles=self.get_contact_role()
-        container.append("  <experiment_contact id='experiment_contact'>\n")
+        container.append("  <section id='experiment_contact'>\n")
         for label,content in contact.items():
             container.append('    <tag label="'+label+'"><![CDATA['+content+']]></tag>'+"\n") 
-        container.append("  </experiment_contact>\n")
-        container.append("  <experiment_contact_role id='experiment_contact_role'>\n")
+        container.append("  </section>\n")
+        container.append("  <section id='experiment_contact_role'>\n")
         for term_id,terms in roles.items():
             container.append('      <term id="'+term_id+'">\n')
             for label,content in terms.items():
                 container.append('        <tag label="'+label+'"><![CDATA['+content+']]></tag>'+"\n")
             container.append('      </term>\n')
-        container.append("  </experiment_contact_role>\n")
+        container.append("  </section>\n")
         return "".join(container)
         
 
