@@ -169,61 +169,62 @@ class ExperimentDOM:
 
     def getXmlBlock(self):
         container=[]
-        container.append("  <experiment id='experiment'>\n")
+        container.append("  <section id='experiment'>\n")
         for label,content in self.experiment.items():
              container.append('    <tag label="'+label+'"><![CDATA['+content+']]></tag>'+"\n")
-        container.append("  </experiment>\n")
-        container.append("  <experiment_design id='experiment_design'>\n")
+        container.append("  </section>\n")
+        container.append("  <section id='experiment_design'>\n")
         for  term_id,terms in self.get_experiment_design().items():
             container.append('    <term id="'+term_id+'">\n')
             for label,content in terms.items():
                 container.append('      <tag label="'+label+'"><![CDATA['+content+']]></tag>'+"\n")
             container.append("    </term>\n")
-        container.append("  </experiment_design>\n")
-        container.append("  <experiment_factor id='experiment_factor'>\n")
+        container.append("  </section>\n")
+        container.append("  <section id='experiment_factor'>\n")
         for label,content in self.get_experiment_factor().items():
             container.append('    <tag label="'+label+'"><![CDATA['+content+']]></tag>'+"\n")
-        container.append("  </experiment_factor>\n")
-        container.append("  <experiment_qc id='experiment_qc'>\n")
+        container.append("  </section>\n")
+        container.append("  <section id='experiment_qc'>\n")
         for label,content in self.get_experiment_qc().items():
             container.append('    <tag label="'+label+'"><![CDATA['+content+']]></tag>'+"\n")
-        container.append("  </experiment_qc>\n")
-        container.append("  <experiment_replicate id='experiment_replicate'>\n")
+        container.append("  </section>\n")
+        container.append("  <section id='experiment_replicate'>\n")
         for term_id,terms in self.get_experiment_replicate().items():
             container.append('    <term id="'+term_id+'">\n')
             for label,content in terms.items():
                 container.append('      <tag label="'+label+'"><![CDATA['+content+']]></tag>'+"\n")
             container.append("    </term>\n")
-        container.append("  </experiment_replicate>\n")
-        container.append("  <experiment_normalization id='experiment_normalization'>\n")
+        container.append("  </section>\n")
+        container.append("  <section id='experiment_normalization'>\n")
         for label,content in self.get_experiment_norm().items():
             container.append('    <tag label="'+label+'"><![CDATA['+content+']]></tag>'+"\n")
-        container.append("  </experiment_normalization>\n")
-        container.append("  <experiment_publication id='experiment_publication'>\n") 
+        container.append("  </section>\n")
+        container.append("  <section id='experiment_publication'>\n") 
         for label,content in self.get_experiment_pub().items():
             container.append('    <tag label="'+label+'"><![CDATA['+content+']]></tag>'+"\n")
-        container.append("  </experiment_publication>\n") 
-        container.append("  <experiment_publication_status id='experiment_publication_status'>\n") 
+        container.append("  </section>\n") 
+        container.append("  <section id='experiment_publication_status'>\n") 
         for term_id,terms in self.get_experiment_pub_status().items():
             container.append('    <term id="'+term_id+'">\n')
             for label,content in terms.items():
                 container.append('      <tag label="'+label+'"><![CDATA['+content+']]></tag>'+"\n")
             container.append('    </term>\n')
-        container.append("  </experiment_publication_status>\n") 
-        container.append("  <experiment_protocol id='experiment_protocol'>\n")
+        container.append("  </section>\n") 
+        container.append("  <section id='experiment_protocol'>\n")
         for term_id,terms in self.get_experiment_protocol().items():
             container.append('    <term id="'+term_id+'">\n')
             for label,content in terms.items():
                 container.append('      <tag label="'+label+'"><![CDATA['+content+']]></tag>'+"\n")
-        container.append("  </experiment_protocol>\n")
-        container.append("  <experiment_terms id='experiment_terms'>\n")
+            container.append('    </term>\n')
+        container.append("  </section>\n")
+        container.append("  <section id='experiment_terms'>\n")
         for label,content in self.get_experiment_terms().items():
             container.append('    <tag label="'+label+'"><![CDATA['+content+']]></tag>'+"\n")
-        container.append("  </experiment_terms>\n")
-        container.append("  <experiment_comments id='experiment_comments'>\n")
+        container.append("  </section>\n")
+        container.append("  <section id='experiment_comments'>\n")
         for label,content in self.get_experiment_comments().items():
             container.append('    <tag label="'+label+'"><![CDATA['+content+']]></tag>'+"\n")
-        container.append("  </experiment_comments>\n")
+        container.append("  </section>\n")
         return "".join(container)
 
     def display(self,fd):
