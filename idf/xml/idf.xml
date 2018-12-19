@@ -1,17 +1,18 @@
-<?xml version="1.0" encoding="utf-8" >
+<?xml version="1.0" encoding="utf-8" ?>
 <idf>
  <title><![CDATA[A data model for the IDF file]]> </title>
- <section id="experiment"/>
- <section id="experiment_design"/>
- <section id="experiment_factor"/>
- <section id="experiment_contact"/>
- <section id="experiment_contact_role"/>
- <section id="experiment_qc"/>
- <section id="experiment_replicate"/>
- <section id="experiment_normalization"/>
- <section id="experiment_publication"/>
- <section id="experiment_publication_status"/>
- <section id="experiment_protocol"/>
- <section id="experiment_terms"/>
- <section id="experiment_comments"/>
+ <section id="experiment" rank="0"/>
+ <section id="experiment_design" rank="1"/>
+ <section id="experiment_factor" rank="2"/>
+ <section id="experiment_contact" rank="3"/>
+ <section id="experiment_contact_role" rank="4"/>
+ <section id="experiment_qc" rank="5"/>
+ <section id="experiment_replicate" rank="6"/>
+ <section id="experiment_normalization" rank="7"/>
+ <section id="experiment_publication" rank="8"/>
+ <section id="experiment_publication_status" rank="9"/>
+ <section id="experiment_protocol" rank="10"/>
+ <section id="experiment_terms" rank="11"/>
+ <section id="experiment_comments" rank="12"/>
+ <section id="experiment_sdrf" rank="13"/>
 </idf>
