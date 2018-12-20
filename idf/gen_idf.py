@@ -52,7 +52,6 @@ if __name__== "__main__":
             sys.exit()
         else:
             assert False, "unhandled option"
-   
     if experiment_geo_acc is None:
         prog_usage()
         sys.exit()
@@ -64,8 +63,13 @@ if __name__== "__main__":
         experiment_geo_acc="auto_"+experiment_geo_acc
     experiment_dir=experiment_dir+"/"+experiment_geo_acc
     ## Create an experiment object
-    experiment=IdfFileDOM(experiment_geo_acc,experiment_dir)
-    ## Generate the idf xml file for review
-    ## after review, the xml file will be used to generate the final idf file
-    experiment.gen_xml()
+    idf_obj=IdfFileDOM(experiment_geo_acc,experiment_dir)
+    ##check input files
+    if not isfile(idf_obj.cfg_file):
+        print("FAILED: Controlled vocab config file missing - expected: %s"%(idf_obj.cfg_file))
+        sys.exit(1)
+    if not isfile(idf_obj.idf_xml_file):
+        print("FAILED: Idf xml draft file missing - expected: %s"%(idf_obj.idf_xml_file))
+        sys.exit(1)
+    idf_obj.gen_idf()
     sys.exit()
