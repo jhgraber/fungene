@@ -1,0 +1,125 @@
+#!/bin/sh
+
+## 
+# Organization: MDIBL
+# Author: Lucie Hutchins
+# Date: December 2018
+#
+# A wrapper script that generates the idf file
+# for a given experiment
+#
+# Input:
+#    1) ExperimentID
+#    2) experiment_base_directory
+#
+# Assumption: The python scripts are in 
+# the same directory as this wrapper script
+#   
+cd `dirname $0`
+SCRIPT_NAME=`basename $0`
+WORKING_DIR=`pwd`
+PYTHON=`which python`
+if [ ! -f $PYTHON ]
+then
+  echo "ERROR: python not installed on `uname -n`"
+  exit 1
+fi
+echo ""
+echo "*********************** idfGenerator ************************"
+#Check required python modules:
+
+if [ -f depends.sh ]
+then
+   source ./depends.sh
+   echo "The following Python Modules are required:"
+   not_found='no Python documentation found'
+   missing_module=false
+   for python_module in $python_modules
+   do
+      not_installed=`pydoc $python_module | grep "$not_found"`
+      if [ ! -z "$not_installed" ]
+      then
+          not_installed="Not Installed"
+          missing_module=true
+      else
+          not_installed="Installed"
+      fi 
+      echo " - $python_module : $not_installed" 
+   done
+   if [ $missing_module == true ]
+   then
+       echo "Must install missing python module(s) first"
+       exit 1
+   fi
+fi
+
+## the following two script are expected
+# to be in the same directory as the wrapper script
+#
+gen_idf_xml=gen_idf_xml.py 
+gen_idf=gen_idf.py
+echo ""
+if [ $# -lt 1 ]
+then
+  echo "Usage: ./$SCRIPT_NAME experimentID [experiment_base_dir]"
+  echo ""
+  echo "WHERE:"
+  echo "experimentID        -- (Required) is the iddentifier of the experiment(could be a geo ID, ...)"
+  echo "experiment_base_dir -- (Optional) is the root directory of the experiment - default working directory "
+  echo ""
+  echo "Example1: ./$SCRIPT_NAME GSE64403  /data/projects/Biocore/regendb/experiments_staging"
+  echo "Example2: ./$SCRIPT_NAME GSE64403 "
+  echo ""
+  echo "Example1 stores the resulting files under /data/projects/Biocore/regendb/experiments_staging/GSE64403"
+  echo "Example2 stores the resulting files under the working directory ./GSE64403"
+  echo ""
+  exit 1
+fi
+if [ ! -f $gen_idf_xml ]
+then
+    echo "$gen_idf_xml missing under `pwd`"
+    exit 1
+fi
+if [ ! -f $gen_idf ]
+then
+    echo "$gen_idf missing under `pwd`"
+    exit 1
+fi
+
+experiment_id=$1
+experiment_base=""
+log_file=$SCRIPT_NAME.$experiment_id.log
+if [ $# -gt 1 ]
+then 
+    experiment_base="--destdir=$2"
+    [ ! -d $2 ] && mkdir -p $2
+    log_file=$2/$SCRIPT_NAME.$experiment_id.log
+fi
+rm -f $log_file
+touch $log_file
+## 
+# Generate the IDF draft 
+#
+echo "`date`" | tee -a $log_file
+echo "Generating The IDF xml Draft." | tee -a $log_file
+echo "Cmd: $PYTHON $gen_idf_xml --geoid=$experiment_id $experiment_base " | tee -a $log_file
+$PYTHON $gen_idf_xml --geoid=$experiment_id $experiment_base 2>&1 
+if [ $? -ne 0 ]
+then
+   echo "ERROR: $PYTHON $gen_idf_xml --geoid=$experiment_id $experiment_base failed " |tee  -a $log_file
+  exit 1
+fi
+##
+#Generate IDF File
+#
+echo "Generating The IDF file." | tee -a $log_file
+echo "Cmd: $PYTHON $gen_idf --geoid=$experiment_id $experiment_base " | tee -a $log_file
+$PYTHON $gen_idf --geoid=$experiment_id $experiment_base 2>&1 
+if [ $? -ne 0 ]
+then
+   echo "ERROR: $PYTHON $gen_idf --geoid=$experiment_id $experiment_base failed " |tee  -a $log_file
+  exit 1
+fi
+echo "IDF File Generated" | tee -a $log_file
+echo "`date`" | tee -a $log_file
+exit 0
