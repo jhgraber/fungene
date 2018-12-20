@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="utf-8"?>
 <exp source="geo">
-  <node id="title" label="Investigation Title" geo_key="title">
+  <node id="title" label="Investigation Title" geo_key="title" rank="1">
         <![CDATA[The overall title of the investigation.]]>
   </node>
-  <node id="summary" label="Experiment Description" geo_key="summary">
+  <node id="summary" label="Experiment Description" geo_key="summary" rank="3">
       <![CDATA[A short paragraph describing the experiment as free-text
           The text should clearly explain what you did in your experiment.]]>
   </node>
-  <node id="exp_date" label="Date Of Experiment" geo_key="submission_date">
+  <node id="exp_date" label="Date Of Experiment" geo_key="submission_date" rank="2">
        <![CDATA[The date on which the experiment was performed.]]>
   </node>
 </exp>
