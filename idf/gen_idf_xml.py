@@ -26,16 +26,16 @@ def prog_usage():
       
       
        Example 1: The experiment has a GEO GSE ID (experiment is in GEO database)
-           python gen_idf_xml  -i GSE64403 -d /data/projects/Biocore/regendb/experiments
-           OR python gen_idf_xml --geoid=GSE64403 --destdir=/data/projects/Biocore/regendb/experiments
+           python gen_idf_xml  -i GSE64403 -d /data/projects/Biocore/regendb/experiments_staging
+           OR python gen_idf_xml --geoid=GSE64403 --destdir=/data/projects/Biocore/regendb/experiments_staging
            
-           THIS will store the idf file for this experiment under /data/projects/Biocore/regendb/experiments/GSE64403/
+           THIS will store the idf file for this experiment under /data/projects/Biocore/regendb/experiments_staging/GSE64403/
       
        Example 2: The experiment does not have a GEO ID (private or non-published)
-           python gen_idf_xml  -i EXPA -d /data/projects/Biocore/regendb/experiments
-           OR python gen_idf_xml --geoid=EXPA --destdir=/data/projects/Biocore/regendb/experiments
+           python gen_idf_xml  -i EXPA -d /data/projects/Biocore/regendb/experiments_staging
+           OR python gen_idf_xml --geoid=EXPA --destdir=/data/projects/Biocore/regendb/experiments_staging
           
-           THIS will store the idf file  for this experiment under /data/projects/Biocore/regendb/experiments/auto_EXPA/
+           THIS will store the idf file  for this experiment under /data/projects/Biocore/regendb/experiments_staging/auto_EXPA/
     '''
     print("%s"%(usage))
 
@@ -57,13 +57,13 @@ if __name__== "__main__":
         elif o in ("-d", "--destdir"):experiment_dir = a
         elif o in ("-h", "--help"):
             prog_usage()
-            sys.exit()
+            sys.exit(1)
         else:
             assert False, "unhandled option"
    
     if experiment_geo_acc is None:
         prog_usage()
-        sys.exit()
+        sys.exit(1)
     if experiment_dir is None:
         experiment_dir="."
     gp= re.compile(r'^gse\d+$',re.IGNORECASE)
@@ -71,9 +71,10 @@ if __name__== "__main__":
     if m is None:
         experiment_geo_acc="auto_"+experiment_geo_acc
     experiment_dir=experiment_dir+"/"+experiment_geo_acc
-    ## Create an experiment object
-    experiment=IdfFileXmlDOM(experiment_geo_acc,experiment_dir)
-    ## Generate the idf xml file for review
-    ## after review, the xml file will be used to generate the final idf file
-    experiment.gen_xml()
-    sys.exit()
+    try:
+        ## Create an experiment object
+        experiment=IdfFileXmlDOM(experiment_geo_acc,experiment_dir)
+        ## Generate the idf xml file draft to be used  to generate the final idf file
+        experiment.gen_xml()
+        sys.exit(0)
+    except:raise
