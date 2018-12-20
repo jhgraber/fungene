@@ -15,6 +15,7 @@ class IdfXmlModels:
        
         self.models_base="./xml"
 
+        self.idf_file=join(self.models_base,"idf.xml")
         self.experiment_file=join(self.models_base,"experiment.xml")
         self.experiment_contact_file=join(self.models_base,"experiment_contact.xml")
         self.experiment_contact_role_file=join(self.models_base,"experiment_contact_role.xml")
@@ -40,6 +41,8 @@ class IdfXmlModels:
         except:raise
         return doc_root
 
+    def getIdfPage(self):
+        return self.getXmlDocRoot(self.idf_file)
     def getExperiment(self):
         return self.getXmlDocRoot(self.experiment_file)
     def getExperimentContact(self):
