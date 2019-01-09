@@ -1,7 +1,7 @@
 # -*- coding: utf-8 -*-
 """
 A data model for resem epression results files (isoforms/genes).results.
-RsemResultsDOM: defines data model for each line in resem epression results file
+RsemExpResultsDOM: defines data model for each line in resem epression results file
    Args: a line 
   
 Returns:
@@ -15,3 +15,7 @@ class Field:
     def __init__(self,index):
         self.index=index
         self.value=""
+
+class RsemExpResultsDOM:
+     def __init__(self,line):
+          
