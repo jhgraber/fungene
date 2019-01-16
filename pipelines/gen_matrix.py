@@ -79,5 +79,6 @@ if __name__== "__main__":
     else:
         input_files_list=input_files.split(',')
     ## Create a matrix object
-    matrix_obj=MatrixDOM(input_files_list,_vindex,_jindex,_round)
+    _obj=MatrixDOM(input_files_list,_vindex,_jindex,_round)
+    _obj.get_matrix()
     sys.exit()
