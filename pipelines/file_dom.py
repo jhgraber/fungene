@@ -27,7 +27,7 @@ class Row():
           self.__set(_line,_delimit)
      def __set(self,line,delimit):
           try:
-               self.content=line.split(delimit)
+               self.content=line.strip().split(delimit)
                #for i, value in enumerate(fields):
                #     self.content.append(Field(i,value))
           except:
@@ -77,7 +77,7 @@ class FileDOM(Row):
           return Row(self._file_obj.readline(),self._delimiter)
 
 class MatrixDOM(FileDOM):
-     def __init__(self,file_list=None,vIndex=0,jIndex=0,roundValue=False,delimiter="\t"):
+     def __init__(self,file_list=None,vIndex=0,jIndex=None,roundValue=False,delimiter="\t"):
           self._input_files=file_list          # An array of input files
           self._rowVectorColumnIndex=vIndex    # Index of the colunm that has ids 
           self._targetColumnIndex=jIndex       # Index of the column that has values

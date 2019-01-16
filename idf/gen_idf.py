@@ -35,9 +35,8 @@ if __name__== "__main__":
     try:
         opts, args = getopt.getopt(sys.argv[1:], "hi:d:", 
                     ["help", "geoid=","destdir="])
-    except(getopt.GetoptError, err):
+    except getopt.GetoptError  as err:
         # print help information and exit:
-        log.write(str(err)) # will print something like "option -a not recognized"
         print("ERROR:%s" % (str(err) )) # will print something like "option -a not recognized"
         prog_usage()
         sys.exit(1)
