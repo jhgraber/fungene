@@ -30,7 +30,7 @@ Usage: ./idfGenerator experimentID [experiment_base_dir]
 
 ```
 
-## Pyhton Scritps
+### Pyhton Scritps
 
 The following two scripts are expected to be in the same directory as the wrapper script
 ```
@@ -38,7 +38,7 @@ The following two scripts are expected to be in the same directory as the wrappe
   2) gen_idf.py
 ```
 
-### gen_idf_xml.py
+#### gen_idf_xml.py
 
 The tool generates an intermediary idf xml file using the idf defined data model.
 Each field that is a controlled vocabulary has the associated list of non-obsolute EFO controled vocab terms.
@@ -71,7 +71,7 @@ fill in empty fields.
  THIS will store the idf file  for this experiment under /data/projects/Biocore/regendb/experiments_staging/auto_EXPA/
 ```
 
-### gen_idf.py
+#### gen_idf.py
 
 The tool generates and stores the experiment idf file under the specified destdir  .
 
@@ -97,7 +97,7 @@ gen_idf.py expects to find the following two files under --destdir:
 ```
 The program generates ExperimentID.idf.txt file under --destdir
 
-## Configuration files
+### Configuration files
 
 The experiment controled vacabulary configuration file.
 This file is key/value pair tab-separated file where each controlled vocabulary
@@ -115,3 +115,22 @@ experiment_publication_status   EFO:0001796
 experiment_protocol     EFO:0003788,EFO:0005518
 ```
 
+## Data Models
+```
+Found unde the xml/ directory
+
+1) experiment_comments.xml
+2) experiment_design.xml         
+3) experiment_protocol.xml            
+4) experiment_qc.xml        
+5) experiment.xml
+6) experiment_contact_role.xml  
+7) experiment_factor.xml         
+8) experiment_publication_status.xml  
+9) experiment_replicat.xml  
+10)idf.xml
+11)experiment_contact.xml       
+12) experiment_normalization.xml  
+13) experiment_publication.xml         
+14) experiment_terms.xml
+```
