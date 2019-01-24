@@ -117,7 +117,7 @@ experiment_protocol     EFO:0003788,EFO:0005518
 
 ## Data Models
 ```
-Found unde the xml/ directory
+Found under the xml/ directory
 
 1) experiment_comments.xml
 2) experiment_design.xml         
