@@ -47,7 +47,7 @@ the tool also extracts the metadata from the GEO database to pre-fill the corres
 The generated xml file is edited by the gen_idf.py program to filter out un-needed vocab terms and
 fill in empty fields. 
 
-'''
+```
  Usage: PROG [-h] --geoid=gse_accession --destdir=path2/experiment_base
  Where:
       -h To show the usage
@@ -67,7 +67,8 @@ fill in empty fields.
        python gen_idf_xml --geoid=EXPA --destdir=/data/projects/Biocore/regendb/experiments_staging
           
  THIS will store the idf file  for this experiment under /data/projects/Biocore/regendb/experiments_staging/auto_EXPA/
-'''
+```
+
 ### gen_idf.py
 
 The tool generates and stores the experiment idf file under the specified destdir  .
