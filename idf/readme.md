@@ -89,10 +89,12 @@ The tool generates and stores the experiment idf file under the specified destdi
            
 ```
 
-ASSUMPTIONS: gen_idf.py expects to find the following two files under --destdir:
+ASSUMPTIONS: 
+```
+gen_idf.py expects to find the following two files under --destdir:
       1) ExperimentID.idf.xml
       2) ExperimentID.cfg
-   
+```
 The program generates ExperimentID.idf.txt file under --destdir
 
 ## Configuration files
