@@ -48,7 +48,6 @@ The generated xml file is edited by the gen_idf.py program to filter out un-need
 fill in empty fields. 
 
 '''
- ***************************************************************************************
  Usage: PROG [-h] --geoid=gse_accession --destdir=path2/experiment_base
  Where:
       -h To show the usage
