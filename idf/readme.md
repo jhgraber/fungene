@@ -4,8 +4,10 @@ A python package that generates the idf file for a given experiment.
 The main shell script - idfGenerator - is a wrapper script that calls 
 the main pyhton scripts after setting some global environment variables.
 
-## Usage: ./idfGenerator experimentID [experiment_base_dir]
+## Usage: 
 ```
+Usage: ./idfGenerator experimentID [experiment_base_dir]
+
   WHERE:
   experimentID        -- (Required) is the iddentifier of the experiment(could be a geo ID, ...)
   experiment_base_dir -- (Optional) is the root directory of the experiment - default working directory 
@@ -48,7 +50,7 @@ The generated xml file is edited by the gen_idf.py program to filter out un-need
 fill in empty fields. 
 
 ```
- Usage: PROG [-h] --geoid=gse_accession --destdir=path2/experiment_base
+ Usage: gen_idf_xml.py [-h] --geoid=gse_accession --destdir=path2/experiment_base
  Where:
       -h To show the usage
       -i gse_accession Or --geoid=gse_accession  ... required, specifies the Experiment Geo id or user s specified id
@@ -74,20 +76,20 @@ fill in empty fields.
 The tool generates and stores the experiment idf file under the specified destdir  .
 
 ```
- Usage: PROG [-h] --geoid=gse_accession --destdir=path2/experiment_base 
+ Usage: gen_idf.py [-h] --geoid=gse_accession --destdir=path2/experiment_base 
  Where:
       -h To show the usage
       -i gse_accession Or --geoid=gse_accession  ... required, specifies the ExperimentID
       -d experiment_base Or  --destdir=experiment_base ... optional default working directory
       
  Example: 
- cmd: python PROG  -i GSE64403 -d /data/projects/Biocore/regendb/experiments_staging
+ cmd: python gen_idf.py  -i GSE64403 -d /data/projects/Biocore/regendb/experiments_staging
       OR 
-      python PROG --geoid=GSE64403 --destdir=/data/projects/Biocore/regendb/experiments_staging
+      python gen_idf.py --geoid=GSE64403 --destdir=/data/projects/Biocore/regendb/experiments_staging
            
 ```
 
-ASSUMPTIONS: PROG expects to find the following two files under --destdir:
+ASSUMPTIONS: gen_idf.py expects to find the following two files under --destdir:
       1) ExperimentID.idf.xml
       2) ExperimentID.cfg
    
